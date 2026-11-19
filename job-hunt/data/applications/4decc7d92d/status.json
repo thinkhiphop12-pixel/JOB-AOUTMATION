@@ -4,7 +4,7 @@
  "company": "Teya",
  "url": "https://jobs.ashbyhq.com/teya/e1744451-98f3-44d4-ac60-e69f8e22753a",
  "tier": "B",
- "status": "needs_you",
+ "status": "you_apply",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -19,6 +19,11 @@
    "status": "needs_you",
    "at": "2026-11-19T13:32:30.748Z",
    "note": ""
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:30:00Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
  "linkedin_url": "https://uk.linkedin.com/jobs/view/payments-operations-lead-at-teya-4483804521",

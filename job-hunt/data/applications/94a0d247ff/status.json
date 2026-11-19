@@ -4,7 +4,7 @@
  "company": "Risk Ledger",
  "url": "https://job-boards.eu.greenhouse.io/riskledger/jobs/5008573101",
  "tier": "A",
- "status": "needs_you",
+ "status": "you_apply",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -39,6 +39,11 @@
    "status": "needs_you",
    "at": "2026-11-19T13:32:18.313Z",
    "note": ""
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:30:00Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
  "note": "employer board found: greenhouse/riskledger",

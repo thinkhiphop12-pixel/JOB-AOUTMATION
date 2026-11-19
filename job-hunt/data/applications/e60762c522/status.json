@@ -4,7 +4,7 @@
  "company": "Clarke Willmott LLP",
  "url": "https://careers.clarkewillmott.com/vacancies/292/project-manager.html?source=Indeed",
  "tier": "C",
- "status": "needs_you",
+ "status": "you_apply",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -29,6 +29,11 @@
    "status": "needs_you",
    "at": "2026-11-19T13:33:58.491Z",
    "note": "no upload field found"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:30:00Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
  "note": "no upload field found"

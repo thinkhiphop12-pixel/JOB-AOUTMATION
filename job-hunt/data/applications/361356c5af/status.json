@@ -4,7 +4,7 @@
  "company": "Anthropic",
  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462040008",
  "tier": "C",
- "status": "needs_you",
+ "status": "you_apply",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -59,6 +59,11 @@
    "status": "needs_you",
    "at": "2026-11-19T13:33:40.331Z",
    "note": "form errors: The role is based in London. Are you currently based in London or are you open to relocating?* | Select... | This field is required."
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:30:00Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
  "needs_you": [

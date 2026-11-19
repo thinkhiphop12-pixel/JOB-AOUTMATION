@@ -4,7 +4,7 @@
  "company": "Pleo",
  "url": "https://jobs.ashbyhq.com/pleo/657d6102-dbe8-46a2-9981-e218dcf119a2/application",
  "tier": "B",
- "status": "local_ready",
+ "status": "you_apply",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -34,6 +34,11 @@
    "status": "needs_you",
    "at": "2026-11-18T12:06:49.213Z",
    "note": "CAPTCHA challenge after Submit"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:30:00Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
  "needs_you": [

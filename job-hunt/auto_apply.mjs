@@ -306,7 +306,7 @@ const submittedToday = all.filter((p) => (p.st.history || []).some((h) => h.stat
 let cap = Math.max(0, (auto.daily_cap ?? 15) - submittedToday);
 const queue = all
   .filter((p) => (only ? p.id === only : true))
-  .filter((p) => only || ((auto.tiers || ['A', 'B', 'C']).includes(p.st.tier) && ['ready_for_review', 'filled', 'needs_you'].concat(flag('--headed') ? ['local_ready'] : []).includes(p.st.status)))
+  .filter((p) => only || ((auto.tiers || ['A', 'B', 'C']).includes(p.st.tier) && ['ready_for_review', 'filled', 'needs_you', 'you_apply'].concat(flag('--headed') ? ['local_ready'] : []).includes(p.st.status)))
   .filter((p) => only || p.st.status !== 'needs_you' || !/account|job board/i.test(p.st.note || ''))
   .filter((p) => only || !flag('--ready-only') || p.st.status === 'local_ready')
   .sort((a, b) => 'ABCD'.indexOf(a.st.tier) - 'ABCD'.indexOf(b.st.tier));
@@ -324,6 +324,11 @@ for (const pkg of queue) {
   const url = urlArg || applyUrl(pkg.st.url);
   console.log(`[${new Date().toLocaleTimeString()}] ${pkg.st.company}: ${pkg.st.title}`);
   const entry = { id: pkg.id, title: pkg.st.title, company: pkg.st.company, url };
+  const okPlatforms = auto.only_platforms;
+  if (okPlatforms && !okPlatforms.some((pl) => url.toLowerCase().includes(pl))) {
+    save(pkg, 'you_apply', { note: 'CAPTCHA or login site: on your quick-apply list' });
+    log.push({ ...entry, result: 'you_apply', reason: 'CAPTCHA or login site: apply yourself (package ready)' }); continue;
+  }
   if (BLOCKED_HOSTS.test(url)) { save(pkg, 'needs_you', { note: 'job board page: apply by hand' }); log.push({ ...entry, result: 'needs_you', reason: 'job-board listing (LinkedIn/Indeed/...): apply by hand' }); continue; }
   if (/myworkdayjobs|successfactors|icims|taleo|jobs\.nhs\.uk|trac\.jobs|civilservicejobs/i.test(url)) { save(pkg, 'needs_you', { note: 'ATS needs a candidate account' }); log.push({ ...entry, result: 'needs_you', reason: 'site needs a candidate account (NHS Jobs / Workday / Civil Service Jobs): apply by hand with the package' }); continue; }
   const jobSpec = fs.existsSync(path.join(pkg.dir, 'spec.json')) ? JSON.parse(fs.readFileSync(path.join(pkg.dir, 'spec.json'), 'utf8')) : {};
@@ -395,5 +400,5 @@ if (browser) await browser.close(); if (persistent) await persistent.close();
 fs.mkdirSync(path.join(DATA, 'latest'), { recursive: true });
 fs.writeFileSync(path.join(DATA, 'latest', 'auto_apply.json'), JSON.stringify({ at: new Date().toISOString(), dry_run: DRY, results: log }, null, 1));
 const n = (r) => log.filter((x) => x.result === r).length;
-console.log(JSON.stringify({ submitted: n('submitted'), local_ready: n('local_ready'), needs_you: n('needs_you'), closed: n('closed'), errors: n('error'), deferred: n('deferred'), dry_run_ready: n('dry_run_ready') }));
+console.log(JSON.stringify({ submitted: n('submitted'), you_apply: n('you_apply'), local_ready: n('local_ready'), needs_you: n('needs_you'), closed: n('closed'), errors: n('error'), deferred: n('deferred'), dry_run_ready: n('dry_run_ready') }));
 for (const l of log) console.log(`${l.result.padEnd(14)} ${l.title}, ${l.company}${l.reason ? ' :: ' + l.reason : ''}`);

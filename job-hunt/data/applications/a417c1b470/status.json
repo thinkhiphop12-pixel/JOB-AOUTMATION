@@ -4,7 +4,7 @@
  "company": "Altana",
  "url": "https://jobs.ashbyhq.com/altana/e7a13364-1776-4a89-96c7-ca88ba31268a",
  "tier": "B",
- "status": "local_ready",
+ "status": "you_apply",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -19,6 +19,11 @@
    "status": "local_ready",
    "at": "2026-11-19T13:32:46.267Z",
    "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:30:00Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
  "linkedin_url": "https://uk.linkedin.com/jobs/view/technical-delivery-manager-public-sector-at-altana-4465268270",

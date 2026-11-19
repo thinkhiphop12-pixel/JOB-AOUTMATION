@@ -4,7 +4,7 @@
  "company": "Salesforce",
  "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/United-Kingdom---London/Senior-Agentic-Customer-Success-Manager_JR362550-1",
  "tier": "A",
- "status": "needs_you",
+ "status": "you_apply",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -49,6 +49,11 @@
    "status": "needs_you",
    "at": "2026-11-18T12:25:59.424Z",
    "note": "ATS needs a candidate account"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:30:00Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
  "note": "ATS needs a candidate account"

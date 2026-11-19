@@ -43,7 +43,7 @@ For each A/B/C role (highest `priority` first, max 15 a day; the rest can be bui
 ## 4a. Find employer forms for LinkedIn roles
 `python3 job-hunt/resolve_ats.py` swaps LinkedIn links for the employer's own Greenhouse / Ashby / Lever posting where one exists (free). For important roles it misses, the Firecrawl `jobs_search` tool with `company` (a domain works best) + `query` finds the employer board.
 
-## 4b. Auto-apply (no approval step: the candidate turned it off)
+## 4b. Auto-apply (only CAPTCHA-free platforms; everything else goes on the quick-apply list) (no approval step: the candidate turned it off)
 `node job-hunt/auto_apply.mjs`: submits every ready A/B/C package (daily cap and tiers in `config.json` → `auto_apply`) on Greenhouse / Ashby / Lever / Workable / simple company forms. It uses only approved answers in `answers.json`, the package CV and cover letter, and the package's draft answers. Anything it cannot complete honestly (required question without an approved answer, CAPTCHA, login/account wall such as NHS Jobs, Workday, LinkedIn or Indeed listings) becomes `needs_you`, with the reason. Forms that hit a CAPTCHA from the cloud are ready for the candidate's one command on their own computer: `bash job-hunt/apply_local.sh` (real Chrome; it submits them all and waits if a CAPTCHA needs a tick). For needs_you roles that are only blocked by a job-specific question, write an honest answer from profile.md into that package's spec.json `answers` and rerun `node job-hunt/auto_apply.mjs JOB_ID`. Results: `job-hunt/data/latest/auto_apply.json`. Put a "Applied today" section (submitted, with confirmation yes/no) and a "Needs you" section (with reasons and links) at the top of the digest and email.
 
 Then render the final digest: `python3 job-hunt/digest.py --grades /tmp/grades.json`
@@ -59,6 +59,7 @@ Retry the push up to 4 times on network errors. Commit only `job-hunt/data/`.
   - Subject: `Autoline — {Wed 19 Nov} — {X} new roles — {Y} apply now` (Y = A+B+C)
   - Body: the HTML from `job-hunt/data/latest/digest.html` (top 10 cards first, then the full table, then source health).
 - **Push notification**: call `PushNotification` with a one-paragraph summary (new roles, worth applying to, A/B/C counts, top 3 with company and salary, any source failure).
+- **Quick-apply list** (always): every `you_apply` role, best first, with its direct apply link, the package folder (cv.pdf, cover_letter.pdf, checklist.md with copy-paste answers), and a LinkedIn Easy Apply / Indeed tag where relevant. The candidate applies to these himself.
 - **Top jobs list** (always, at the top of the email and the final reply): `python3 job-hunt/track.py today 10` — at least 10 roles: today's new A/B/C first, topped up from the unapplied backlog by priority, each with status (submitted / ready to submit from your computer / needs you) and the link.
 - **Final reply** (always): the contents of `job-hunt/data/latest/summary.md` (counts, top 5 with salary, location, score and link, source problems, closing soon), then the A/B/C cards from `digest.md` (each with matched evidence, learnable gaps, CV variant, cover-letter angle, package location), then one line per WATCH role, then the source-health lines. If every source failed, start with **SYSTEM FAILURE**.
 

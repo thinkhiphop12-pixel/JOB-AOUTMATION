@@ -4,7 +4,7 @@
  "company": "Landor",
  "url": "https://job-boards.greenhouse.io/landor/jobs/8399036",
  "tier": "A",
- "status": "needs_you",
+ "status": "you_apply",
  "validation_errors": [
   "number '12' in summary/letter is not in the CV facts"
  ],
@@ -21,6 +21,11 @@
    "status": "needs_you",
    "at": "2026-11-19T13:32:12.122Z",
    "note": ""
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:30:00Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
  "linkedin_url": "https://uk.linkedin.com/jobs/view/senior-client-manager-12-m-ftc-maternity-cover-at-landor-4492138927",

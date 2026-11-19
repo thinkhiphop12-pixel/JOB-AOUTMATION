@@ -4,7 +4,7 @@
  "company": "Monzo",
  "url": "https://job-boards.greenhouse.io/monzo/jobs/8355179",
  "tier": "A",
- "status": "needs_you",
+ "status": "you_apply",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -59,6 +59,11 @@
    "status": "needs_you",
    "at": "2026-11-19T13:32:07.055Z",
    "note": "no upload field found"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:30:00Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
  "needs_you": [
@@ -67,7 +72,7 @@
    "reason": "could not fill: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('["
   },
   {
-   "label": "🇺🇸 Are you a US Person?*",
+   "label": "\ud83c\uddfa\ud83c\uddf8 Are you a US Person?*",
    "reason": "answers.json \"us_person\" not confirmed"
   }
  ],

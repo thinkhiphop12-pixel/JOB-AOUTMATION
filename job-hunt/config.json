@@ -511,7 +511,17 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "only_platforms": [
+      "workable",
+      "smartrecruiters",
+      "teamtailor",
+      "recruitee",
+      "personio",
+      "bamboohr",
+      "pinpoint"
+    ],
+    "_note": "Greenhouse, Ashby, Lever and most company sites use reCAPTCHA; LinkedIn, Indeed, NHS Jobs and Workday need your login. Those go on the quick 'apply yourself' list instead."
   },
   "nhs": {
     "enabled": true,

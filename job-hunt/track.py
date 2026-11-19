@@ -81,7 +81,7 @@ def today(minimum=10):
         tag = "NEW " if j["job_id"] in new_ids else ""
         flags = (" · public sector" if j.get("public_sector") else "") + (" · near Southampton" if j.get("near_southampton") else "")
         sal = (f"£{round((j.get('salary_max') or j.get('salary_min'))/1000)}k" if (j.get("salary_max") or j.get("salary_min")) else "salary not stated")
-        state = {"local_ready": "ready to submit from your computer", "ready_for_review": "package ready",
+        state = {"you_apply": "apply yourself: package ready", "local_ready": "ready to submit from your computer", "ready_for_review": "package ready",
                  "needs_you": "needs you: " + (a.get("note") or "see checklist")[:60], "filled": "form filled"}.get(a.get("status"), "no package yet")
         print(f"{n}. {tag}[{f['tier']}] {j['title'].strip()}, {j['company']} · {sal} · {j['location'][:35]}{flags}\n"
               f"   {f.get('why_worth_it') or ', '.join(f.get('matched', [])[:1])[:120]}\n   Status: {state} · {j.get('apply_url') or j['url']}")

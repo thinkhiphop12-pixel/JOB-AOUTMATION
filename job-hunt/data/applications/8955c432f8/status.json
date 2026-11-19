@@ -4,7 +4,7 @@
  "company": "Carta",
  "url": "https://job-boards.greenhouse.io/carta/jobs/8005468003",
  "tier": "A",
- "status": "local_ready",
+ "status": "you_apply",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -39,6 +39,11 @@
    "status": "local_ready",
    "at": "2026-11-18T15:19:40.924Z",
    "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:30:00Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
  "note": "no confirmation after Submit (possibly an invisible CAPTCHA)",
