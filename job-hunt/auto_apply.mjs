@@ -322,6 +322,7 @@ if (HEADED) {
 for (const pkg of queue) {
   if (!DRY && cap <= 0) { log.push({ id: pkg.id, title: pkg.st.title, company: pkg.st.company, result: 'deferred', reason: 'daily cap reached' }); continue; }
   const url = urlArg || applyUrl(pkg.st.url);
+  console.log(`[${new Date().toLocaleTimeString()}] ${pkg.st.company}: ${pkg.st.title}`);
   const entry = { id: pkg.id, title: pkg.st.title, company: pkg.st.company, url };
   if (BLOCKED_HOSTS.test(url)) { save(pkg, 'needs_you', { note: 'job board page: apply by hand' }); log.push({ ...entry, result: 'needs_you', reason: 'job-board listing (LinkedIn/Indeed/...): apply by hand' }); continue; }
   if (/myworkdayjobs|successfactors|icims|taleo|jobs\.nhs\.uk|trac\.jobs|civilservicejobs/i.test(url)) { save(pkg, 'needs_you', { note: 'ATS needs a candidate account' }); log.push({ ...entry, result: 'needs_you', reason: 'site needs a candidate account (NHS Jobs / Workday / Civil Service Jobs): apply by hand with the package' }); continue; }
@@ -368,20 +369,22 @@ for (const pkg of queue) {
     if (captcha && !HEADED) { save(pkg, 'local_ready', { note: 'CAPTCHA' }); log.push({ ...entry, result: 'local_ready', reason: 'CAPTCHA on the form: run `bash job-hunt/apply_local.sh` on your computer' }); continue; }
     if (DRY) { log.push({ ...entry, result: 'dry_run_ready', filled: map.filled.length, uploaded: map.uploaded.length }); continue; }
     const r = await submit(page);
-    if (!r.ok && HEADED && await visibleChallenge()) {
-      console.log(`CAPTCHA on ${pkg.st.company}: tick it in the browser window (waiting up to 3 minutes)...`);
+    if (!r.ok && HEADED) {
+      console.log(`\n>>> ${pkg.st.title}, ${pkg.st.company}: not confirmed yet (${r.reason}).`);
+      console.log('    The form is filled in. Fix anything highlighted / tick any CAPTCHA, then click Submit yourself. Waiting up to 5 minutes...');
+      await page.bringToFront().catch(() => {});
       let done = false;
-      for (let i = 0; i < 36 && !done; i++) {
+      for (let i = 0; i < 60 && !done; i++) {
         await page.waitForTimeout(5000);
         const body = (await page.locator('body').innerText().catch(() => '')).slice(0, 4000);
-        if (/thank you|thanks for (applying|your application)|application (has been |was )?(received|submitted)|we('ve| have) received|successfully submitted/i.test(body)) done = true;
-        else if (!(await visibleChallenge())) { const again = await submit(page); if (again.ok) done = true; }
+        if (/thank you|thanks for (applying|your application)|application (has been |was )?(received|submitted)|we('ve| have) received|successfully submitted/i.test(body) || /confirmation|thank|success/i.test(page.url())) done = true;
       }
-      if (done) { await page.screenshot({ path: path.join(pkg.dir, 'after_submit.png'), fullPage: true }); save(pkg, 'submitted', { submitted_at: new Date().toISOString(), confirmed: true, note: 'auto-applied (you ticked the CAPTCHA)' }); cap -= 1; log.push({ ...entry, result: 'submitted', confirmed: true }); continue; }
+      if (done) { await page.screenshot({ path: path.join(pkg.dir, 'after_submit.png'), fullPage: true }); save(pkg, 'submitted', { submitted_at: new Date().toISOString(), confirmed: true, note: 'submitted from your computer' });
+        console.log(`    SUBMITTED: ${pkg.st.title}, ${pkg.st.company}`); cap -= 1; log.push({ ...entry, result: 'submitted', confirmed: true }); continue; }
     }
     if (!r.ok && await visibleChallenge()) { save(pkg, 'local_ready', { note: 'CAPTCHA from the cloud: submit with apply_local.sh' }); log.push({ ...entry, result: 'local_ready', reason: 'form filled; CAPTCHA blocks cloud submit: run `bash job-hunt/apply_local.sh` on your computer' }); continue; }
     await page.screenshot({ path: path.join(pkg.dir, 'after_submit.png'), fullPage: true });
-    if (r.ok) { save(pkg, 'submitted', { submitted_at: new Date().toISOString(), confirmed: r.confirmed, note: r.confirmed ? 'auto-applied, confirmation seen' : 'auto-applied, page changed but no confirmation text' }); cap -= 1; log.push({ ...entry, result: 'submitted', confirmed: r.confirmed }); }
+    if (r.ok) { console.log(`    SUBMITTED: ${pkg.st.title}, ${pkg.st.company}`); save(pkg, 'submitted', { submitted_at: new Date().toISOString(), confirmed: r.confirmed, note: r.confirmed ? 'auto-applied, confirmation seen' : 'auto-applied, page changed but no confirmation text' }); cap -= 1; log.push({ ...entry, result: 'submitted', confirmed: r.confirmed }); }
     else if (/no confirmation/i.test(r.reason) && !HEADED) { save(pkg, 'local_ready', { note: r.reason }); log.push({ ...entry, result: 'local_ready', reason: 'form filled; submit blocked from the cloud (likely invisible CAPTCHA): run apply_local.sh' }); }
     else { save(pkg, 'needs_you', { note: r.reason }); log.push({ ...entry, result: 'needs_you', reason: r.reason }); }
   } catch (e) {
