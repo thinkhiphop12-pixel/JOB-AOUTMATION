@@ -49,4 +49,4 @@ Outputs: `data/latest/` (today) and `data/runs/<date>/`: `results.json`, `digest
 
 ## Rules built in
 
-Never auto-submit. Never solve CAPTCHAs. Never guess visa, salary, background-check or eligibility answers. No proxies or multiple accounts. Never fetch LinkedIn, Indeed, Totaljobs, CV-Library, CWJobs or Glassdoor pages. Never claim experience that is not in `master_cv.json`. This lives on its own `autoline` branch, separate from the ballknw.com website code.
+Never auto-submit. Never solve CAPTCHAs. Never guess visa, salary, background-check or eligibility answers. No proxies or multiple accounts. Never fetch LinkedIn, Indeed, Totaljobs, CV-Library, CWJobs or Glassdoor pages. Never claim experience that is not in `master_cv.json`. This lives in its own private repository (thinkhiphop12-pixel/job-aoutmation), separate from the ballknw.com website.
