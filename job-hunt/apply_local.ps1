@@ -2,6 +2,7 @@
 # Run in PowerShell:
 #   irm https://raw.githubusercontent.com/thinkhiphop12-pixel/job-aoutmation/autoline/job-hunt/apply_local.ps1 | iex
 # (the repo is private, so instead run it from a local clone:  powershell -ExecutionPolicy Bypass -File job-hunt\apply_local.ps1)
+# Fast run (only the fully-filled forms):  ...apply_local.ps1 --ready-only
 # Needs: Git and Node.js (https://nodejs.org). It never solves CAPTCHAs: tick them yourself when a window pauses.
 $ErrorActionPreference = "Stop"
 $root = Join-Path $HOME "Autoline"
@@ -13,7 +14,7 @@ if (-not (Test-Path (Join-Path $root ".git"))) {
 Set-Location (Join-Path $root "job-hunt")
 if (-not (Test-Path "node_modules\playwright")) { npm install --no-save playwright@1.49.1 }
 npx --yes playwright@1.49.1 install chromium | Out-Null
-node auto_apply.mjs --headed
+node auto_apply.mjs --headed @args
 Set-Location $root
 git add job-hunt/data/applications job-hunt/data/latest
 git commit -m "Autoline: applications submitted from my computer" 2>$null

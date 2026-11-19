@@ -5,6 +5,7 @@
 //   node job-hunt/auto_apply.mjs                 # every ready package, tiers/cap from config.json
 //   node job-hunt/auto_apply.mjs JOB_ID          # one job
 //   node job-hunt/auto_apply.mjs --dry-run       # fill everything, do not click Submit
+//   node job-hunt/auto_apply.mjs --headed --ready-only   # on your computer: only forms already fully filled (fast)
 //
 // Honesty rails that stay on:
 //  - only facts from answers.json entries marked approved, the package CV/cover letter, and the
@@ -307,6 +308,7 @@ const queue = all
   .filter((p) => (only ? p.id === only : true))
   .filter((p) => only || ((auto.tiers || ['A', 'B', 'C']).includes(p.st.tier) && ['ready_for_review', 'filled', 'needs_you'].concat(flag('--headed') ? ['local_ready'] : []).includes(p.st.status)))
   .filter((p) => only || p.st.status !== 'needs_you' || !/account|job board/i.test(p.st.note || ''))
+  .filter((p) => only || !flag('--ready-only') || p.st.status === 'local_ready')
   .sort((a, b) => 'ABCD'.indexOf(a.st.tier) - 'ABCD'.indexOf(b.st.tier));
 if (!auto.enabled && !only) { console.log(JSON.stringify({ auto_apply: 'disabled in config.json' })); process.exit(0); }
 
