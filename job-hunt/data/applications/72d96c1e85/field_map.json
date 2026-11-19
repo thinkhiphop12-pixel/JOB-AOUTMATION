@@ -1,0 +1,93 @@
+{
+ "url": "https://job-boards.greenhouse.io/landor/jobs/8399036",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "How did you hear about this role?",
+   "from": "job source",
+   "value": "LinkedIn"
+  },
+  {
+   "label": "What are your salary expectations?",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "What is your notice period?",
+   "from": "notice_period",
+   "value": "6 weeks"
+  },
+  {
+   "label": "Privacy Notice",
+   "from": "consents",
+   "value": "I have read the Privacy Notice."
+  },
+  {
+   "label": "By checking this box, I consent to Landor collecting, storing, and processing my responses to the demographic data surveys above.",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Are you currently a WPP employee?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "How old are you?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "What is your gender identity?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "What is your ethnicity?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "How would you describe your sexual orientation?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "Do you consider yourself to have a long-term health condition, impairment or disability?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  }
+ ],
+ "skipped": []
+}

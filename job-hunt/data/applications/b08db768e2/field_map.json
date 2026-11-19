@@ -1,0 +1,88 @@
+{
+ "url": "https://job-boards.greenhouse.io/braze/jobs/8195767",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location (City)",
+   "from": "city",
+   "value": "Southampton, England, United Kingdom"
+  },
+  {
+   "label": "How did you initially hear about this job?",
+   "from": "job source",
+   "value": "LinkedIn"
+  },
+  {
+   "label": "Are you legally authorized to work in the country where this job is located?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Will you now or in the future require visa sponsorship?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Select ‘Yes’ to join Braze’s Talent Community and receive newsletters to help you stay up to date on career-related news, events and opportunities at Braze.",
+   "from": "consents",
+   "value": "Yes"
+  },
+  {
+   "label": "Will you be able to regularly commute and work in an office in job posting location?",
+   "from": "willing_to_work_in_london",
+   "value": "Yes"
+  },
+  {
+   "label": "Are you proficient in written and verbal English?",
+   "from": "english_proficient",
+   "value": "Yes"
+  },
+  {
+   "label": "By checking this box, I agree to allow Braze to retain my data for future opportunities for employment for up to 730 days after the conclusion of consideration of my current application for employment.",
+   "from": "consents",
+   "value": "ticked"
+  },
+  {
+   "label": "By checking this box, I consent to Braze collecting, storing, and processing my responses to the demographic data surveys above.",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

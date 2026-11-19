@@ -1,0 +1,116 @@
+{
+ "_note": "Approved answers for application forms. The browser assistant fills ONLY entries with approved=true. Anything else is left blank for you to answer. Set approved=true once you have checked an answer.",
+ "first_name": {
+  "answer": "Lloyd",
+  "approved": true
+ },
+ "last_name": {
+  "answer": "Evans",
+  "approved": true
+ },
+ "full_name": {
+  "answer": "Lloyd Evans",
+  "approved": true
+ },
+ "email": {
+  "answer": "lloydevans14@gmail.com",
+  "approved": true
+ },
+ "phone": {
+  "answer": "+44 7460 304104",
+  "approved": true
+ },
+ "linkedin": {
+  "answer": "https://www.linkedin.com/in/lloyd-evans-",
+  "approved": true
+ },
+ "city": {
+  "answer": "Southampton",
+  "approved": true
+ },
+ "country": {
+  "answer": "United Kingdom",
+  "approved": true
+ },
+ "current_company": {
+  "answer": "Global Blue (part of Shift4)",
+  "approved": true
+ },
+ "current_title": {
+  "answer": "International Data Analyst & Project Manager",
+  "approved": true
+ },
+ "right_to_work_uk": {
+  "answer": "Yes",
+  "approved": true
+ },
+ "requires_sponsorship": {
+  "answer": "No",
+  "approved": true
+ },
+ "notice_period": {
+  "answer": "6 weeks",
+  "approved": true
+ },
+ "salary_expectation": {
+  "answer": "AUTO",
+  "approved": true,
+  "help": "Top of the advertised band; if none: \u00a370,000 London, \u00a365,000 elsewhere (computed per job)"
+ },
+ "how_did_you_hear": {
+  "answer": "Company careers page",
+  "approved": true
+ },
+ "current_salary": {
+  "answer": "\u00a353,000",
+  "approved": true
+ },
+ "willing_to_travel": {
+  "answer": "Yes",
+  "approved": true
+ },
+ "previously_interviewed": {
+  "answer": "No",
+  "approved": true
+ },
+ "willing_to_work_in_london": {
+  "answer": "Yes",
+  "approved": true
+ },
+ "based_in_london": {
+  "answer": "No - based in Southampton. My current contract has me in the London office one day a week, so I already commute to London and can do hybrid office days.",
+  "approved": true
+ },
+ "current_office_pattern": {
+  "answer": "Hybrid: one day a week in the London office under my current contract.",
+  "approved": true
+ },
+ "us_person": {
+  "answer": "No",
+  "approved": true
+ },
+ "consents": {
+  "answer": "Yes",
+  "approved": true
+ },
+ "citizenship": {
+  "answer": "British or Irish citizen",
+  "approved": true
+ },
+ "ai_usage": {
+  "answer": "I use AI tools every day. I designed and built a work-management system for my role with Claude Code, Python and Excel: one task list, sign-off rules for every outgoing message or system change, and an audit log. It changed how I plan, check and document work, and it taught me what makes a team trust an AI workflow.",
+  "approved": true
+ },
+ "work_permission_time_limited": {
+  "answer": "No",
+  "approved": true
+ },
+ "office_4_plus_days": {
+  "answer": "No",
+  "approved": true
+ },
+ "english_proficient": {
+  "answer": "Yes",
+  "approved": true
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "job_id": "29e8f88db8",
+ "title": "Customer Success Manager, Corporate",
+ "company": "AlphaSense",
+ "url": "https://job-boards.greenhouse.io/alphasense/jobs/8644403002",
+ "tier": "A",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T15:08:11"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:08:58.653Z",
+   "note": "job board page: apply by hand"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:14:57.429Z",
+   "note": "form errors: First Name* | First Name* | First Name is required."
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:16:36.321Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:17:20.979Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:18:40.829Z",
+   "note": ""
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-18T15:19:57.723Z",
+   "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+  }
+ ],
+ "note": "no confirmation after Submit (possibly an invisible CAPTCHA)",
+ "linkedin_url": "https://uk.linkedin.com/jobs/view/customer-success-manager-corporate-at-alphasense-4443785526",
+ "needs_you": [
+  {
+   "label": "Phone",
+   "reason": "could not fill: locator.click: Element is not visible"
+  }
+ ]
+}

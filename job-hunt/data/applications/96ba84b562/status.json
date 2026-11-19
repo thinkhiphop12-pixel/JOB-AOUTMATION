@@ -1,0 +1,42 @@
+{
+ "job_id": "96ba84b562",
+ "title": "Customer Success Manager - iGaming",
+ "company": "TrueLayer",
+ "url": "https://jobs.ashbyhq.com/truelayer/07666a69-21b1-4d8a-8174-6de2e9f12b9a",
+ "tier": "A",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T15:07:56"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:09:03.194Z",
+   "note": "job board page: apply by hand"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:15:43.363Z",
+   "note": ""
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-18T15:17:59.410Z",
+   "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+  }
+ ],
+ "note": "no confirmation after Submit (possibly an invisible CAPTCHA)",
+ "linkedin_url": "https://uk.linkedin.com/jobs/view/customer-success-manager-igaming-at-truelayer-4429462891",
+ "needs_you": [
+  {
+   "label": "How has AI changed your life at work?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

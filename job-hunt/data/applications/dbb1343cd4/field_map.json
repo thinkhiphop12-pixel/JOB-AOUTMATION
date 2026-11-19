@@ -1,0 +1,67 @@
+{
+ "url": "https://job-boards.greenhouse.io/sharpsmart/jobs/4502611009",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location (City)",
+   "from": "city",
+   "value": "Southampton, England, United Kingdom"
+  },
+  {
+   "label": "What are your current salary expectations?",
+   "from": "current_salary",
+   "value": "£53,000"
+  },
+  {
+   "label": "What is your notice period?",
+   "from": "notice_period",
+   "value": "6 weeks"
+  },
+  {
+   "label": "Do you have the right to work in the UK?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Have you got any unspent convictions?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "Do you hold an in-date DBS?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

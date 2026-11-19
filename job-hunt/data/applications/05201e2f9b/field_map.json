@@ -1,0 +1,38 @@
+{
+ "url": "https://jobs.ashbyhq.com/dualentry/3c73e43d-d326-465c-8d22-a6bbc15f5737/application",
+ "filled": [
+  {
+   "label": "Please enter your full name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Please share your email address",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Please share your LinkedIn profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "What is your current location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "We move fast and believe close collaboration is critical to building great products. Would you be open to work 3 days a week from our London office?",
+   "from": "willing_to_work_in_london",
+   "value": "Yes"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Please attach your resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

@@ -1,0 +1,25 @@
+{
+ "job_id": "8e0cd484c0",
+ "title": "Client Development Manager",
+ "company": "Bolt Insight",
+ "url": "https://uk.linkedin.com/jobs/view/client-development-manager-at-bolt-insight-4491855135",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T13:23:08"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:32:36.208Z",
+   "note": "job board page: apply by hand"
+  }
+ ],
+ "note": "job board page: apply by hand"
+}

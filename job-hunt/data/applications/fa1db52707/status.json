@@ -1,0 +1,25 @@
+{
+ "job_id": "fa1db52707",
+ "title": "Senior Key Account Manager",
+ "company": "Opus Recruitment Solutions",
+ "url": "https://uk.linkedin.com/jobs/view/senior-key-account-manager-at-opus-recruitment-solutions-4491868369",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T13:22:18"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:32:24.042Z",
+   "note": "job board page: apply by hand"
+  }
+ ],
+ "note": "job board page: apply by hand"
+}

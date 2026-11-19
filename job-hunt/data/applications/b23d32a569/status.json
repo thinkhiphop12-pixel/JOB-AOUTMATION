@@ -1,0 +1,25 @@
+{
+ "job_id": "b23d32a569",
+ "title": "Strategic Delivery Manager",
+ "company": "R&D Partners",
+ "url": "https://uk.linkedin.com/jobs/view/strategic-delivery-manager-at-r-d-partners-4491812741",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T15:07:57"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:09:03.196Z",
+   "note": "job board page: apply by hand"
+  }
+ ],
+ "note": "job board page: apply by hand"
+}

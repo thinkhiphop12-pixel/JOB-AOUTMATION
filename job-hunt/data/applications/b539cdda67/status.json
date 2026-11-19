@@ -1,0 +1,25 @@
+{
+ "job_id": "b539cdda67",
+ "title": "National Account Manager",
+ "company": "Lanes Group",
+ "url": "https://uk.linkedin.com/jobs/view/national-account-manager-at-lanes-group-4490890048",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T13:22:49"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:32:18.322Z",
+   "note": "job board page: apply by hand"
+  }
+ ],
+ "note": "job board page: apply by hand"
+}

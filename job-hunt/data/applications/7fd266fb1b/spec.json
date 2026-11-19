@@ -1,0 +1,45 @@
+{
+ "variant": "customer-success",
+ "summary": "Commercial enablement professional with 5 years supporting international sales and account teams in a regulated payments business (Global Blue, part of Shift4), promoted three times in four years. Writes the playbooks and checklists teams actually adopt, runs training for account managers and new starters, and turns how good people work into something others can use. First-class Communication & Media graduate.",
+ "skills": [
+  "Training and enablement",
+  "Playbooks",
+  "Account management",
+  "Customer onboarding",
+  "Adoption and change",
+  "Stakeholders in ~40 countries",
+  "Salesforce",
+  "Excel (macros)",
+  "Project delivery",
+  "Claude and Claude Code"
+ ],
+ "bullets": {
+  "gb-dapm": [
+   "training",
+   "adoption",
+   "pricing-50",
+   "mbr-exec",
+   "governance-25",
+   "japan-vat",
+   "claude-system"
+  ],
+  "gb-ssm": [
+   "playbook",
+   "interim-am",
+   "monitoring",
+   "mass-updates"
+  ],
+  "gb-ss": [
+   "ss-summary"
+  ]
+ },
+ "cover_letter": [
+  "I am applying for the Sales Enablement Lead role at OakNorth. You want someone who can watch how good people sell and distil it into something others can use. For 5 years I have supported the sales and account teams of Global Blue, part of Shift4, and I have been promoted three times in four years.",
+  "I wrote the client onboarding playbook and country checklists that two global account teams adopted as standard and extended to new markets such as Peru. I run regular training and briefings for account managers, country teams and new starters, and I got account managers onto new Salesforce reporting by fixing their problems one by one. I hold a First-class degree in Communication & Media, and clear writing is the part of the job I enjoy most.",
+  "I come from payments rather than lending, so I would start by learning from your dealmakers before telling them anything. I built 50+ commercial pricing models across 40 brands, so I am comfortable with commercial detail.",
+  "I would welcome the chance to discuss the role."
+ ],
+ "answers": {
+  "Why OakNorth?": "Enablement is the part of my work I most want to grow, and OakNorth's dealmakers are the kind of team where good enablement shows."
+ }
+}

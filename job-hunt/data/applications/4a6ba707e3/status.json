@@ -1,0 +1,25 @@
+{
+ "job_id": "4a6ba707e3",
+ "title": "Head of Fraud Operations",
+ "company": "Zopa Bank",
+ "url": "https://uk.linkedin.com/jobs/view/head-of-fraud-operations-at-zopa-bank-4484493240",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T13:22:34"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:31:51.788Z",
+   "note": "job board page: apply by hand"
+  }
+ ],
+ "note": "job board page: apply by hand"
+}

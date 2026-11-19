@@ -1,0 +1,46 @@
+{
+ "job_id": "cf27e277e3",
+ "title": "Chief of Staff \u2013 to the Chief Lending Officer",
+ "company": "Oaknorth",
+ "url": "https://jobs.ashbyhq.com/oaknorth/6c0f54a9-083d-48fd-97f2-6aaf397f4a42/application",
+ "tier": "C",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T11:06:28"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T11:49:50.881Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T11:57:26.573Z",
+   "note": "CAPTCHA"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:02:01.705Z",
+   "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:27:34.164Z",
+   "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Tell us more about you",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+}

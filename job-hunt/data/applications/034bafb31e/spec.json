@@ -1,0 +1,48 @@
+{
+ "variant": "project-delivery",
+ "summary": "AgilePM\u00ae Practitioner with 5 years in a regulated, multi-country payments business (Global Blue, part of Shift4), promoted three times in four years. Delivers cross-functional programmes to fixed deadlines, including Japan's 2026 VAT reform and France's mandatory e-invoicing, by setting scope, milestones and dependencies and keeping teams in many countries working to one plan. Close to customer experience through onboarding, account data and reporting work.",
+ "skills": [
+  "Project delivery",
+  "RAID and dependencies",
+  "Governance",
+  "Regulatory change",
+  "Stakeholders in ~40 countries",
+  "Customer onboarding",
+  "Adoption and change",
+  "Salesforce",
+  "Power Automate",
+  "Python (basic)",
+  "Claude and Claude Code",
+  "AgilePM"
+ ],
+ "bullets": {
+  "gb-dapm": [
+   "japan-vat",
+   "france-einv",
+   "stores-671",
+   "invoice-fix",
+   "governance-25",
+   "report-350k",
+   "claude-system",
+   "adoption"
+  ],
+  "gb-ssm": [
+   "playbook",
+   "remapping",
+   "mass-updates",
+   "monitoring"
+  ],
+  "gb-ss": [
+   "ss-summary"
+  ]
+ },
+ "cover_letter": [
+  "I am applying for the Technical Program Manager, Customer Experience role at Pleo. You need someone to run complex programmes across customer success, support, onboarding, product and engineering. At Global Blue, part of Shift4, I deliver cross-functional change to fixed legal deadlines and have been promoted three times in four years.",
+  "I prepared 38 international brands, managed from 10 countries, for Japan's 2026 VAT reform, with new contracts agreed before the legal deadline, by setting scope, milestones and dependencies with sales and the Japan office. For France's e-invoicing mandate I tracked the readiness of 100+ merchants and ran the risk log. I delivered a 671-store multi-country account update inside a fixed system release window.",
+  "I am comfortable where systems meet people: I fixed a five-month invoice reporting failure by tracing it across three systems and four system owners, and I automated a 350,000-row monthly report build. I am building my SQL now and would say so plainly; my strength is getting many teams to land one plan.",
+  "I would welcome the chance to discuss Pleo's customer experience programme."
+ ],
+ "answers": {
+  "Why this role?": "It joins the two things I do best: delivering cross-functional programmes to deadlines and improving how customers are onboarded and supported."
+ }
+}

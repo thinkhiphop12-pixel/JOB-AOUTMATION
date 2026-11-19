@@ -1,0 +1,25 @@
+{
+ "job_id": "22d9bf1150",
+ "title": "Customer Success Management Manager",
+ "company": "Duck Creek Technologies",
+ "url": "https://uk.linkedin.com/jobs/view/customer-success-management-manager-at-duck-creek-technologies-4465252450",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T15:08:02"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:08:58.652Z",
+   "note": "job board page: apply by hand"
+  }
+ ],
+ "note": "job board page: apply by hand"
+}

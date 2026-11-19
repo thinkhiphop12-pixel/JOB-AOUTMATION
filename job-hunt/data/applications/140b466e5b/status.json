@@ -1,0 +1,25 @@
+{
+ "job_id": "140b466e5b",
+ "title": "Delivery Lead, Manager",
+ "company": "Avanade",
+ "url": "https://uk.linkedin.com/jobs/view/delivery-lead-manager-at-avanade-4492013891",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T13:22:39"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:31:22.949Z",
+   "note": "job board page: apply by hand"
+  }
+ ],
+ "note": "job board page: apply by hand"
+}

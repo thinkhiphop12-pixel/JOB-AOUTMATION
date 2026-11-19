@@ -1,0 +1,52 @@
+{
+ "variant": "customer-success",
+ "summary": "Account and project professional with 5 years in a regulated, multi-country payments business (Global Blue, part of Shift4), promoted three times in four years. Works inside account teams with sales and technical colleagues across ~40 countries, driving adoption of new tools and processes, writing the playbooks that make them stick, and training the people who use them. Hands-on Claude user who designed and built personal work tools with Claude Code, and a former board member of a homeless outreach society.",
+ "skills": [
+  "Account management",
+  "Customer onboarding",
+  "Adoption and change",
+  "Training and enablement",
+  "Playbooks",
+  "Claude and Claude Code",
+  "Salesforce",
+  "Stakeholders in ~40 countries",
+  "Project delivery",
+  "Excel (macros)",
+  "Power Automate",
+  "Python (basic)"
+ ],
+ "bullets": {
+  "gb-dapm": [
+   "claude-system",
+   "adoption",
+   "training",
+   "subs-1000",
+   "japan-vat",
+   "governance-25",
+   "mbr-exec",
+   "invoice-fix"
+  ],
+  "gb-ssm": [
+   "interim-am",
+   "playbook",
+   "monitoring",
+   "commission-fix"
+  ],
+  "gb-ss": [
+   "ss-summary"
+  ]
+ },
+ "cover_letter": [
+  "I am applying for the Customer Success Manager, Beneficial Deployments EMEA role at Anthropic. The role asks for someone who can drive adoption of new technology inside organisations with limited technical capacity, working as part of an account team. That is the work I have done for five years at Global Blue, part of Shift4, where I was promoted three times in four years.",
+  "Most of my recent work has been getting busy people to adopt new tools and processes and keep using them. I got account managers onto new Salesforce reporting by fixing their problems one by one, I run training and briefings for account managers, country teams and new starters, and I wrote the client onboarding playbook that two global account teams adopted as standard and extended to new markets such as Peru. I also delivered Japan's 2026 VAT reform for 38 international brands managed from 10 countries, agreeing new contracts before the legal deadline.",
+  "I use Claude every day. I designed a work-management system for my role with Claude Code, Python and Excel, with one task list, sign-off rules for every outgoing message or system change, and an audit log. I know what it takes for a non-technical team to trust an AI tool, because I had to earn that trust myself. I am still building my API and integration knowledge and would say so plainly to customers.",
+  "The beneficial deployments mission matters to me. At university I sat on the board of a homeless outreach society, doing street outreach, recruiting volunteers and fundraising, and I would like to bring the same commitment to helping nonprofits and public-sector organisations get real value from Claude. I would welcome the chance to talk about the role."
+ ],
+ "answers": {
+  "Why Anthropic?": "I use Claude every day and built my own work-management system with Claude Code. I want to help mission-driven organisations adopt it safely and get real value from it, and Anthropic's focus on safety and beneficial deployment is the reason I want to do that here.",
+  "The role is based in London. Are you currently based in London or are you open to relocating?": "I live in Southampton and commute to London for hybrid office days, as I do in my current London-based role.",
+  "Have you driven adoption and expansion of complex technical products": "No",
+  "Describe one organisation": "At university I was a board member of a homeless outreach society. We ran street outreach, recruited and organised volunteers, and raised funds, working alongside local charities. It taught me how much a small team with limited resources depends on simple, reliable tools and processes, which is what I would want Claude to be for organisations like it.",
+  "AI Policy for Application": "Yes"
+ }
+}

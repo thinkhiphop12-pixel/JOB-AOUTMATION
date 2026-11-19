@@ -1,0 +1,62 @@
+{
+ "url": "https://jobs.ashbyhq.com/permutive/cac31004-ca7f-41bb-af9d-fa27ed19a648/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "What are your base salary expectations?",
+   "from": "salary rule",
+   "value": "£100,000"
+  },
+  {
+   "label": "What is your notice period?",
+   "from": "notice_period",
+   "value": "6 weeks"
+  },
+  {
+   "label": "Do you require visa sponsorship to work in the UK?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Are you located in a commutable distance to London? *",
+   "from": "willing_to_work_in_london",
+   "value": "Yes"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Do you have experience working in ad tech? (Publishing, broadcasting, CTV, Audio etc)",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you speak either Spanish or Italian to a professional working level?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

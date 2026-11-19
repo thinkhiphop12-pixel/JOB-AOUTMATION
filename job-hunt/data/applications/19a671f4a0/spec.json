@@ -1,0 +1,48 @@
+{
+ "variant": "customer-success",
+ "summary": "Customer-facing adoption and account professional with 5 years in a regulated, multi-country payments business (Global Blue, part of Shift4), promoted three times in four years. A heavy Salesforce user and report builder who gets busy teams to adopt new tools, trains the people who use them, and runs governance cycles to schedule across ~40 countries. Hands-on AI user who designed and built personal work tools with Claude Code.",
+ "skills": [
+  "Adoption and change",
+  "Training and enablement",
+  "Account management",
+  "Customer onboarding",
+  "Salesforce",
+  "Governance",
+  "Stakeholders in ~40 countries",
+  "Playbooks",
+  "Claude and Claude Code",
+  "MicroStrategy",
+  "Power Automate",
+  "Python (basic)"
+ ],
+ "bullets": {
+  "gb-dapm": [
+   "adoption",
+   "training",
+   "governance-25",
+   "claude-system",
+   "subs-1000",
+   "mbr-exec",
+   "pricing-50",
+   "japan-vat"
+  ],
+  "gb-ssm": [
+   "monitoring",
+   "playbook",
+   "interim-am",
+   "mass-updates"
+  ],
+  "gb-ss": [
+   "ss-summary"
+  ]
+ },
+ "cover_letter": [
+  "I am applying for the Senior Agentic Customer Success Manager role on Regrello at Salesforce. The role is about operationalised adoption, not just switching software on: training champions, running data-driven governance and keeping customers' AI footprint growing. That is the kind of work I have done for 5 years at Global Blue, part of Shift4, where I have been promoted three times in four years.",
+  "Salesforce sits at the centre of my day. I got account managers onto new Salesforce reporting by fixing their problems one by one, built issue-ratio and eligibility monitoring in Salesforce that is now used in every monthly business review, and built 50+ commercial pricing models linked to Salesforce opportunities. I run regular training and briefings for account managers, country teams and new starters, and I ran a 25-country account governance review cycle with every review on schedule.",
+  "I also build with AI myself. I designed a work-management system for my role with Claude Code, Python and Excel, with sign-off rules for every outgoing change and an audit log, so I know first-hand what makes a team trust an AI workflow. I am now learning Agentforce and agent telemetry, and I would be open about that while bringing the adoption and governance discipline the role needs.",
+  "I would welcome the chance to discuss how I could help Salesforce customers get full value from their agentic investment."
+ ],
+ "answers": {
+  "Why Salesforce?": "I have spent years helping colleagues adopt Salesforce and now build my own AI workflows; helping customers adopt Agentforce well is the natural next step."
+ }
+}

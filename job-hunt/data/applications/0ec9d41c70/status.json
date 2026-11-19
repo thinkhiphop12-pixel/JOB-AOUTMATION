@@ -1,0 +1,25 @@
+{
+ "job_id": "0ec9d41c70",
+ "title": "Senior Project Manager - Digital",
+ "company": "Surrey and Borders Partnership NHS Foundation Trust",
+ "url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9325-26-0934",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T12:25:25"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:25:59.423Z",
+   "note": "ATS needs a candidate account"
+  }
+ ],
+ "note": "ATS needs a candidate account"
+}

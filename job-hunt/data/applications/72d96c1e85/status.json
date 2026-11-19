@@ -1,0 +1,54 @@
+{
+ "job_id": "72d96c1e85",
+ "title": "Senior Client Manager - 12 M FTC (Maternity Cover)",
+ "company": "Landor",
+ "url": "https://job-boards.greenhouse.io/landor/jobs/8399036",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [
+  "number '12' in summary/letter is not in the CV facts"
+ ],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "draft",
+   "at": "2026-11-19T13:22:33"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:32:12.122Z",
+   "note": ""
+  }
+ ],
+ "linkedin_url": "https://uk.linkedin.com/jobs/view/senior-client-manager-12-m-ftc-maternity-cover-at-landor-4492138927",
+ "note": "employer board found: greenhouse/landor",
+ "needs_you": [
+  {
+   "label": "Are you currently a WPP employee?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "How old are you?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "What is your gender identity?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "What is your ethnicity?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "How would you describe your sexual orientation?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "Do you consider yourself to have a long-term health condition, impairment or disability?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  }
+ ]
+}

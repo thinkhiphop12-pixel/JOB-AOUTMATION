@@ -1,0 +1,68 @@
+{
+ "url": "https://jobs.ashbyhq.com/pleo/a14cd528-70ed-4b1e-9b50-04705c9af78a/application",
+ "filled": [
+  {
+   "label": "Your full official name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Your email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Your LinkedIn profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Phone number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Why do you want to join Pleo and why are you excited about this role?",
+   "from": "job answer",
+   "value": "It joins the two things I do best: delivering cross-function…"
+  },
+  {
+   "label": "Where are you currently located?",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Which location are you applying for? This should be the location you will be based in if you join Pleo?",
+   "from": "job location",
+   "value": "London"
+  },
+  {
+   "label": "Are you legally allowed to work in the location of your choice?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "What is the nature of your right to work?",
+   "from": "citizenship",
+   "value": "Citizen of the country where I wish to be employed"
+  },
+  {
+   "label": "Please share an estimate of your annual base salary expectations.",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "I agree",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

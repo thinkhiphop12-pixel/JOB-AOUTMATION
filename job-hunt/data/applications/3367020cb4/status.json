@@ -1,0 +1,21 @@
+{
+ "job_id": "3367020cb4",
+ "title": "FinOps Transformation Consultant - 12 month Fixed Term Contract",
+ "company": "Times Higher Education",
+ "url": "https://uk.linkedin.com/jobs/view/finops-transformation-consultant-12-month-fixed-term-contract-at-times-higher-education-4491702934",
+ "tier": "A",
+ "status": "draft",
+ "validation_errors": [
+  "number '12' in summary/letter is not in the CV facts"
+ ],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "draft",
+   "at": "2026-11-19T13:22:15"
+  }
+ ]
+}

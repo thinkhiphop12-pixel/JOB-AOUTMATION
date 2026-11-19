@@ -1,0 +1,61 @@
+{
+ "job_id": "b08db768e2",
+ "title": "Senior Customer Success Manager",
+ "company": "Braze",
+ "url": "https://job-boards.greenhouse.io/braze/jobs/8195767",
+ "tier": "A",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T15:08:19"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:09:03.196Z",
+   "note": "job board page: apply by hand"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:15:02.089Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:17:33.403Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:18:53.413Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:20:18.530Z",
+   "note": "form errors: How did you initially hear about this job?* | Select... | This field is required."
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-18T15:21:12.194Z",
+   "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+  }
+ ],
+ "note": "no confirmation after Submit (possibly an invisible CAPTCHA)",
+ "linkedin_url": "https://uk.linkedin.com/jobs/view/senior-customer-success-manager-at-braze-4467066487",
+ "needs_you": [
+  {
+   "label": "Phone",
+   "reason": "could not fill: locator.click: Element is not visible"
+  },
+  {
+   "label": "Are you proficient in written and verbal English?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

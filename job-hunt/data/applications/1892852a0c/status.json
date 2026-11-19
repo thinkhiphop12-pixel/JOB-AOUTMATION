@@ -1,0 +1,25 @@
+{
+ "job_id": "1892852a0c",
+ "title": "Director, Head of Transaction Services",
+ "company": "MUFG",
+ "url": "https://uk.linkedin.com/jobs/view/director-head-of-transaction-services-at-mufg-4492413238",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T13:23:13"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:32:24.042Z",
+   "note": "job board page: apply by hand"
+  }
+ ],
+ "note": "job board page: apply by hand"
+}

@@ -1,0 +1,45 @@
+{
+ "variant": "project-delivery",
+ "summary": "Project and commercial professional with 5 years in a regulated, multi-country payments business (Global Blue, part of Shift4), promoted three times in four years. Turns priorities into delivered results under fixed deadlines, builds commercial pricing models, and prepares the monthly business reviews and Town Hall packs senior leadership use, including the Shift4 executive team.",
+ "skills": [
+  "Project delivery",
+  "Governance",
+  "Stakeholders in ~40 countries",
+  "Regulatory change",
+  "RAID and dependencies",
+  "Salesforce",
+  "Excel (macros)",
+  "MicroStrategy",
+  "Claude and Claude Code",
+  "Training and enablement"
+ ],
+ "bullets": {
+  "gb-dapm": [
+   "mbr-exec",
+   "pricing-50",
+   "japan-vat",
+   "stores-671",
+   "governance-25",
+   "claude-system",
+   "report-350k",
+   "invoice-fix"
+  ],
+  "gb-ssm": [
+   "interim-am",
+   "mass-updates",
+   "playbook"
+  ],
+  "gb-ss": [
+   "ss-summary"
+  ]
+ },
+ "cover_letter": [
+  "I am applying for the Chief of Staff to the Chief Lending Officer role at OakNorth. You say what matters most is how someone thinks and turns strategy into results. In 5 years at Global Blue, part of Shift4, I have been promoted three times in four years for doing exactly that in a regulated, multi-country business.",
+  "I produce monthly business reviews and Town Hall packs for senior leadership, including the Shift4 executive team. I built 50+ commercial pricing models across 40 brands linked to Salesforce opportunities. I delivered Japan's 2026 VAT reform for 38 international brands before the legal deadline, and a 671-store account update inside a fixed system release window.",
+  "I take ownership without waiting for a playbook. I designed my own work-management system with Claude Code, Python and Excel, with sign-off rules and an audit log, and I brought account mass updates in-house across 26 countries. Lending is new to me, and I would learn it fast and say so honestly.",
+  "I would welcome the chance to discuss how I could support the Chief Lending Officer."
+ ],
+ "answers": {
+  "Why OakNorth?": "I want a role that sits close to a senior leader and turns strategy into delivered results, in a fast-growing regulated business."
+ }
+}

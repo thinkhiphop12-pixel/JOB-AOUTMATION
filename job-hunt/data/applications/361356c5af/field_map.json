@@ -1,0 +1,83 @@
+{
+ "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462040008",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "The role is based in London. Are you currently based in London or are you open to relocating?",
+   "from": "job answer",
+   "value": "I live in Southampton and commute to London for hybrid offic… (typed)"
+  },
+  {
+   "label": "Have you driven adoption and expansion of complex technical products — specifically APIs, AI/ML platforms, or cloud-based solutions - for a non-profit, foundation, NGO, charity, education organisation?",
+   "from": "job answer",
+   "value": "No"
+  },
+  {
+   "label": "Describe one organisation (a non-profit, foundation, NGO, charity, public sector body or education organisation.) you helped adopt a new tool or new way of working, where the people using it weren’t especially tech-confi",
+   "from": "job answer",
+   "value": "At university I was a board member of a homeless outreach so…"
+  },
+  {
+   "label": "Why Anthropic?",
+   "from": "job answer",
+   "value": "I use Claude every day and built my own work-management syst…"
+  },
+  {
+   "label": "Do you require visa sponsorship?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "Will you now or will you in the future require employment visa sponsorship to work in the country in which the job you're applying for is located?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "Have you ever interviewed at Anthropic before?",
+   "from": "previously_interviewed",
+   "value": "No"
+  },
+  {
+   "label": "AI Policy for Application",
+   "from": "job answer",
+   "value": "Yes"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

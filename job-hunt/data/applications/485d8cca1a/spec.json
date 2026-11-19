@@ -1,0 +1,47 @@
+{
+ "variant": "customer-success",
+ "summary": "Sales-side enablement and account professional with 5 years in a regulated, multi-country payments business (Global Blue, part of Shift4), promoted three times in four years. Designs and runs training, onboarding and playbooks for account managers, country teams and new starters, builds the reporting commercial leaders use, and partners with senior leadership on monthly business reviews.",
+ "skills": [
+  "Training and enablement",
+  "Playbooks",
+  "Customer onboarding",
+  "Adoption and change",
+  "Account management",
+  "Stakeholders in ~40 countries",
+  "Salesforce",
+  "MicroStrategy",
+  "Excel (macros)",
+  "Project delivery",
+  "Claude and Claude Code"
+ ],
+ "bullets": {
+  "gb-dapm": [
+   "training",
+   "adoption",
+   "mbr-exec",
+   "pricing-50",
+   "subs-1000",
+   "japan-vat",
+   "governance-25",
+   "claude-system"
+  ],
+  "gb-ssm": [
+   "playbook",
+   "monitoring",
+   "mass-updates",
+   "interim-am"
+  ],
+  "gb-ss": [
+   "ss-summary"
+  ]
+ },
+ "cover_letter": [
+  "I am applying for the Senior Manager, Revenue Strategy & Enablement, EMEA role at Airwallex. You need someone who can design onboarding, product training and enablement that speeds commercial teams up. That is what I have been doing for the sales and account teams at Global Blue, part of Shift4, where I have been promoted three times in four years.",
+  "I run regular training and briefings for account managers, country teams and new starters. I wrote the client onboarding playbook and country checklists that two global account teams adopted as standard and extended to new markets such as Peru. When we rolled out new Salesforce reporting, I got account managers onto it by fixing their problems one by one.",
+  "I also work closely with commercial leaders. I produce monthly business reviews and Town Hall packs for senior leadership, including the Shift4 executive team, built 50+ commercial pricing models across 40 brands linked to Salesforce opportunities, and built the issue-ratio monitoring now used in every monthly business review. I am keen to learn your enablement platforms quickly.",
+  "I would welcome the chance to discuss how I could help Airwallex's EMEA teams ramp faster."
+ ],
+ "answers": {
+  "Why Airwallex?": "I know cross-border payments from the merchant side and want to build enablement for a fast-growing payments platform."
+ }
+}

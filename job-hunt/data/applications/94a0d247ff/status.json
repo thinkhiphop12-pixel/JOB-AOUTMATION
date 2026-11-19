@@ -1,0 +1,56 @@
+{
+ "job_id": "94a0d247ff",
+ "title": "Customer Success Manager",
+ "company": "Risk Ledger",
+ "url": "https://job-boards.eu.greenhouse.io/riskledger/jobs/5008573101",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T15:07:42"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:09:03.193Z",
+   "note": "job board page: apply by hand"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:15:31.846Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:17:39.649Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:19:00.130Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:32:18.313Z",
+   "note": ""
+  }
+ ],
+ "note": "employer board found: greenhouse/riskledger",
+ "linkedin_url": "https://uk.linkedin.com/jobs/view/customer-success-manager-at-risk-ledger-4481114041",
+ "needs_you": [
+  {
+   "label": "Have you managed accounts within a B2B SaaS organisation?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Have you managed the full customer success journey from onboarding through to Renewals/Upselling/Cross-selling? (Please select no if you have managed only part of this process)",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

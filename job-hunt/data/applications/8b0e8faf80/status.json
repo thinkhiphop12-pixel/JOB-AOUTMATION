@@ -1,0 +1,21 @@
+{
+ "job_id": "8b0e8faf80",
+ "title": "Account Director (Ref:75sqd)",
+ "company": "RSight\u00ae",
+ "url": "https://uk.linkedin.com/jobs/view/account-director-ref-75sqd-at-rsight%C2%AE-4492424097",
+ "tier": "A",
+ "status": "draft",
+ "validation_errors": [
+  "number '75' in summary/letter is not in the CV facts"
+ ],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "draft",
+   "at": "2026-11-19T13:22:32"
+  }
+ ]
+}

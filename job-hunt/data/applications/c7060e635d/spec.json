@@ -1,0 +1,47 @@
+{
+ "variant": "customer-success",
+ "summary": "Customer-facing account and onboarding professional with 5 years in a regulated, multi-country payments business (Global Blue, part of Shift4), promoted three times in four years. Interim account manager for three global brands, author of the onboarding playbook two global account teams adopted, and the person who gets busy colleagues and clients to actually adopt new tools. Works across sales, product and technical teams in ~40 countries.",
+ "skills": [
+  "Account management",
+  "Customer onboarding",
+  "Adoption and change",
+  "Training and enablement",
+  "Playbooks",
+  "Stakeholders in ~40 countries",
+  "Salesforce",
+  "Project delivery",
+  "Excel (macros)",
+  "Power Automate",
+  "Claude and Claude Code"
+ ],
+ "bullets": {
+  "gb-dapm": [
+   "adoption",
+   "training",
+   "subs-1000",
+   "invoice-fix",
+   "france-einv",
+   "japan-vat",
+   "mbr-exec",
+   "claude-system"
+  ],
+  "gb-ssm": [
+   "interim-am",
+   "playbook",
+   "commission-fix",
+   "monitoring"
+  ],
+  "gb-ss": [
+   "ss-summary"
+  ]
+ },
+ "cover_letter": [
+  "I am applying for the Customer Success Manager II role at Pleo. You want someone with account-management experience who works well with product, solutions and support to improve the whole customer journey. For 5 years at Global Blue, part of Shift4, I have supported and managed merchant accounts in a regulated payments business, and I have been promoted three times in four years.",
+  "For six months I was interim account manager for three global brands: Dyson, Fred Perry and UGG. I wrote the client onboarding playbook and country checklists that two global account teams adopted as standard and extended to new markets such as Peru. I also got account managers onto new Salesforce reporting by fixing their problems one by one, which taught me that adoption is won one user at a time.",
+  "I enjoy the cross-team side of customer success. I fixed a five-month invoice reporting failure for a major retail client by tracing the fault across three systems and coordinating four system owners, and I resolved commission and invoicing errors for two global fashion brands. I would bring that persistence to Pleo's customers.",
+  "I would love to talk about how I could help Pleo's customers get more than they expect."
+ ],
+ "answers": {
+  "Why Pleo?": "Spend management for growing businesses is close to the merchant payments world I know, and I want a customer success role where adoption and outcomes are the job."
+ }
+}

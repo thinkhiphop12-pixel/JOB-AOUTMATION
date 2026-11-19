@@ -1,0 +1,75 @@
+{
+ "job_id": "6567deb589",
+ "title": "Partner Estate & Relationship Manager",
+ "company": "Monzo",
+ "url": "https://job-boards.greenhouse.io/monzo/jobs/8355179",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T11:06:25"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T11:49:23.661Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T11:54:56.218Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T11:58:35.674Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:00:04.014Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:00:52.327Z",
+   "note": "no upload field found"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:05:05.670Z",
+   "note": "no upload field found"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:26:03.627Z",
+   "note": "no upload field found"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:09:03.181Z",
+   "note": "no upload field found"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:32:07.055Z",
+   "note": "no upload field found"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Phone",
+   "reason": "could not fill: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('["
+  },
+  {
+   "label": "🇺🇸 Are you a US Person?*",
+   "reason": "answers.json \"us_person\" not confirmed"
+  }
+ ],
+ "note": "no upload field found"
+}

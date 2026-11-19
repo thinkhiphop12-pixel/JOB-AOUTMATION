@@ -1,0 +1,46 @@
+{
+ "job_id": "034bafb31e",
+ "title": "Technical Program Manager, Customer Experience",
+ "company": "Pleo",
+ "url": "https://jobs.ashbyhq.com/pleo/a14cd528-70ed-4b1e-9b50-04705c9af78a/application",
+ "tier": "C",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T11:06:20"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T11:49:35.315Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T11:55:08.198Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:01:22.360Z",
+   "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-18T12:27:03.671Z",
+   "note": "CAPTCHA from the cloud: submit with apply_local.sh"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Please share an estimate of your annual base salary expectations.",
+   "reason": "could not fill: page.fill: Error: Cannot type text into input[type=number]\nCall log:\n\u001b[2m  - wai"
+  }
+ ],
+ "note": "CAPTCHA from the cloud: submit with apply_local.sh"
+}

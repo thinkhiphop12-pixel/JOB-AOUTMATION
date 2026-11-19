@@ -1,0 +1,21 @@
+{
+ "job_id": "cda02aca69",
+ "title": "Business Solutions Transformation Manager, 13 Mth FTC",
+ "company": "PwC UK",
+ "url": "https://uk.linkedin.com/jobs/view/business-solutions-transformation-manager-13-mth-ftc-at-pwc-uk-4492253096",
+ "tier": "A",
+ "status": "draft",
+ "validation_errors": [
+  "number '13' in summary/letter is not in the CV facts"
+ ],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "draft",
+   "at": "2026-11-19T13:22:44"
+  }
+ ]
+}

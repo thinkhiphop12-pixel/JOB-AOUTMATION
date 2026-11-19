@@ -1,0 +1,25 @@
+{
+ "job_id": "44fd429deb",
+ "title": "Programme Manager",
+ "company": "Gordon Murray",
+ "url": "https://uk.linkedin.com/jobs/view/programme-manager-at-gordon-murray-4492060053",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T13:22:43"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:31:51.788Z",
+   "note": "job board page: apply by hand"
+  }
+ ],
+ "note": "job board page: apply by hand"
+}

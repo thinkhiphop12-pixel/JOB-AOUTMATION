@@ -1,0 +1,25 @@
+{
+ "job_id": "620e3d3c32",
+ "title": "Senior Account Manager",
+ "company": "CSC",
+ "url": "https://uk.linkedin.com/jobs/view/senior-account-manager-at-csc-4491306923",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T13:22:35"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:32:02.914Z",
+   "note": "job board page: apply by hand"
+  }
+ ],
+ "note": "job board page: apply by hand"
+}

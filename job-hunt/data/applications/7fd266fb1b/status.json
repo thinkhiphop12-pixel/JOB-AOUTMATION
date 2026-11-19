@@ -1,0 +1,46 @@
+{
+ "job_id": "7fd266fb1b",
+ "title": "Sales Enablement Lead ",
+ "company": "Oaknorth",
+ "url": "https://jobs.ashbyhq.com/oaknorth/5ced880b-f8a5-4ad8-8e96-ac579252bbd6/application",
+ "tier": "C",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T11:06:26"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T11:49:47.327Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T11:57:22.820Z",
+   "note": "CAPTCHA"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:01:51.631Z",
+   "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:27:24.038Z",
+   "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Tell us more about you",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+}

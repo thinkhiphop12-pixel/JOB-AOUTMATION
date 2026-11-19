@@ -1,0 +1,78 @@
+{
+  "_note": "Source of truth for every CV and cover letter. package.py only lets Claude pick and order these bullets by id; it never accepts new ones. Edit facts here, nowhere else.",
+  "contact": {
+    "name": "Lloyd Evans",
+    "phone": "07460 304104",
+    "email": "lloydevans14@gmail.com",
+    "linkedin": "linkedin.com/in/lloyd-evans-",
+    "location": "Southampton (hybrid or remote)"
+  },
+  "headlines": {
+    "project-delivery": "Project & Delivery Manager | AgilePM® Practitioner",
+    "customer-success": "Customer Success & Account Manager | Payments and SaaS adoption",
+    "analyst": "Data Analyst & Project Manager | Reporting, automation and Salesforce"
+  },
+  "roles": [
+    {
+      "id": "gb-dapm",
+      "title": "International Data Analyst & Project Manager",
+      "company": "Global Blue / Shift4",
+      "location": "London (hybrid)",
+      "dates": "Apr 2026 – Present",
+      "bullets": {
+        "japan-vat": "Japan VAT reform (Nov 2026): prepared 38 international brands, managed from 10 countries, with new contracts agreed before the legal deadline, by setting scope, milestones and dependencies with sales and the Japan office.",
+        "france-einv": "France e-invoicing: tracked the readiness of 100+ merchants ahead of go-live, running the risk log with local account managers and keeping Salesforce and the shared tracker current.",
+        "governance-25": "Ran a 25-country account governance review cycle with every review held on schedule: set the timeline, prepared decision packs and escalated risks to accountable owners.",
+        "stores-671": "Delivered a 671-store, multi-country account update inside a fixed system release window, collecting files from ~22 country teams, sequencing the load and chasing late responses.",
+        "master-600": "Keep the ~600-account international master list accurate for account managers in ~40 countries.",
+        "report-350k": "Cut a monthly 350,000-row report build from hours to minutes by automating it, and documented the seven-source data chain.",
+        "invoice-fix": "Fixed a five-month invoice reporting failure for a major retail client by tracing the fault across three systems and coordinating the fix with four system owners.",
+        "pricing-50": "Built 50+ commercial pricing models across 40 brands, linked to Salesforce opportunities.",
+        "claude-system": "Designed a work-management system for the role with Claude Code, Python and Excel: one task list, sign-off rules for every outgoing message or system change, and an audit log.",
+        "training": "Run regular training and briefings for account managers, country teams and new starters.",
+        "subs-1000": "Run ~1,000 client report subscriptions to a fixed monthly cut-off with no missed deadlines.",
+        "mbr-exec": "Produce monthly business reviews and Town Hall packs for senior leadership, including the Shift4 executive team.",
+        "adoption": "Got account managers onto new Salesforce reporting by fixing their problems one by one."
+      }
+    },
+    {
+      "id": "gb-ssm",
+      "title": "International Sales Support Manager",
+      "company": "Global Blue",
+      "location": "London (hybrid)",
+      "dates": "Jul 2024 – Apr 2026",
+      "bullets": {
+        "interim-am": "Interim account manager for six months for three global brands (Dyson, Fred Perry, UGG).",
+        "playbook": "Wrote the client onboarding playbook and country checklists, adopted as standard by two global account teams and extended to new markets such as Peru.",
+        "remapping": "Validated store-to-account mappings to a fixed deadline for a company-wide remapping project, then led the clean-up of mislabelled accounts.",
+        "monitoring": "Built issue-ratio and eligibility monitoring reports in Salesforce, now used in every monthly business review.",
+        "mass-updates": "Brought account mass updates in-house (now run across 26 countries): agreed the new roles, wrote the guidelines and built Excel macros.",
+        "commission-fix": "Resolved commission and invoicing errors for two global fashion brands and issued corrected multi-country statements."
+      }
+    },
+    {
+      "id": "gb-ss",
+      "title": "Sales Support (International and UK)",
+      "company": "Global Blue",
+      "location": "London",
+      "dates": "Dec 2021 – Jul 2024",
+      "bullets": {
+        "ss-summary": "International Accounts Sales Support Specialist (2023–24) and UK Sales Support (2021–23): merchant onboarding, account data and reporting."
+      }
+    }
+  ],
+  "education": [
+    "AgilePM® v3 Practitioner & Foundation, APMG International, 2026",
+    "MA, University of Sheffield, 2020",
+    "BA Communication & Media Studies (First Class), University of Leicester, 2019",
+    "Board member, university Homeless Outreach society: street outreach, volunteers, fundraising"
+  ],
+  "skills": [
+    "Project delivery", "RAID and dependencies", "Governance", "Regulatory change", "Stakeholders in ~40 countries",
+    "Account management", "Customer onboarding", "Adoption and change", "Training and enablement", "Playbooks",
+    "Salesforce", "MicroStrategy", "Excel (macros)", "Power Automate", "SharePoint", "Python (basic)",
+    "Claude and Claude Code", "AgilePM"
+  ],
+  "not_claimable": ["SQL", "Power BI", "Tableau", "Jira", "PRINCE2", "PMP", "line management", "people manager",
+                    "Snowflake", "dbt", "Java", "JavaScript", "TypeScript", "ACCA", "CIMA", "MBA"]
+}

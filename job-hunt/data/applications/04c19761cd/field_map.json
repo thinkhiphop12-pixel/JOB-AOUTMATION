@@ -1,0 +1,67 @@
+{
+ "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5041603101",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn Profile:",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Do you currently have the right to work in the country of this position without restriction?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Will you now or in the future require visa sponsorship to work in the country of this position?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "By checking this box, I agree to allow Ebury to retain my data for future opportunities for employment for up to 365 days after the conclusion of consideration of my current application for employment.",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "We're committed to ensuring an inclusive and accessible recruitment process. Do you require any adjustments or accommodations to support you during the interview?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "I confirm that my application details, including work history, education, and former Ebury employment status, are accurate and truthful. I understand that providing false, misleading, or omitted information may result in",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

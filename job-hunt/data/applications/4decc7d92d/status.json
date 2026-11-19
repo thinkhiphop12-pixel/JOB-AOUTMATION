@@ -1,0 +1,36 @@
+{
+ "job_id": "4decc7d92d",
+ "title": "Payments Operations Lead",
+ "company": "Teya",
+ "url": "https://jobs.ashbyhq.com/teya/e1744451-98f3-44d4-ac60-e69f8e22753a",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T13:23:06"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:32:30.748Z",
+   "note": ""
+  }
+ ],
+ "linkedin_url": "https://uk.linkedin.com/jobs/view/payments-operations-lead-at-teya-4483804521",
+ "note": "employer board found: ashby/teya",
+ "needs_you": [
+  {
+   "label": "Working Model",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Notice Period",
+   "reason": "no option matches \"6 weeks\" (options: Avaliable Immediately / 2 Weeks Notice / 1 Month Notice)"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "run_started": "2026-11-18T14:53:53Z",
+ "run_finished": "2026-11-18T14:53:55Z",
+ "since": "2026-10-19",
+ "sources": [
+  {
+   "name": "LinkedIn (via Apify)",
+   "kind": "Aggregator",
+   "status": "ok",
+   "requests": 0,
+   "jobs_found": 150,
+   "jobs_kept": 88,
+   "errors": [],
+   "note": ""
+  }
+ ],
+ "all_live_sources_failed": false,
+ "new_jobs": 88,
+ "candidates_seen": 88
+}

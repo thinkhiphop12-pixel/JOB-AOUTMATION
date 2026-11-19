@@ -1,0 +1,26 @@
+{
+ "job_id": "5cc7f18aae",
+ "title": "Implementation Manager",
+ "company": "Exiger",
+ "url": "https://www.exiger.com/careers/?gh_jid=5991293004",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T13:22:27"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:32:02.902Z",
+   "note": "no upload field found"
+  }
+ ],
+ "linkedin_url": "https://uk.linkedin.com/jobs/view/implementation-manager-at-exiger-4411877990",
+ "note": "no upload field found"
+}

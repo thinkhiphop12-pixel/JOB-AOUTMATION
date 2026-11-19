@@ -1,0 +1,63 @@
+{
+ "url": "https://jobs.lever.co/immuta/19d612f7-5256-46e4-90ba-aa27c07a369d/apply",
+ "filled": [
+  {
+   "label": "Full name ✱",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email ✱",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone ✱",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Current location ✱",
+   "from": "city",
+   "value": "Southampton"
+  },
+  {
+   "label": "Current company",
+   "from": "current_company",
+   "value": "Global Blue (part of Shift4)"
+  },
+  {
+   "label": "LinkedIn URL ✱",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Are you authorized to work lawfully in the United Kingdom for Immuta? ✱",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Do you need, or will you need in the future, any immigration related support or sponsorship from Immuta in order to begin or continue employment with Immuta? ✱",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "Is there anything else we should know about your work authorization status? (e.g. other visas you’ve held, validity dates, etc)",
+   "from": "package text",
+   "value": "I am applying for the Customer Success Manager (EMEA) role a…"
+  },
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume/CV ✱ ATTACH RESUME/CV",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

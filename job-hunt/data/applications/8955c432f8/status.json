@@ -1,0 +1,46 @@
+{
+ "job_id": "8955c432f8",
+ "title": "Senior Customer Success Manager",
+ "company": "Carta",
+ "url": "https://job-boards.greenhouse.io/carta/jobs/8005468003",
+ "tier": "A",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T15:08:17"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:09:03.193Z",
+   "note": "job board page: apply by hand"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:15:13.914Z",
+   "note": "form errors: First Name* | First Name* | First Name is required."
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:17:10.332Z",
+   "note": "form errors: Phone | Phone | Phone number is too short"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:18:30.451Z",
+   "note": "form errors: Phone | Phone | Phone number is too short"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-18T15:19:40.924Z",
+   "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+  }
+ ],
+ "note": "no confirmation after Submit (possibly an invisible CAPTCHA)",
+ "linkedin_url": "https://uk.linkedin.com/jobs/view/senior-customer-success-manager-at-carta-4488975862"
+}

@@ -1,0 +1,52 @@
+{
+ "url": "https://jobs.ashbyhq.com/truelayer/07666a69-21b1-4d8a-8174-6de2e9f12b9a/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "How has AI changed your life at work?",
+   "from": "ai_usage",
+   "value": "I use AI tools every day. I designed and built a work-manage…"
+  },
+  {
+   "label": "What is your notice period/when are you available to start a new role?",
+   "from": "notice_period (6 weeks)",
+   "value": "2026-12-30"
+  },
+  {
+   "label": "Please note your base salary expectations.",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "I confirm that I have been provided with and read the TrueLayer Privacy Notice",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  },
+  {
+   "label": "Cover Letter",
+   "file": "cover_letter.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

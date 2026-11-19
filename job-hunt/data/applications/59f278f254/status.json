@@ -1,0 +1,25 @@
+{
+ "job_id": "59f278f254",
+ "title": "Customer Success Manager - UK",
+ "company": "Resonate CX",
+ "url": "https://uk.linkedin.com/jobs/view/customer-success-manager-uk-at-resonate-cx-4491786362",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T15:08:28"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:08:58.655Z",
+   "note": "job board page: apply by hand"
+  }
+ ],
+ "note": "job board page: apply by hand"
+}

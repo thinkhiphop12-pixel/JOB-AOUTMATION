@@ -1,0 +1,56 @@
+{
+ "job_id": "5d627c14f3",
+ "title": "Enterprise Customer Success Manager - EMEA",
+ "company": "Sigma",
+ "url": "https://job-boards.greenhouse.io/sigmacomputing/jobs/8043817003",
+ "tier": "A",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T15:08:16"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:08:58.655Z",
+   "note": "job board page: apply by hand"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:15:38.630Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:17:48.538Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:19:12.295Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:20:37.236Z",
+   "note": "form errors: Are you open to working 4 days onsite in one of our central offices?* | Select... | This field is required."
+  }
+ ],
+ "note": "Requires 4 days onsite (your limit is 3)",
+ "linkedin_url": "https://uk.linkedin.com/jobs/view/enterprise-customer-success-manager-emea-at-sigma-4483302866",
+ "needs_you": [
+  {
+   "label": "Phone",
+   "reason": "could not fill: locator.click: Element is not visible"
+  },
+  {
+   "label": "What is your current visa status?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

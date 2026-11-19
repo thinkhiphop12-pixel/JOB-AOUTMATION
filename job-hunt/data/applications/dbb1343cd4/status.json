@@ -1,0 +1,36 @@
+{
+ "job_id": "dbb1343cd4",
+ "title": "Contract Manager - South",
+ "company": "Sharpsmart UK",
+ "url": "https://job-boards.greenhouse.io/sharpsmart/jobs/4502611009",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T13:23:28"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:33:48.456Z",
+   "note": ""
+  }
+ ],
+ "linkedin_url": "https://uk.linkedin.com/jobs/view/contract-manager-south-at-sharpsmart-uk-4492261547",
+ "note": "employer board found: greenhouse/sharpsmart",
+ "needs_you": [
+  {
+   "label": "Have you got any unspent convictions?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "Do you hold an in-date DBS?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

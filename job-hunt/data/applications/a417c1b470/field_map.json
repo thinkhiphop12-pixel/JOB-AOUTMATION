@@ -1,0 +1,57 @@
+{
+ "url": "https://jobs.ashbyhq.com/altana/e7a13364-1776-4a89-96c7-ca88ba31268a/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn Profile (url)",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Are you legally authorized to work in the United Kingdom?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Will you now or in the future require visa sponsorship in your country of residence?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "Do you live within commuting distance to London?",
+   "from": "willing_to_work_in_london",
+   "value": "Yes"
+  },
+  {
+   "label": "Are you open to relocation?",
+   "from": "willing_to_work_in_london",
+   "value": "Yes"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  },
+  {
+   "label": "Cover Letter",
+   "file": "cover_letter.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

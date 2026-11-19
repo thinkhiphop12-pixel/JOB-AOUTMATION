@@ -1,0 +1,26 @@
+{
+ "job_id": "f887cfa380",
+ "title": "Sr Customer Success Manager",
+ "company": "LogicMonitor",
+ "url": "https://www.logicmonitor.com/career/?gh_jid=8393216",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T13:22:40"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:32:24.029Z",
+   "note": "no upload field found"
+  }
+ ],
+ "linkedin_url": "https://uk.linkedin.com/jobs/view/sr-customer-success-manager-at-logicmonitor-4491314074",
+ "note": "no upload field found"
+}

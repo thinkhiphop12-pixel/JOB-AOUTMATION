@@ -1,0 +1,46 @@
+{
+ "job_id": "c7060e635d",
+ "title": "Customer Success Manager II ",
+ "company": "Pleo",
+ "url": "https://jobs.ashbyhq.com/pleo/657d6102-dbe8-46a2-9981-e218dcf119a2/application",
+ "tier": "B",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T11:06:27"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T11:49:31.328Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T11:55:04.319Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:01:12.412Z",
+   "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:06:49.213Z",
+   "note": "CAPTCHA challenge after Submit"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Please share an estimate of your annual base salary expectations.",
+   "reason": "could not fill: page.fill: Error: Cannot type text into input[type=number]\nCall log:\n\u001b[2m  - wai"
+  }
+ ],
+ "note": "CAPTCHA challenge after Submit"
+}

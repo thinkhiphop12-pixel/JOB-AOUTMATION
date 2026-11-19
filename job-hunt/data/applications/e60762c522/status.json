@@ -1,0 +1,35 @@
+{
+ "job_id": "e60762c522",
+ "title": "Project Manager",
+ "company": "Clarke Willmott LLP",
+ "url": "https://careers.clarkewillmott.com/vacancies/292/project-manager.html?source=Indeed",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T12:25:40"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:27:43.922Z",
+   "note": "no upload field found"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:10:01.804Z",
+   "note": "no upload field found"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:33:58.491Z",
+   "note": "no upload field found"
+  }
+ ],
+ "note": "no upload field found"
+}

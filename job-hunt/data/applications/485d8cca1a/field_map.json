@@ -1,0 +1,77 @@
+{
+ "url": "https://jobs.ashbyhq.com/airwallex/b8f4838a-256c-4ccd-b255-ea5b96560f6d/application",
+ "filled": [
+  {
+   "label": "Full Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name / Surname",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Linkedin Link",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Salary Expectations",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "What is your notice period?",
+   "from": "notice_period",
+   "value": "6 weeks"
+  },
+  {
+   "label": "How did you first hear about Airwallex?",
+   "from": "how_did_you_hear",
+   "value": "Company careers page"
+  },
+  {
+   "label": "Would you requiere any sort of visa sponsorship to work in the UK now or in the future?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Do you have any relatives currently working for Airwallex?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "We encourage you to use AI tools to help research, prepare, or refine your application materials. However, we ask that you do not use AI tools during live, real-time interviews unless you've been explicitly told otherwis",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

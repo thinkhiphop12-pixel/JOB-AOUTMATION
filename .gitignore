@@ -1,0 +1,5 @@
+job-hunt/data/cache/
+job-hunt/.browser-profile/
+job-hunt/node_modules/
+job-hunt/out/
+__pycache__/

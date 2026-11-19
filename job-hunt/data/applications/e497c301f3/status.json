@@ -1,0 +1,35 @@
+{
+ "job_id": "e497c301f3",
+ "title": "Senior Project Manager",
+ "company": "Benifex",
+ "url": "https://careers.benifex.com/jobs/8705402-senior-project-manager/eaf0e565-0796-4e40-9c94-def6b3aec92c",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-18T12:25:39"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T12:26:48.145Z",
+   "note": "no upload field found"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-18T15:09:40.796Z",
+   "note": "no upload field found"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T13:33:24.030Z",
+   "note": "no upload field found"
+  }
+ ],
+ "note": "no upload field found"
+}

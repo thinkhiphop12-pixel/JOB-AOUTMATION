@@ -1,0 +1,44 @@
+{
+ "variant": "customer-success",
+ "summary": "Commercial and account professional with 5 years in a regulated, multi-country payments business (Global Blue, part of Shift4), promoted three times in four years. Interim account manager for three global brands, builder of 50+ commercial pricing models, and a hands-on AI user who designed and built personal work tools with Claude Code.",
+ "skills": [
+  "Account management",
+  "Customer onboarding",
+  "Adoption and change",
+  "Stakeholders in ~40 countries",
+  "Training and enablement",
+  "Salesforce",
+  "Excel (macros)",
+  "Claude and Claude Code",
+  "Python (basic)",
+  "Project delivery"
+ ],
+ "bullets": {
+  "gb-dapm": [
+   "pricing-50",
+   "claude-system",
+   "adoption",
+   "japan-vat",
+   "mbr-exec",
+   "training",
+   "governance-25"
+  ],
+  "gb-ssm": [
+   "interim-am",
+   "playbook",
+   "commission-fix"
+  ],
+  "gb-ss": [
+   "ss-summary"
+  ]
+ },
+ "cover_letter": [
+  "I am registering my interest in Sales and Partnerships roles at OpenAI in London. I have 5 years of commercial and account experience at Global Blue, part of Shift4, a regulated payments business, where I have been promoted three times in four years.",
+  "For six months I was interim account manager for three global brands: Dyson, Fred Perry and UGG. I built 50+ commercial pricing models across 40 brands linked to Salesforce opportunities, and wrote the client onboarding playbook that two global account teams adopted as standard. I work daily with partners and colleagues in ~40 countries.",
+  "I am also a hands-on AI user. I designed a work-management system for my role with Claude Code, Python and Excel, so I understand what it takes for a business team to trust and adopt AI tools. I have not carried a sales quota yet and would be clear about that; my strength is helping customers and partners get value.",
+  "I would welcome a conversation about where I could contribute."
+ ],
+ "answers": {
+  "Why OpenAI?": "I want to help businesses adopt AI well, and I bring partner and account experience from payments plus hands-on building with AI tools."
+ }
+}

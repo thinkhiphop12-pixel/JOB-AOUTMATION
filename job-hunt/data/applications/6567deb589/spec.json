@@ -1,0 +1,48 @@
+{
+ "variant": "project-delivery",
+ "summary": "Account and project professional with 5 years in a regulated, multi-country payments business (Global Blue, part of Shift4), promoted three times in four years. Runs partner and account governance across ~40 countries, keeps service data accurate, and fixes systemic issues that span several systems and owners. Leads through influence: decision packs, risk escalation to accountable owners, and training that raises team standards.",
+ "skills": [
+  "Governance",
+  "Stakeholders in ~40 countries",
+  "Account management",
+  "Project delivery",
+  "RAID and dependencies",
+  "Regulatory change",
+  "Training and enablement",
+  "Salesforce",
+  "Excel (macros)",
+  "MicroStrategy",
+  "Power Automate",
+  "Claude and Claude Code"
+ ],
+ "bullets": {
+  "gb-dapm": [
+   "governance-25",
+   "invoice-fix",
+   "master-600",
+   "france-einv",
+   "japan-vat",
+   "training",
+   "mbr-exec",
+   "report-350k"
+  ],
+  "gb-ssm": [
+   "monitoring",
+   "commission-fix",
+   "mass-updates",
+   "playbook"
+  ],
+  "gb-ss": [
+   "ss-summary"
+  ]
+ },
+ "cover_letter": [
+  "I am applying for the Partner Estate & Relationship Manager role at Monzo. The role is about governing a partner estate, spotting systemic issues in service performance and getting several parties to fix them. That is the core of my work at Global Blue, part of Shift4, a regulated payments business where I have been promoted three times in four years.",
+  "I run a 25-country account governance review cycle with every review held on schedule: I set the timeline, prepare the decision packs and escalate risks to accountable owners. When a major retail client's invoice reporting had been failing for five months, I traced the fault across three systems and coordinated the fix with four system owners. I also keep a ~600-account master list accurate for account managers in ~40 countries, and built the issue-ratio and eligibility monitoring now used in every monthly business review.",
+  "I lead mostly through influence. I run training and briefings for account managers, country teams and new starters, and I wrote the onboarding playbook that two global account teams adopted as standard. I would bring the same rigour and constructive challenge to Monzo's partners, and I am keen to learn your partner tooling quickly.",
+  "I would welcome the chance to discuss how I could help Monzo's partner estate run smoothly."
+ ],
+ "answers": {
+  "Why Monzo?": "I want to apply the partner governance and issue-resolution work I do in regulated payments to a bank whose customer focus I admire, in a remote-first role."
+ }
+}

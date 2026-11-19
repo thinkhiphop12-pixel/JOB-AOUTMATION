@@ -1,0 +1,26 @@
+{
+ "job_id": "372c62d798",
+ "title": "Customer Success Lead (Hybrid, London)",
+ "company": "DualEntry",
+ "url": "https://jobs.ashbyhq.com/dualentry/da18ddcb-79cf-4466-a728-008e2bf9a0bb",
+ "tier": "A",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T13:22:14"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T13:31:51.779Z",
+   "note": "CAPTCHA from the cloud: submit with apply_local.sh"
+  }
+ ],
+ "linkedin_url": "https://uk.linkedin.com/jobs/view/customer-success-lead-hybrid-london-at-dualentry-4456917669",
+ "note": "CAPTCHA from the cloud: submit with apply_local.sh"
+}

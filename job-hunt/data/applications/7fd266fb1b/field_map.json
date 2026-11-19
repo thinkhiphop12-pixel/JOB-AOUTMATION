@@ -1,0 +1,38 @@
+{
+ "url": "https://jobs.ashbyhq.com/oaknorth/5ced880b-f8a5-4ad8-8e96-ac579252bbd6/application",
+ "filled": [
+  {
+   "label": "Full Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email Address",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Tell us more about you",
+   "from": "package text",
+   "value": "Commercial enablement professional with 5 years supporting i…"
+  },
+  {
+   "label": "Please confirm you have read and understood our privacy policy.",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Upload your current CV",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}
