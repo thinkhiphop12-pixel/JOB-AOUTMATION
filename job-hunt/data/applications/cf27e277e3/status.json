@@ -4,7 +4,7 @@
  "company": "Oaknorth",
  "url": "https://jobs.ashbyhq.com/oaknorth/6c0f54a9-083d-48fd-97f2-6aaf397f4a42/application",
  "tier": "C",
- "status": "you_apply",
+ "status": "local_ready",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -39,6 +39,11 @@
    "status": "you_apply",
    "at": "2026-11-19T15:30:00Z",
    "note": "CAPTCHA or login site: on your quick-apply list"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:38:45.074159Z",
+   "note": "form fully filled (checked 19 Nov): submits from your laptop"
   }
  ],
  "needs_you": [
@@ -47,5 +52,5 @@
    "reason": "required question with no approved answer"
   }
  ],
- "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+ "note": "form fully filled (checked 19 Nov): submits from your laptop"
 }

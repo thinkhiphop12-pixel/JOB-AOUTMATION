@@ -19,12 +19,17 @@
   {
    "label": "Phone number",
    "from": "phone",
-   "value": "07460 304104"
+   "value": "+44 7460 304104"
   },
   {
    "label": "Why do you want to join Pleo and why are you excited about this role?",
    "from": "package text",
    "value": "I am applying for the Customer Success Manager II role at Pl…"
+  },
+  {
+   "label": "Please share an estimate of your annual base salary expectations.",
+   "from": "salary rule",
+   "value": "£70,000"
   },
   {
    "label": "Where are you currently located?",
@@ -42,19 +47,14 @@
    "value": "Yes"
   },
   {
-   "label": "What is the nature of your right to work?",
-   "from": "citizenship",
-   "value": "Citizen of the country where I wish to be employed"
-  },
-  {
-   "label": "Please share an estimate of your annual base salary expectations.",
-   "from": "salary rule",
-   "value": "£70,000"
-  },
-  {
    "label": "I agree",
    "from": "consents",
    "value": "ticked"
+  },
+  {
+   "label": "What is the nature of your right to work?",
+   "from": "citizenship",
+   "value": "Citizen of the country where I wish to be employed"
   }
  ],
  "uploaded": [

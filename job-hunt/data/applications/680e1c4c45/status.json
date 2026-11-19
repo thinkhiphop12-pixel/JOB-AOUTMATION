@@ -4,7 +4,7 @@
  "company": "Immuta",
  "url": "https://jobs.lever.co/immuta/19d612f7-5256-46e4-90ba-aa27c07a369d",
  "tier": "A",
- "status": "you_apply",
+ "status": "local_ready",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -29,8 +29,13 @@
    "status": "you_apply",
    "at": "2026-11-19T15:30:00Z",
    "note": "CAPTCHA or login site: on your quick-apply list"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:38:45.074159Z",
+   "note": "form fully filled (checked 19 Nov): submits from your laptop"
   }
  ],
- "note": "CAPTCHA from the cloud: submit with apply_local.sh",
+ "note": "form fully filled (checked 19 Nov): submits from your laptop",
  "linkedin_url": "https://uk.linkedin.com/jobs/view/customer-success-manager-emea-at-immuta-4474364397"
 }

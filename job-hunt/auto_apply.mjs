@@ -309,7 +309,9 @@ const queue = all
   .filter((p) => only || ((auto.tiers || ['A', 'B', 'C']).includes(p.st.tier) && ['ready_for_review', 'filled', 'needs_you', 'you_apply'].concat(flag('--headed') ? ['local_ready'] : []).includes(p.st.status)))
   .filter((p) => only || p.st.status !== 'needs_you' || !/account|job board/i.test(p.st.note || ''))
   .filter((p) => only || !flag('--ready-only') || p.st.status === 'local_ready')
-  .sort((a, b) => 'ABCD'.indexOf(a.st.tier) - 'ABCD'.indexOf(b.st.tier));
+  // On your computer: skip sites that need your login (LinkedIn, Indeed, NHS Jobs, Workday) BEFORE opening anything, so no tabs flash open and shut.
+  .filter((p) => only || !flag('--headed') || !(BLOCKED_HOSTS.test(p.st.url || '') || /myworkdayjobs|successfactors|icims|taleo|jobs\.nhs\.uk|trac\.jobs|civilservicejobs/i.test(p.st.url || '')))
+  .sort((a, b) => ('ABCD'.indexOf(a.st.tier) - 'ABCD'.indexOf(b.st.tier)) || ((b.st.priority || 0) - (a.st.priority || 0)));
 if (!auto.enabled && !only) { console.log(JSON.stringify({ auto_apply: 'disabled in config.json' })); process.exit(0); }
 
 const HEADED = flag('--headed');
@@ -325,7 +327,8 @@ for (const pkg of queue) {
   console.log(`[${new Date().toLocaleTimeString()}] ${pkg.st.company}: ${pkg.st.title}`);
   const entry = { id: pkg.id, title: pkg.st.title, company: pkg.st.company, url };
   const okPlatforms = auto.only_platforms;
-  if (okPlatforms && !okPlatforms.some((pl) => url.toLowerCase().includes(pl))) {
+  // Cloud only: CAPTCHA sites are skipped. On your computer (--headed) they usually pass, so we try them.
+  if (!HEADED && !only && okPlatforms && !okPlatforms.some((pl) => url.toLowerCase().includes(pl))) {
     save(pkg, 'you_apply', { note: 'CAPTCHA or login site: on your quick-apply list' });
     log.push({ ...entry, result: 'you_apply', reason: 'CAPTCHA or login site: apply yourself (package ready)' }); continue;
   }
@@ -333,7 +336,9 @@ for (const pkg of queue) {
   if (/myworkdayjobs|successfactors|icims|taleo|jobs\.nhs\.uk|trac\.jobs|civilservicejobs/i.test(url)) { save(pkg, 'needs_you', { note: 'ATS needs a candidate account' }); log.push({ ...entry, result: 'needs_you', reason: 'site needs a candidate account (NHS Jobs / Workday / Civil Service Jobs): apply by hand with the package' }); continue; }
   const jobSpec = fs.existsSync(path.join(pkg.dir, 'spec.json')) ? JSON.parse(fs.readFileSync(path.join(pkg.dir, 'spec.json'), 'utf8')) : {};
   const ctx = persistent || await browser.newContext({ viewport: { width: 1280, height: 1000 } });
-  const page = await ctx.newPage();
+  // One tab only on your computer: reuse the same tab for every job.
+  const page = HEADED ? (globalThis.__tab && !globalThis.__tab.isClosed() ? globalThis.__tab : (globalThis.__tab = (ctx.pages()[0] || await ctx.newPage()))) : await ctx.newPage();
+  if (HEADED) await page.bringToFront().catch(() => {});
   try {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
     await page.waitForTimeout(3000);
@@ -394,7 +399,7 @@ for (const pkg of queue) {
     else { save(pkg, 'needs_you', { note: r.reason }); log.push({ ...entry, result: 'needs_you', reason: r.reason }); }
   } catch (e) {
     log.push({ ...entry, result: 'error', reason: String(e.message).slice(0, 200) });
-  } finally { if (persistent) await page.close().catch(() => {}); else await ctx.close(); }
+  } finally { if (!persistent) await ctx.close(); }
 }
 if (browser) await browser.close(); if (persistent) await persistent.close();
 fs.mkdirSync(path.join(DATA, 'latest'), { recursive: true });

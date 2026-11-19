@@ -27,6 +27,11 @@
    "value": "It joins the two things I do best: delivering cross-function…"
   },
   {
+   "label": "Please share an estimate of your annual base salary expectations.",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
    "label": "Where are you currently located?",
    "from": "city",
    "value": "Southampton, City of Southampton, England, United Kingdom"
@@ -42,19 +47,14 @@
    "value": "Yes"
   },
   {
-   "label": "What is the nature of your right to work?",
-   "from": "citizenship",
-   "value": "Citizen of the country where I wish to be employed"
-  },
-  {
-   "label": "Please share an estimate of your annual base salary expectations.",
-   "from": "salary rule",
-   "value": "£70,000"
-  },
-  {
    "label": "I agree",
    "from": "consents",
    "value": "ticked"
+  },
+  {
+   "label": "What is the nature of your right to work?",
+   "from": "citizenship",
+   "value": "Citizen of the country where I wish to be employed"
   }
  ],
  "uploaded": [

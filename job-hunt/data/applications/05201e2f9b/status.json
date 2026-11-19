@@ -4,7 +4,7 @@
  "company": "DualEntry",
  "url": "https://jobs.ashbyhq.com/dualentry/3c73e43d-d326-465c-8d22-a6bbc15f5737",
  "tier": "A",
- "status": "you_apply",
+ "status": "local_ready",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -24,8 +24,13 @@
    "status": "you_apply",
    "at": "2026-11-19T15:30:00Z",
    "note": "CAPTCHA or login site: on your quick-apply list"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:38:45.074159Z",
+   "note": "form fully filled (checked 19 Nov): submits from your laptop"
   }
  ],
  "linkedin_url": "https://uk.linkedin.com/jobs/view/ai-erp-implementations-lead-hybrid-london-at-dualentry-4456905870",
- "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"
+ "note": "form fully filled (checked 19 Nov): submits from your laptop"
 }

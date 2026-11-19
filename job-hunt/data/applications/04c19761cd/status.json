@@ -4,7 +4,7 @@
  "company": "Ebury",
  "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5041603101",
  "tier": "A",
- "status": "you_apply",
+ "status": "needs_you",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -24,6 +24,11 @@
    "status": "you_apply",
    "at": "2026-11-19T15:30:00Z",
    "note": "CAPTCHA or login site: on your quick-apply list"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:38:12.321Z",
+   "note": ""
   }
  ],
  "needs_you": [

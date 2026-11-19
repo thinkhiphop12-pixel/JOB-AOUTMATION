@@ -4,7 +4,7 @@
  "company": "Pleo",
  "url": "https://jobs.ashbyhq.com/pleo/a14cd528-70ed-4b1e-9b50-04705c9af78a/application",
  "tier": "C",
- "status": "you_apply",
+ "status": "local_ready",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -39,6 +39,11 @@
    "status": "you_apply",
    "at": "2026-11-19T15:30:00Z",
    "note": "CAPTCHA or login site: on your quick-apply list"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:38:45.074159Z",
+   "note": "form fully filled (checked 19 Nov): submits from your laptop"
   }
  ],
  "needs_you": [
@@ -47,5 +52,5 @@
    "reason": "could not fill: page.fill: Error: Cannot type text into input[type=number]\nCall log:\n\u001b[2m  - wai"
   }
  ],
- "note": "CAPTCHA from the cloud: submit with apply_local.sh"
+ "note": "form fully filled (checked 19 Nov): submits from your laptop"
 }

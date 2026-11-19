@@ -4,7 +4,7 @@
  "company": "Monzo",
  "url": "https://job-boards.greenhouse.io/monzo/jobs/8355179",
  "tier": "A",
- "status": "you_apply",
+ "status": "closed",
  "validation_errors": [],
  "pages": {
   "cv.pdf": 1,
@@ -64,6 +64,16 @@
    "status": "you_apply",
    "at": "2026-11-19T15:30:00Z",
    "note": "CAPTCHA or login site: on your quick-apply list"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:35:02.362Z",
+   "note": "no upload field found"
+  },
+  {
+   "status": "closed",
+   "at": "2026-11-19T15:38:45.074159Z",
+   "note": "job removed from Monzo careers site"
   }
  ],
  "needs_you": [
@@ -76,5 +86,5 @@
    "reason": "answers.json \"us_person\" not confirmed"
   }
  ],
- "note": "no upload field found"
+ "note": "job removed from Monzo careers site"
 }

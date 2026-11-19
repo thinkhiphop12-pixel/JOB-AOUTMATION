@@ -32,6 +32,11 @@
    "value": "https://www.linkedin.com/in/lloyd-evans-"
   },
   {
+   "label": "Is there anything else we should know about your work authorization status? (e.g. other visas you’ve held, validity dates, etc)",
+   "from": "package text",
+   "value": "I am applying for the Customer Success Manager (EMEA) role a…"
+  },
+  {
    "label": "Are you authorized to work lawfully in the United Kingdom for Immuta? ✱",
    "from": "right_to_work_uk",
    "value": "Yes"
@@ -40,16 +45,6 @@
    "label": "Do you need, or will you need in the future, any immigration related support or sponsorship from Immuta in order to begin or continue employment with Immuta? ✱",
    "from": "requires_sponsorship",
    "value": "No"
-  },
-  {
-   "label": "Is there anything else we should know about your work authorization status? (e.g. other visas you’ve held, validity dates, etc)",
-   "from": "package text",
-   "value": "I am applying for the Customer Success Manager (EMEA) role a…"
-  },
-  {
-   "label": "Name",
-   "from": "full_name",
-   "value": "Lloyd Evans"
   }
  ],
  "uploaded": [
@@ -59,5 +54,10 @@
   }
  ],
  "needs_you": [],
- "skipped": []
+ "skipped": [
+  {
+   "label": "Name",
+   "reason": "could not fill: locator.click: Timeout 5000ms exceeded."
+  }
+ ]
 }

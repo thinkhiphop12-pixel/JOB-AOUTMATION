@@ -32,9 +32,9 @@
    "value": "Yes"
   },
   {
-   "label": "Will you now or in the future require sponsorship for employment visa status in this country?",
-   "from": "requires_sponsorship",
-   "value": "No"
+   "label": "I hereby certify that I have not knowingly withheld any information that might adversely affect my chances for employment and that the answers given by me are true and correct to the best of my knowledge. I further certi",
+   "from": "consents",
+   "value": "ticked"
   }
  ],
  "uploaded": [
@@ -49,8 +49,8 @@
    "reason": "required question with no approved answer"
   },
   {
-   "label": "I hereby certify that I have not knowingly withheld any information that might adversely affect my chances for employment and that the answers given by me are true and correct to the best of my knowledge. I further certi",
-   "reason": "required question with no approved answer"
+   "label": "Will you now or in the future require sponsorship for employment visa status in this country?",
+   "reason": "no button matches \"citizen\""
   }
  ],
  "skipped": []

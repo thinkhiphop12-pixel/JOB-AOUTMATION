@@ -27,11 +27,6 @@
    "value": "+44 7460 304104"
   },
   {
-   "label": "Location",
-   "from": "city",
-   "value": "Southampton, City of Southampton, England, United Kingdom"
-  },
-  {
    "label": "Linkedin Link",
    "from": "linkedin",
    "value": "https://www.linkedin.com/in/lloyd-evans-"
@@ -48,13 +43,18 @@
   },
   {
    "label": "How did you first hear about Airwallex?",
-   "from": "how_did_you_hear",
+   "from": "job source",
    "value": "Company careers page"
   },
   {
    "label": "Would you requiere any sort of visa sponsorship to work in the UK now or in the future?",
    "from": "requires_sponsorship",
    "value": "No"
+  },
+  {
+   "label": "Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
   }
  ],
  "uploaded": [
@@ -70,7 +70,7 @@
   },
   {
    "label": "We encourage you to use AI tools to help research, prepare, or refine your application materials. However, we ask that you do not use AI tools during live, real-time interviews unless you've been explicitly told otherwis",
-   "reason": "required question with no approved answer"
+   "reason": "no button matches \"I use AI tools every day. I designed and built a work-manage…\""
   }
  ],
  "skipped": []

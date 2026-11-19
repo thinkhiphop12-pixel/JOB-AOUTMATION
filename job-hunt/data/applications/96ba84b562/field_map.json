@@ -24,7 +24,7 @@
   {
    "label": "What is your notice period/when are you available to start a new role?",
    "from": "notice_period (6 weeks)",
-   "value": "2026-12-30"
+   "value": "2026-12-31"
   },
   {
    "label": "Please note your base salary expectations.",
