@@ -327,8 +327,10 @@ for (const pkg of queue) {
   console.log(`[${new Date().toLocaleTimeString()}] ${pkg.st.company}: ${pkg.st.title}`);
   const entry = { id: pkg.id, title: pkg.st.title, company: pkg.st.company, url };
   const okPlatforms = auto.only_platforms;
+  // Cloud + Greenhouse/Ashby/Lever: fill the whole form here (no submit), so the laptop only has to press Submit.
+  const cloudPrep = !HEADED && /greenhouse\.io|ashbyhq\.com|lever\.co/i.test(url);
   // Cloud only: CAPTCHA sites are skipped. On your computer (--headed) they usually pass, so we try them.
-  if (!HEADED && !only && okPlatforms && !okPlatforms.some((pl) => url.toLowerCase().includes(pl))) {
+  if (!HEADED && !only && !cloudPrep && okPlatforms && !okPlatforms.some((pl) => url.toLowerCase().includes(pl))) {
     save(pkg, 'you_apply', { note: 'CAPTCHA or login site: on your quick-apply list' });
     log.push({ ...entry, result: 'you_apply', reason: 'CAPTCHA or login site: apply yourself (package ready)' }); continue;
   }
@@ -377,6 +379,7 @@ for (const pkg of queue) {
     }
     if (map.needs_you.length) { save(pkg, 'needs_you', { needs_you: map.needs_you }); log.push({ ...entry, result: 'needs_you', reason: map.needs_you.map((n) => `${n.label.slice(0, 60)}: ${n.reason}`).join('; ') }); continue; }
     if (captcha && !HEADED) { save(pkg, 'local_ready', { note: 'CAPTCHA' }); log.push({ ...entry, result: 'local_ready', reason: 'CAPTCHA on the form: run `bash job-hunt/apply_local.sh` on your computer' }); continue; }
+    if (cloudPrep && !DRY) { save(pkg, 'local_ready', { note: 'form fully filled in the cloud: your laptop submits it' }); log.push({ ...entry, result: 'local_ready', reason: 'form fully filled; laptop submits (cloud is CAPTCHA-blocked)' }); continue; }
     if (DRY) { log.push({ ...entry, result: 'dry_run_ready', filled: map.filled.length, uploaded: map.uploaded.length }); continue; }
     const r = await submit(page);
     if (!r.ok && HEADED) {

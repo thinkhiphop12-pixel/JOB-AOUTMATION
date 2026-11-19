@@ -177,20 +177,28 @@ FAR = {"birmingham", "manchester", "edinburgh", "glasgow", "leeds", "cardiff", "
 
 
 US = {"us", "usa", "america", "nyc", "york", "california", "illinois", "chicago", "francisco", "seattle", "texas",
-      "boston", "austin", "denver", "atlanta", "toronto", "canada", "singapore", "sydney", "india", "bangalore"}
+      "boston", "austin", "denver", "atlanta", "toronto", "canada", "singapore", "sydney", "india", "bangalore",
+      "states", "dc", "georgia", "tx", "ny", "nj", "ca", "co", "ga", "sc", "dubai", "emirates", "uae", "arab",
+      "latam", "amer", "mexico", "brazil", "australia", "japan", "tokyo", "paris", "france", "germany", "berlin",
+      "munich", "madrid", "spain", "milan", "italy", "amsterdam", "netherlands", "stockholm", "warsaw", "poland",
+      "lisbon", "portugal", "zurich", "riyadh", "saudi", "tel", "aviv", "israel"}
+
+
+def _uk_signal(loc):
+    l = (loc or "").lower()
+    return bool(re.search(r"united kingdom|\buk\b|\bu\.k\.|england|britain|\bgb\b|\bemea\b|\beurope\b", l))
 
 
 def loc_ok(cfg, loc):
     """London / Southampton commuting belt / remote-UK. 'Remote' alone only counts with a UK or EMEA signal."""
-    words = set(re.findall(r"[a-z]+", (loc or "").lower()))
-    uk = {"uk", "united", "kingdom", "england", "britain", "gb", "emea", "europe"}
-    places = words & (NEAR - {"remote"})
-    if places:
-        return True
-    if "remote" in words and (words & uk):
-        return True
-    if words & uk and not (words & FAR) and not (words & US):
-        return True
+    # Multi-location strings ("Atlanta; Remote - SC", "London; New York") count if ANY part is in the area.
+    parts = [p for p in re.split(r"[;|/]|\bor\b", (loc or "").lower()) if p.strip()] or [""]
+    for part in parts:
+        words = set(re.findall(r"[a-z]+", part))
+        if words & (NEAR - {"remote"}):
+            return True
+        if _uk_signal(part) and not (words & FAR):
+            return True
     return False
 
 
