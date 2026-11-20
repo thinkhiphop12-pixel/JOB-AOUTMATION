@@ -1,0 +1,27 @@
+{
+ "job_id": "c0e4000d5a",
+ "title": "EMEA Regulatory Lead - Drones",
+ "company": "Deliveroo",
+ "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8331009",
+ "tier": "A",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:03"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "not a fit (language, territory or specialism)"
+  }
+ ],
+ "note": "not a fit (language, territory or specialism)",
+ "location": "London, United Kingdom",
+ "priority": 116
+}

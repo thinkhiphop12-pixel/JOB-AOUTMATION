@@ -1,0 +1,79 @@
+{
+ "url": "https://jobs.ashbyhq.com/attio/7ee083a1-4d1d-4a1f-ad9b-fc6f4d392192/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "LinkedIn",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Optional Cover Letter",
+   "from": "package text",
+   "value": "I am applying for the Communications Lead role at Attio. Thi…"
+  },
+  {
+   "label": "What is your notice period?",
+   "from": "notice_period",
+   "value": "6 weeks"
+  },
+  {
+   "label": "Salary Expectations",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "I have read, understand and accept the content of Attio's privacy notice and consent to the processing of my data as part of this application",
+   "from": "consents",
+   "value": "Yes"
+  },
+  {
+   "label": "Are you legally eligible to work in the UK?",
+   "from": "right_to_work_uk",
+   "value": "British Citizen"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "CV/Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Are you able to work from our Farringdon office at least 3 days per week?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have hands-on experience shaping brand narrative or leading exec/founder comms at a B2B company?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you personally have relationships with press, analysts, or conference organizers that have led to placed coverage, speaking slots, or awards?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Have you managed high-stakes comms moments such as a fundraising announcement or incident response?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "How did you hear about Attio?",
+   "reason": "required tick box with no rule"
+  }
+ ],
+ "skipped": []
+}

@@ -1,0 +1,27 @@
+{
+ "job_id": "8f121c8e1c",
+ "title": "Account Director - CO",
+ "company": "Snyk",
+ "url": "https://jobs.ashbyhq.com/Snyk/a20dd9de-40eb-4704-8b91-0a960762df92/application",
+ "tier": "B",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:17"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "not a fit (language, territory or specialism)"
+  }
+ ],
+ "note": "not a fit (language, territory or specialism)",
+ "location": "United States - CO Remote",
+ "priority": 122
+}

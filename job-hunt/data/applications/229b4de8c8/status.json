@@ -1,0 +1,27 @@
+{
+ "job_id": "229b4de8c8",
+ "title": "Manager, Customer Success Manager (PubSec)",
+ "company": "Gitlab",
+ "url": "https://job-boards.greenhouse.io/gitlab/jobs/8929477002",
+ "tier": "A",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:57"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: Remote, United States"
+  }
+ ],
+ "note": "outside your area: Remote, United States",
+ "location": "Remote, United States",
+ "priority": 121
+}

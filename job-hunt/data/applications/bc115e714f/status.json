@@ -1,0 +1,48 @@
+{
+ "job_id": "bc115e714f",
+ "title": "Global Payments Partner Lead",
+ "company": "Lovable",
+ "url": "https://jobs.ashbyhq.com/lovable/1340bc94-1c11-459b-9e0f-481d5f3a588d/application",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:35"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: London, Stockholm"
+  },
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:48:42.100306+00:00",
+   "note": "includes a London/UK location"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:52:09.569Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:01:07.360Z",
+   "note": ""
+  }
+ ],
+ "note": "includes a London/UK location",
+ "location": "London, Stockholm",
+ "priority": 116,
+ "needs_you": [
+  {
+   "label": "What is the most impressive thing you’ve done in your career?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

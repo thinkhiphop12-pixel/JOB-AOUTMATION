@@ -24,8 +24,13 @@
    "status": "you_apply",
    "at": "2026-11-19T15:30:00Z",
    "note": "CAPTCHA or login site: on your quick-apply list"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:51:04.600Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
  "linkedin_url": "https://uk.linkedin.com/jobs/view/implementation-manager-at-exiger-4411877990",
- "note": "no upload field found"
+ "note": "CAPTCHA or login site: on your quick-apply list"
 }

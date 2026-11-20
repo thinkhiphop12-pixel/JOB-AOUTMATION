@@ -1,0 +1,37 @@
+{
+ "url": "https://jobs.ashbyhq.com/amplitude/1031ce70-90e7-446d-be99-123a8058e686/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  },
+  {
+   "label": "Cover Letter",
+   "file": "cover_letter.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

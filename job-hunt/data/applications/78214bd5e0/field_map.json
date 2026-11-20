@@ -1,0 +1,66 @@
+{
+ "url": "https://jobs.ashbyhq.com/WRITER/94cc108b-ccd3-42d2-a485-b2afdcefef46/application",
+ "filled": [
+  {
+   "label": "Full Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Linkedin Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Why are you interested in joining WRITER?",
+   "from": "package text",
+   "value": "I am applying for the Strategic account executive (UK) role …"
+  },
+  {
+   "label": "Are you at least 18 years of age?",
+   "from": "over_18",
+   "value": "Yes"
+  },
+  {
+   "label": "Are you legally authorized to work in the country in which the job you are applying for is located?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Will you now or in the future require employment visa sponsorship to work in the country in which the job you're applying for is located?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Please give an example from your professional experience that aligns with one or more of our cultural values:",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Are you able and excited to join us for in person, collaborative working sessions in office 3 days / week?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Are you located within 50 miles of one of the following office hubs",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

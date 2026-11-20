@@ -1,0 +1,43 @@
+{
+ "url": "https://jobs.ashbyhq.com/fcb2fa31-4415-4b05-9f1a-16a326c21432/2a47ca62-e52b-4e43-9dc0-176b87b64430/application",
+ "filled": [
+  {
+   "label": "NAME",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "EMAIL",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "CURRENT COMPANY",
+   "from": "current_company",
+   "value": "Global Blue (part of Shift4)"
+  },
+  {
+   "label": "CURRENT LOCATION",
+   "from": "city",
+   "value": "Southampton"
+  },
+  {
+   "label": "LINKEDIN",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "RESUME",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "PHONE",
+   "reason": "no option matches \"+44 7460 304104\" (options: Yes - I consent to receiving WhatsApp messages / No - I do not consent to receiving WhatsApp messages)"
+  }
+ ],
+ "skipped": []
+}

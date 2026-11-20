@@ -1,0 +1,37 @@
+{
+ "job_id": "bbcd56928e",
+ "title": "GTM Strategy & Operations, EMEA",
+ "company": "Harvey",
+ "url": "https://jobs.ashbyhq.com/harvey/0eeba998-e84a-4f37-a8f5-2ddd7399bd50/application",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:41"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:54:52.546Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:59:35.949Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 106,
+ "needs_you": [
+  {
+   "label": "This role is tied to the office location listed in the job posting. Team members are expected to work from the office 3 days per week as part of Harvey’s hybrid work model. Are you currently based in the listed location",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "job_id": "ce1e084d0b",
+ "title": "AI Deployment Strategist",
+ "company": "Snowflake",
+ "url": "https://jobs.ashbyhq.com/snowflake/351a7313-71bb-4683-9a65-927b03c5d002/application",
+ "tier": "C",
+ "status": "draft",
+ "validation_errors": [
+  "'Snowflake' is claimed but is not in the CV (say it is being learnt, or drop it)"
+ ],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "draft",
+   "at": "2026-11-19T15:47:17"
+  }
+ ]
+}

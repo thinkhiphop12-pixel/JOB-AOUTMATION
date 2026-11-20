@@ -1,0 +1,27 @@
+{
+ "job_id": "5650240b7d",
+ "title": "Lead Investor Relations",
+ "company": "Gitlab",
+ "url": "https://job-boards.greenhouse.io/gitlab/jobs/8895451002",
+ "tier": "C",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:15"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "not a fit (language, territory or specialism)"
+  }
+ ],
+ "note": "not a fit (language, territory or specialism)",
+ "location": "Remote, Canada; Remote, United States",
+ "priority": 112
+}

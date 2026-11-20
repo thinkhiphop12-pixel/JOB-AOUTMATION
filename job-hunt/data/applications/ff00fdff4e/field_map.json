@@ -1,0 +1,86 @@
+{
+ "url": "https://job-boards.eu.greenhouse.io/riskledger/jobs/5029732101",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "What are your salary expectations for this role?",
+   "from": "salary rule",
+   "value": "£80,000"
+  },
+  {
+   "label": "What is your notice period?",
+   "from": "notice_period",
+   "value": "6 weeks"
+  },
+  {
+   "label": "Will you require visa sponsorship for this role?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "Are you happy to come into the office in Old Street, London? *We're hybrid and can be flexible with days in the office - start and finish times too. People typically come in 2-3 times a week, with Thursdays as our compan",
+   "from": "willing_to_work_in_london",
+   "value": "Yes"
+  },
+  {
+   "label": "By checking this box, I agree to allow Risk Ledger to retain my data for future opportunities for employment for up to 185 days after the conclusion of consideration of my current application for employment.",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "How many years of hands-on GRC experience do you have?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Have you had hands-on responsibility for maintaining an ISO 27001 certification, for example owning evidence, internal audits or external surveillance audits?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "What is your experience of SOC 2?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

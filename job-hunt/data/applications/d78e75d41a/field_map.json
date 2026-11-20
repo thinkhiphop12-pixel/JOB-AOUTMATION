@@ -1,0 +1,83 @@
+{
+ "url": "https://jobs.ashbyhq.com/Sierra/fc4f328a-f09d-4861-9b3b-8884a7599ff3/application",
+ "filled": [
+  {
+   "label": "Legal First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Legal Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Preferred First & Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Anything else? (Optional)",
+   "from": "package text",
+   "value": "I am applying for the Sales Enablement Lead role at Sierra. …"
+  },
+  {
+   "label": "Trust is one of Sierra’s values. I confirm that the information I provide is true, complete, and reflects my own experience and thinking, and I understand that an offer may be withdrawn, or employment ended, if Sierra le",
+   "from": "consents",
+   "value": "ticked"
+  },
+  {
+   "label": "By submitting, I acknowledge my personal data will be processed in accordance with Sierra’s Privacy Policy.",
+   "from": "consents",
+   "value": "ticked"
+  },
+  {
+   "label": "Are you legally authorized to work in the United Kingdom?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Will you now or in the future require visa sponsorship to work in the United Kingdom?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "We use Metaview, an AI notetaking tool, to streamline interviews by recording and summarizing discussions, enabling interviewers to be fully present without manual notetaking. With your approval, it silently records note",
+   "from": "ai_usage",
+   "value": "Yes"
+  },
+  {
+   "label": "How did you hear about this opportunity?",
+   "from": "job source",
+   "value": "Company website"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Are you able to work from a Sierra office listed for this role?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

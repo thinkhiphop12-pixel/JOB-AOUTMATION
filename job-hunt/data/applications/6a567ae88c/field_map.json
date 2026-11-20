@@ -1,0 +1,43 @@
+{
+ "url": "https://jobs.ashbyhq.com/ElevenLabs/e9075e24-5dc2-4ae5-b7ce-37ccae8c4270/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Link to your LinkedIn profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Finally, tell us about a hard problem in your past!",
+   "from": "package text",
+   "value": "I am applying for the Strategic Account Executive - UK/I - I…"
+  },
+  {
+   "label": "How did you hear about ElevenLabs?",
+   "from": "job source",
+   "value": "Other (please specify)"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Location",
+   "reason": "dropdown has no option for \"Southampton\""
+  }
+ ],
+ "skipped": []
+}

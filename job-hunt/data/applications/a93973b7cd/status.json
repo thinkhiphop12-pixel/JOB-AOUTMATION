@@ -1,0 +1,45 @@
+{
+ "job_id": "a93973b7cd",
+ "title": "Partnerships Manager",
+ "company": "Sardine",
+ "url": "https://jobs.ashbyhq.com/sardine/1a848261-5b5b-414b-9771-0dad2d45300c/application",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:09"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:51:22.388Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:02:52.263Z",
+   "note": ""
+  }
+ ],
+ "location": "London, UK",
+ "priority": 142,
+ "needs_you": [
+  {
+   "label": "Do you have professional experience in Fraud, Risk, Compliance, or Financial Services?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have experience with CRM tools (e.g., Salesforce, HubSpot) to track sales performance and reporting?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have experience owning and achieving a $1M+ annual revenue target through channel partnerships?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

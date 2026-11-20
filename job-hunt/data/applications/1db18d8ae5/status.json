@@ -1,0 +1,27 @@
+{
+ "job_id": "1db18d8ae5",
+ "title": "Lead Services Consultant",
+ "company": "Braze",
+ "url": "https://job-boards.greenhouse.io/braze/jobs/8366772",
+ "tier": "B",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:57"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:53:22.623Z",
+   "note": "form fully filled in the cloud: your laptop submits it"
+  }
+ ],
+ "location": "London",
+ "priority": 108,
+ "note": "form fully filled in the cloud: your laptop submits it"
+}

@@ -1,0 +1,78 @@
+{
+ "url": "https://jobs.ashbyhq.com/clearbank/e5db5492-e74d-41cc-993d-faa430a5b850/application",
+ "filled": [
+  {
+   "label": "Full Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Salary Expectations",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Have you been employed by ClearBank before",
+   "from": "previously_interviewed",
+   "value": "No"
+  },
+  {
+   "label": "I agree",
+   "from": "consents",
+   "value": "ticked"
+  },
+  {
+   "label": "Delivering great work means collaborating in person as well as working remotely. Our minmum expectation is that you join us in the office 3-5 days per month office attendance depending on the seniority of the role. Pleas",
+   "from": "office_4_plus_days",
+   "value": "No I am not comfortable"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "CV/Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "If yes, please explain how you know them/your relationship with them.",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Does anyone you know already work at ClearBank?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have experience working as a Product Manager on cross-border payments products?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have experience working as a Product Manager with highly technical teams, specifically on digital assets products?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Notice Period/Availability",
+   "reason": "required tick box with no rule"
+  },
+  {
+   "label": "Please confirm your right to work status",
+   "reason": "no option matches \"citizen\" (options: I'm a UK or Irish national or I have indefinite leave to remain / I'm an EU, EEA or Swiss National with status under the EU settlement scheme / I have another type of visa which gives me right to work in the UK (e.g. spousal visa))"
+  }
+ ],
+ "skipped": []
+}

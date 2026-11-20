@@ -1,0 +1,27 @@
+{
+ "job_id": "996ac661fe",
+ "title": "Senior Risk Investigator - Fraud Incident Management & Partner Response",
+ "company": "Mercury",
+ "url": "https://job-boards.greenhouse.io/mercury/jobs/6251682004",
+ "tier": "B",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:30"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: San Francisco, CA, New York, NY, Portland, OR, or Remote within United States"
+  }
+ ],
+ "note": "outside your area: San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
+ "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
+ "priority": 117
+}

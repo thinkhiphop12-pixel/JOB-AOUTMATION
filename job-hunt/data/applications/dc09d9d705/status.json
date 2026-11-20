@@ -1,0 +1,27 @@
+{
+ "job_id": "dc09d9d705",
+ "title": "CustomerLake Sales Specialist",
+ "company": "Databricks",
+ "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8882986002",
+ "tier": "C",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:31"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: United States"
+  }
+ ],
+ "note": "outside your area: United States",
+ "location": "United States",
+ "priority": 106
+}

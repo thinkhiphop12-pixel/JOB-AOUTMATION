@@ -1,0 +1,57 @@
+{
+ "job_id": "0587830d0b",
+ "title": "Product Manager – Cross-Border Payments & Digital Assets",
+ "company": "Clearbank",
+ "url": "https://jobs.ashbyhq.com/clearbank/e5db5492-e74d-41cc-993d-faa430a5b850/application",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:54"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:52:56.826Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:03:18.363Z",
+   "note": ""
+  }
+ ],
+ "location": "London Office - Hybrid",
+ "priority": 110,
+ "needs_you": [
+  {
+   "label": "If yes, please explain how you know them/your relationship with them.",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Does anyone you know already work at ClearBank?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have experience working as a Product Manager on cross-border payments products?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have experience working as a Product Manager with highly technical teams, specifically on digital assets products?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Notice Period/Availability",
+   "reason": "required tick box with no rule"
+  },
+  {
+   "label": "Please confirm your right to work status",
+   "reason": "no option matches \"citizen\" (options: I'm a UK or Irish national or I have indefinite leave to remain / I'm an EU, EEA or Swiss National with status under the EU settlement scheme / I have another type of visa which gives me right to work in the UK (e.g. spousal visa))"
+  }
+ ]
+}

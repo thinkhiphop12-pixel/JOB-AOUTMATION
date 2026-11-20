@@ -1,0 +1,91 @@
+{
+ "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206489",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location (City)",
+   "from": "city",
+   "value": "Southampton, England, United Kingdom"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "What is your right to work status in the job location?",
+   "from": "citizenship",
+   "value": "I am a citizen or have indenfinite leave to remain."
+  },
+  {
+   "label": "What are your salary expectations?",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "Why are you applying for this role?",
+   "from": "package text",
+   "value": "I am applying for the Client Partner (Strategic Account Mana…"
+  },
+  {
+   "label": "Notice Period",
+   "from": "notice_period",
+   "value": "6 weeks"
+  },
+  {
+   "label": "By checking this box, I consent to Deliveroo collecting, storing, and processing my responses to the demographic data surveys above.",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Can you commit to 3 days in our London HQ ?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "How would you describe your gender?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "Race",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  }
+ ],
+ "skipped": []
+}

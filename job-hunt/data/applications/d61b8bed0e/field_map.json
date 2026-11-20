@@ -1,0 +1,62 @@
+{
+ "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8312495",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location (City)",
+   "from": "city",
+   "value": "Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Wolt Recruitment Privacy Statement",
+   "from": "consents",
+   "value": "Yes (typed)"
+  },
+  {
+   "label": "By checking this box, I consent to Deliveroo collecting, storing, and processing my responses to the demographic data surveys above.",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Are you a national of the country where you are applying to work?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Which gender do you most closely identity with?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  }
+ ],
+ "skipped": []
+}

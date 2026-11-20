@@ -1,0 +1,57 @@
+{
+ "job_id": "d578488d0d",
+ "title": "AML & KYC Solutions Manager - EMEA ",
+ "company": "Quantexa",
+ "url": "https://jobs.ashbyhq.com/quantexa/e7000663-bde2-49c8-a73d-5084d2e4180d/application",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:36"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:52:16.283Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:02:08.427Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 116,
+ "needs_you": [
+  {
+   "label": "Do you have experience presenting at industry conferences or professional roundtables? If so, we'd love to hear about it - please tell us which events you’ve spoken at and the topics you covered.",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Which AML/KYC platforms have you worked with professionally?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Will you now or in the future require sponsorship for employment visa status within the location of the role?",
+   "reason": "no button matches \"citizen\""
+  },
+  {
+   "label": "Do you currently hold any active directorships, board memberships, or significant ownership stakes in any external businesses or entities?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have direct experience implementing or managing AML/KYC solutions and/or operational compliance processes within a regulated financial institution?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Which of the most accurately describes your hands-on experience designing, delivering, or implementing AML (Anti-Money Laundering) or KYC (Know Your Customer) technology solutions?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

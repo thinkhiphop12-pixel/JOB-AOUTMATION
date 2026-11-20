@@ -1,0 +1,37 @@
+{
+ "job_id": "fd6d1cacf3",
+ "title": "Customer Director ",
+ "company": "Faculty",
+ "url": "https://jobs.ashbyhq.com/faculty/fb70ca5e-623a-492a-a7fe-44332b0c972f/application",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:46"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:52:35.180Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:00:33.092Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 112,
+ "needs_you": [
+  {
+   "label": "Where did you first hear about Faculty?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

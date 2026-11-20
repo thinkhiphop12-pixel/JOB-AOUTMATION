@@ -1,0 +1,55 @@
+{
+ "url": "https://jobs.ashbyhq.com/ElevenLabs/b3dd0a00-6223-405b-9064-8619e98fa6e6/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Link to your LinkedIn profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Tell us about a time you’ve owned an operational process and what you learned",
+   "from": "package text",
+   "value": "I am applying for the Marketplace Operations role at Elevenl…"
+  },
+  {
+   "label": "How did you hear about ElevenLabs?",
+   "from": "job source",
+   "value": "Other (please specify)"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Link to your Github profile",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Please describe what makes you a great fit for the Marketplace Operations role",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "With the context you have, what would you say are our top 2 challenges to make Productions successful?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Location",
+   "reason": "dropdown has no option for \"Southampton\""
+  }
+ ],
+ "skipped": []
+}

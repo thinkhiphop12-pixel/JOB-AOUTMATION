@@ -1,0 +1,67 @@
+{
+ "url": "https://jobs.ashbyhq.com/elliptic/0bb90ebe-31b7-4093-8d25-849e09203414/application",
+ "filled": [
+  {
+   "label": "Full Legal Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Preferred Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Salary Expectations",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Do you require, or will you require in the future, work authorization sponsorship from Elliptic in region to which you are applying?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "This role is linked to your regional hub office with a minimum expectation of eight in-office days per month. Are you based in, or able to regularly commute to, the hub location for the region you’re applying to and will",
+   "from": "willing_to_work_in_london",
+   "value": "Yes"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  },
+  {
+   "label": "Cover Letter",
+   "file": "cover_letter.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

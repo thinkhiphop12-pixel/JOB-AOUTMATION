@@ -1,0 +1,37 @@
+{
+ "job_id": "b663c44bde",
+ "title": "Partner Manager, Education Partnerships",
+ "company": "Legora",
+ "url": "https://jobs.ashbyhq.com/legora/eede905a-6504-4741-8f5a-9be8de8f0cc3/application",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:55"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:53:03.621Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:03:39.975Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 110,
+ "needs_you": [
+  {
+   "label": "In what cities are you available to work?*",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "job_id": "a368410611",
+ "title": "Account Director - NY/NJ",
+ "company": "Snyk",
+ "url": "https://jobs.ashbyhq.com/Snyk/f197258d-081d-4724-bf9e-7f371320189a/application",
+ "tier": "B",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:18"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "not a fit (language, territory or specialism)"
+  }
+ ],
+ "note": "not a fit (language, territory or specialism)",
+ "location": "United States - NY Remote",
+ "priority": 122
+}

@@ -1,0 +1,68 @@
+{
+ "url": "https://jobs.ashbyhq.com/legora/eede905a-6504-4741-8f5a-9be8de8f0cc3/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Are you legally authorized to work full-time in the country where this job is based?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Will you now or in the future require employer sponsorship for employment authorization in the country where this job is based?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "Background Check Consent",
+   "from": "consents",
+   "value": "Yes"
+  },
+  {
+   "label": "I agree",
+   "from": "consents",
+   "value": "ticked"
+  },
+  {
+   "label": "Interview Recording Consent",
+   "from": "consents",
+   "value": "Yes, I consent to be recorded"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "In what cities are you available to work?*",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

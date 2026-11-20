@@ -1,0 +1,58 @@
+{
+ "url": "https://jobs.ashbyhq.com/faculty/34a7ebbb-6f37-4ad1-a082-f10cd2a2d4fb/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "What is your current notice period?",
+   "from": "notice_period",
+   "value": "6 weeks"
+  },
+  {
+   "label": "What are your salary expectations?",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "Do you require visa sponsorship either now, or at any point in the future, to work in the UK?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "I agree",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "CV",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Where did you first hear about Faculty?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

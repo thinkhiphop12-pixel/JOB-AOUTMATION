@@ -1,0 +1,41 @@
+{
+ "job_id": "46ca26f564",
+ "title": "Admin & Special Operations Agent",
+ "company": "Lendable",
+ "url": "https://jobs.ashbyhq.com/lendable/90b0ea10-27f0-41d9-aefd-8553f43c8b37/application",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:26"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:51:41.699Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:00:19.335Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 118,
+ "needs_you": [
+  {
+   "label": "Are you able to be in the office 3 days per week?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have a loan/credit card/auto loan with us? If yes - which product?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "url": "https://job-boards.greenhouse.io/alphasense/jobs/8936070002",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location (City)",
+   "from": "city",
+   "value": "Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Do you currently have permission to work in the UK?",
+   "from": "right_to_work_uk",
+   "value": "Yes, for any employer"
+  },
+  {
+   "label": "Will you require employer sponsorship for this role now or in the future?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "Is your permission to work in the UK time-limited?",
+   "from": "work_permission_time_limited",
+   "value": "No"
+  },
+  {
+   "label": "If yes, what is the expiry date of your current permission to work?",
+   "from": "work_permission_time_limited",
+   "value": "No"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Have you previously been employed by AlphaSense or any of its entities; or by an agency representing AlphaSense?",
+   "from": "previously_interviewed",
+   "value": "No"
+  },
+  {
+   "label": "I confirm I have read, understood and accept the AlphaSense Candidate Privacy Notice and I consent to AlphaSense processing my personal data.",
+   "from": "consents",
+   "value": "Yes"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

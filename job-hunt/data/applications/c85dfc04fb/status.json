@@ -1,0 +1,65 @@
+{
+ "job_id": "c85dfc04fb",
+ "title": "Associate Director - Client Success",
+ "company": "Clearbank",
+ "url": "https://jobs.ashbyhq.com/clearbank/dfddad27-5b75-4081-94b0-c27d477be3fa/application",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:59"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:50:36.652Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:58:39.491Z",
+   "note": ""
+  }
+ ],
+ "location": "London Office - 2/3 days a week",
+ "priority": 120,
+ "needs_you": [
+  {
+   "label": "If yes, please explain how you know them/your relationship with them.",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Does anyone you know already work at ClearBank?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have practical experience working in Client Success within the payments industry?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have experience managing and growing existing B2B client relationships within payments, banking or financial services?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Have you managed a portfolio of strategic Enterprise clients?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Delivering great work means collaborating in person as well as working remotely. Our minmum expectation is that you join us in the office 3 days per week office attendance depending on the seniority of the role. Please c",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Notice Period/Availability",
+   "reason": "required tick box with no rule"
+  },
+  {
+   "label": "Please confirm your right to work status",
+   "reason": "no option matches \"citizen\" (options: I'm a UK or Irish national or I have indefinite leave to remain / I'm an EU, EEA or Swiss National with status under the EU settlement scheme / I have another type of visa which gives me right to work in the UK (e.g. spousal visa))"
+  }
+ ]
+}

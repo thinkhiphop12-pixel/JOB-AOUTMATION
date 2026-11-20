@@ -1,0 +1,48 @@
+{
+ "url": "https://jobs.ashbyhq.com/notion/3b519524-cc8d-495d-a708-c57e78aca792/application",
+ "filled": [
+  {
+   "label": "Full Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Will you now or in the future require Notion to sponsor an immigration case in order to employ you?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "We work from our offices on Mondays, Tuesdays, and Thursdays (Anchor Days). If you need an accommodation, we’ll partner with you and explore reasonable options consistent with applicable law. Are you able to commit to wo",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

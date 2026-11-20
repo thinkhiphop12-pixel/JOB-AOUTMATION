@@ -1,0 +1,21 @@
+{
+ "job_id": "1f9cd3ce34",
+ "title": "Programme Director EMEA",
+ "company": "Snowflake",
+ "url": "https://jobs.ashbyhq.com/snowflake/0efeec18-5623-4c69-b58b-1ffc6db5734c/application",
+ "tier": "A",
+ "status": "draft",
+ "validation_errors": [
+  "'Snowflake' is claimed but is not in the CV (say it is being learnt, or drop it)"
+ ],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "draft",
+   "at": "2026-11-19T15:44:37"
+  }
+ ]
+}

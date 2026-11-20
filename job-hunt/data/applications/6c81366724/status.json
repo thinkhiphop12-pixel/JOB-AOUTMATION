@@ -1,0 +1,49 @@
+{
+ "job_id": "6c81366724",
+ "title": "Vulnerable Customer Account Manager",
+ "company": "Fundingcircle",
+ "url": "https://jobs.ashbyhq.com/fundingcircle/3867c5fe-a844-4ac4-8954-2d1fe34a9464/application",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:06"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:50:40.623Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:59:19.650Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 114,
+ "needs_you": [
+  {
+   "label": "How would you describe your ethnicity from the following options?*",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "Would you like any accommodations in your interview process? e.g. extra time, a different font / colour text, dictated text (such as from a screen reader), or a quieter zone with fewer distractions if the interview or ta",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "What is your eligibility to work in the UK?*",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Which pronoun do you use?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  }
+ ]
+}

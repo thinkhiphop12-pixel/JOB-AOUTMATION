@@ -1,0 +1,41 @@
+{
+ "job_id": "e715b3cef5",
+ "title": "Compliance & Risk Specialist ",
+ "company": "Seon",
+ "url": "https://jobs.ashbyhq.com/seon/e1ac4ff6-0ab8-443c-a6d0-e5abb4785615/application",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:03"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:53:38.595Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:03:32.871Z",
+   "note": ""
+  }
+ ],
+ "location": "Budapest, Europe - Remote",
+ "priority": 108,
+ "needs_you": [
+  {
+   "label": "How many weeks after accepting an offer could you start?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Are you currently residing in country of residence mentioned for the role you are applying for?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

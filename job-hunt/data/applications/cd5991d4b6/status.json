@@ -1,0 +1,53 @@
+{
+ "job_id": "cd5991d4b6",
+ "title": "Account Manager (Bexleyheath/Orpington, Sidcup)",
+ "company": "Deliveroo",
+ "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8352921",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:05"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:50:48.898Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:03:58.799Z",
+   "note": ""
+  }
+ ],
+ "location": "London, United Kingdom - Deliveroo",
+ "priority": 114,
+ "needs_you": [
+  {
+   "label": "Have you heard of Deliveroo before you started your job search?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have a valid driving licence and your own vehicle?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Are you happy and comfortable being out in the field 3 days a week?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "How would you describe your gender?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "Race",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  }
+ ]
+}

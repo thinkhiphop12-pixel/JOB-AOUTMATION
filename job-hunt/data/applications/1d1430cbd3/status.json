@@ -1,7 +1,7 @@
 {
  "job_id": "1d1430cbd3",
  "title": "Product Manager",
- "company": "bioM\u00e9rieux",
+ "company": "bioMérieux",
  "url": "https://uk.linkedin.com/jobs/view/product-manager-at-biom%C3%A9rieux-4492026235",
  "tier": "C",
  "status": "you_apply",
@@ -24,7 +24,12 @@
    "status": "you_apply",
    "at": "2026-11-19T15:30:00Z",
    "note": "CAPTCHA or login site: on your quick-apply list"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:56:27.827Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
- "note": "job board page: apply by hand"
+ "note": "CAPTCHA or login site: on your quick-apply list"
 }

@@ -1,0 +1,27 @@
+{
+ "job_id": "41ba908bf5",
+ "title": "Staff Product Manager, Tenant Scale",
+ "company": "Gitlab",
+ "url": "https://job-boards.greenhouse.io/gitlab/jobs/8919537002",
+ "tier": "B",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:44"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: Remote, Canada; Remote, United States"
+  }
+ ],
+ "note": "outside your area: Remote, Canada; Remote, United States",
+ "location": "Remote, Canada; Remote, United States",
+ "priority": 112
+}

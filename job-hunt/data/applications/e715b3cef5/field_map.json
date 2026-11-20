@@ -1,0 +1,76 @@
+{
+ "url": "https://jobs.ashbyhq.com/seon/e1ac4ff6-0ab8-443c-a6d0-e5abb4785615/application",
+ "filled": [
+  {
+   "label": "Full Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "What compensation range are you targeting for your next role?",
+   "from": "salary rule",
+   "value": "£65,000"
+  },
+  {
+   "label": "Current Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Are you legally authorized to work in this role’s country now and for the duration of employment, without employer sponsorship?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "How did you hear about this opportunity?",
+   "from": "job source",
+   "value": "Company careers page (typed)"
+  },
+  {
+   "label": "I acknowledge SEON’s Recruitment Privacy Notice and understand how my data will be used for recruitment.",
+   "from": "consents",
+   "value": "I acknowledge SEON’s Recruitment Privacy Notice."
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  },
+  {
+   "label": "Cover Letter",
+   "file": "cover_letter.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "How many weeks after accepting an offer could you start?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Are you currently residing in country of residence mentioned for the role you are applying for?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

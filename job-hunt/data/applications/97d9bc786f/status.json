@@ -1,0 +1,27 @@
+{
+ "job_id": "97d9bc786f",
+ "title": "Enterprise Account Executive",
+ "company": "Fivetran",
+ "url": "https://www.fivetran.com/careers/job?gh_jid=8039971003",
+ "tier": "C",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:36"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: Remote, Texas, United States, AMER"
+  }
+ ],
+ "note": "outside your area: Remote, Texas, United States, AMER",
+ "location": "Remote, Texas, United States, AMER",
+ "priority": 106
+}

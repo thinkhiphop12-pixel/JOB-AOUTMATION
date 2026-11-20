@@ -44,16 +44,22 @@
    "status": "needs_you",
    "at": "2026-11-19T15:36:09.239Z",
    "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:53:45.254Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:58:27.773Z",
+   "note": ""
   }
  ],
  "needs_you": [
   {
    "label": "Do you have any relatives currently working for Airwallex?",
    "reason": "required question with no approved answer"
-  },
-  {
-   "label": "We encourage you to use AI tools to help research, prepare, or refine your application materials. However, we ask that you do not use AI tools during live, real-time interviews unless you've been explicitly told otherwis",
-   "reason": "no button matches \"I use AI tools every day. I designed and built a work-manage…\""
   }
  ],
  "note": "no confirmation after Submit (possibly an invisible CAPTCHA)"

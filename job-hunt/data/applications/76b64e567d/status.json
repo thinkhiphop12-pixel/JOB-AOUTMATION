@@ -1,0 +1,27 @@
+{
+ "job_id": "76b64e567d",
+ "title": "Enterprise Account Executive",
+ "company": "Amplitude",
+ "url": "https://jobs.ashbyhq.com/amplitude/1031ce70-90e7-446d-be99-123a8058e686/application",
+ "tier": "C",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:47:03"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:55:33.640Z",
+   "note": "form fully filled in the cloud: your laptop submits it"
+  }
+ ],
+ "location": "London",
+ "priority": 104,
+ "note": "form fully filled in the cloud: your laptop submits it"
+}

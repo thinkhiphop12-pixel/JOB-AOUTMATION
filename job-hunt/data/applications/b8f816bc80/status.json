@@ -1,0 +1,27 @@
+{
+ "job_id": "b8f816bc80",
+ "title": "Enterprise Account Executive UKI (f/m/d)",
+ "company": "Contentful",
+ "url": "https://job-boards.greenhouse.io/contentful/jobs/8330490",
+ "tier": "C",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:52"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "not a fit (language, territory or specialism)"
+  }
+ ],
+ "note": "not a fit (language, territory or specialism)",
+ "location": "London, England, United Kingdom",
+ "priority": 104
+}

@@ -1,0 +1,45 @@
+{
+ "job_id": "522c0bffbc",
+ "title": "Solutions Lead",
+ "company": "Ramp",
+ "url": "https://jobs.ashbyhq.com/ramp/f424733c-6dc9-4194-82a5-c658812a946e/application",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:38"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:52:02.706Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:59:54.815Z",
+   "note": ""
+  }
+ ],
+ "location": "London, UK",
+ "priority": 116,
+ "needs_you": [
+  {
+   "label": "Do you have experience working on IdP, HRIS, and/or ERP solutions?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have 3+ years of experience in Solutions Consulting, Sales Engineering, Solutions Architecture, or similar customer-facing roles, focusing on implementing business SaaS solutions and utilizing APIs within the fina",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Phone",
+   "reason": "no option matches \"+44 7460 304104\" (options: Yes - I consent to receiving SMS text messages / No - I do not consent to receiving SMS text messages / Yes - I consent to receiving WhatsApp messages)"
+  }
+ ]
+}

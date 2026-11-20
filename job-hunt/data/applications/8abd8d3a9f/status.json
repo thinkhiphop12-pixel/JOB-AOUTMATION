@@ -1,0 +1,27 @@
+{
+ "job_id": "8abd8d3a9f",
+ "title": "VP, Strategy and Operations",
+ "company": "Attentive",
+ "url": "https://job-boards.greenhouse.io/attentive/jobs/4507227009",
+ "tier": "B",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:22"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: United States"
+  }
+ ],
+ "note": "outside your area: United States",
+ "location": "United States",
+ "priority": 119
+}

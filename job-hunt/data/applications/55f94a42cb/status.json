@@ -1,0 +1,27 @@
+{
+ "job_id": "55f94a42cb",
+ "title": "Senior Partner Account Manager ",
+ "company": "Samsara",
+ "url": "https://www.samsara.com/company/careers/roles/8359154?gh_jid=8359154",
+ "tier": "A",
+ "status": "you_apply",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:49"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:49:41.018Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
+  }
+ ],
+ "location": "London, England, United Kingdom",
+ "priority": 124,
+ "note": "CAPTCHA or login site: on your quick-apply list"
+}

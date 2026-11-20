@@ -1,0 +1,49 @@
+{
+ "job_id": "272e189224",
+ "title": "GTM Lead, UK - SMB/MM/Enterprise ",
+ "company": "Dust",
+ "url": "https://jobs.ashbyhq.com/dust/bf549274-9930-49bf-9600-1472d01f682c/application",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:07"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:54:06.393Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:04:03.320Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 124,
+ "needs_you": [
+  {
+   "label": "Do you have the appropriate work authorization for this role?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Dust is an office-first company. We value in-person collaboration while recognizing the importance of flexibility when needed. Does this align with your preferred working style?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "What knowledge or experience do you have working with AI and/or Dust? Select all that apply.",
+   "reason": "required tick box with no rule"
+  },
+  {
+   "label": "If we end up being a match, what kind of laptop would you prefer?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

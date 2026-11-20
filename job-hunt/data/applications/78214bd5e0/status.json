@@ -1,0 +1,45 @@
+{
+ "job_id": "78214bd5e0",
+ "title": "Strategic account executive (UK)",
+ "company": "Writer",
+ "url": "https://jobs.ashbyhq.com/WRITER/94cc108b-ccd3-42d2-a485-b2afdcefef46/application",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:47:08"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:55:37.671Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:57:56.125Z",
+   "note": ""
+  }
+ ],
+ "location": "London, UK",
+ "priority": 104,
+ "needs_you": [
+  {
+   "label": "Please give an example from your professional experience that aligns with one or more of our cultural values:",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Are you able and excited to join us for in person, collaborative working sessions in office 3 days / week?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Are you located within 50 miles of one of the following office hubs",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

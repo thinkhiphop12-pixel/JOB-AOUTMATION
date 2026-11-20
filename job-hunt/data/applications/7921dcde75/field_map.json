@@ -1,0 +1,73 @@
+{
+ "url": "https://jobs.lever.co/moonpig/1b71a9dc-ecd9-4d9c-8283-4b4c4106f680/apply",
+ "filled": [
+  {
+   "label": "Full name ✱",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email ✱",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone ✱",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Current location",
+   "from": "city",
+   "value": "Southampton"
+  },
+  {
+   "label": "Current company",
+   "from": "current_company",
+   "value": "Global Blue (part of Shift4)"
+  },
+  {
+   "label": "LinkedIn URL",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "If yes, please provide details of your right to work, i.e British Citizen, pre-settled status etc and please include any expiry dates if applicable.",
+   "from": "work_permission_time_limited",
+   "value": "No"
+  },
+  {
+   "label": "Salary expectation ✱",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "What is your notice period? ✱",
+   "from": "notice_period",
+   "value": "6 weeks"
+  },
+  {
+   "label": "Moonpig has my consent to contact me about future job opportunities.",
+   "from": "consents",
+   "value": "ticked"
+  },
+  {
+   "label": "Have you been an employee of PwC within the last 2 years but are not currently employed by PwC?",
+   "from": "previously_interviewed",
+   "value": "No"
+  },
+  {
+   "label": "Do You have the Right to Work in the UK? ✱",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume/CV ✱ ATTACH RESUME/CV",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

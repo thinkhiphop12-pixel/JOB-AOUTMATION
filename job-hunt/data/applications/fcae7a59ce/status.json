@@ -1,0 +1,21 @@
+{
+ "job_id": "fcae7a59ce",
+ "title": "Partner Sales Manager, Financial Services \u2013 UK&I",
+ "company": "Snowflake",
+ "url": "https://jobs.ashbyhq.com/snowflake/67b8ac71-7890-48fb-9c87-268a8c3c8922/application",
+ "tier": "B",
+ "status": "draft",
+ "validation_errors": [
+  "'Snowflake' is claimed but is not in the CV (say it is being learnt, or drop it)"
+ ],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "draft",
+   "at": "2026-11-19T15:45:47"
+  }
+ ]
+}

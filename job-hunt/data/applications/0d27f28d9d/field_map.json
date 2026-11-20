@@ -1,0 +1,71 @@
+{
+ "url": "https://jobs.ashbyhq.com/xero/a8922a34-e6dd-439c-a723-88a337875309/application",
+ "filled": [
+  {
+   "label": "Name (first & last)",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Have you previously been employed by Xero?",
+   "from": "previously_interviewed",
+   "value": "No"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Pronouns",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "Declaration & Background Checking",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Flexible Working",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "What approach do you take when starting a piece of work?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Which statement best describes how you use AI in your work?",
+   "reason": "no option matches \"I use AI tools every day. I designed and built a work-manage…\" (options: I keep prompts, context, or instructions that I reuse across similar tasks, and have adapted my workflow around them. / I use AI for individual tasks as they come up (e.g. drafting, research, or troubleshooting). / I use AI as part of my regular work, adjusting my prompts for each task and working within the tools as they're set up.)"
+  },
+  {
+   "label": "Which statement best describes how you judge AI's output?",
+   "reason": "no option matches \"I use AI tools every day. I designed and built a work-manage…\" (options: I help set shared standards for where AI is used, how much to trust it, and when judgement leads. / When AI is used, I review the result for obvious errors before using it. / I weigh AI's value and limits against the task's need for human judgement, and set checks accordingly.)"
+  },
+  {
+   "label": "Which statement best describes your approach to AI accountability?",
+   "reason": "no option matches \"I use AI tools every day. I designed and built a work-manage…\" (options: I hold AI-assisted work to the same standard as any other, and flag risks through the right channels. / I build governance into workflows so accountability holds as others adopt them. / I build checks into the workflow from the start, and keep them current as it evolves.)"
+  },
+  {
+   "label": "Working Rights",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

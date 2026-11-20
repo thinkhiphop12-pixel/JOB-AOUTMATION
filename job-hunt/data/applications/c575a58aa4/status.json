@@ -1,0 +1,27 @@
+{
+ "job_id": "c575a58aa4",
+ "title": "Account Executive, Financial Services",
+ "company": "Alphasense",
+ "url": "https://job-boards.greenhouse.io/alphasense/jobs/8936070002",
+ "tier": "C",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:47:09"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:55:58.184Z",
+   "note": "form fully filled in the cloud: your laptop submits it"
+  }
+ ],
+ "location": "London, Greater London, England, United Kingdom",
+ "priority": 102,
+ "note": "form fully filled in the cloud: your laptop submits it"
+}

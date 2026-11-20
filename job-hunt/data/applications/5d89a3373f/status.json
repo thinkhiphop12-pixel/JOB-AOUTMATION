@@ -1,0 +1,27 @@
+{
+ "job_id": "5d89a3373f",
+ "title": "Account Manager",
+ "company": "Complyadvantage",
+ "url": "https://complyadvantage.com/careers/jobs/8938102002?gh_jid=8938102002",
+ "tier": "A",
+ "status": "you_apply",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:29"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:49:02.802Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
+  }
+ ],
+ "location": "London, England, United Kingdom",
+ "priority": 131,
+ "note": "CAPTCHA or login site: on your quick-apply list"
+}

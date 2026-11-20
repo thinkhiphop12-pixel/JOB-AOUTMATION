@@ -56,6 +56,8 @@ const TEXT_MAP = [
   [/salary|compensation|pay expectation|expected (base|pay)/i, 'salary_expectation'],
 ];
 const YESNO_MAP = [
+  [/at least 18|over (the age of )?18|18 years (of age|or older)|aged 18/i, 'over_18'],
+  [/i confirm (that )?(the |my |all )?(information|details|application)|(true|accurate),? (complete|and complete|and accurate)|information .{0,40}(is|are) (true|accurate)/i, 'consents'],
   [/time[- ]limited|will (it|your (visa|permission)) expire|expiry date/i, 'work_permission_time_limited'],
   [/right to work|permission to work|authori[sz]ed to work|eligible to work|legally (able|entitled|permitted|allowed) to work|allowed to work|work permit/i, 'right_to_work_uk'],
   [/sponsor/i, 'requires_sponsorship'],
@@ -67,7 +69,7 @@ const YESNO_MAP = [
   [/based in london|relocat|commut|work (from|in) (our )?london|london office|come into the office|happy to (come|work) (in|into|from)/i, 'willing_to_work_in_london'],
   [/privacy|data (protection|policy|processing|safe|transfer)|candidate data|ai policy|acknowledg|consent|i agree|terms|talent (community|pool)/i, 'consents'],
 ];
-const NEVER = /criminal|convict|disabilit|gender|ethnic|race\b|veteran|sexual|religio|date of birth|national insurance|passport number|bank|pronoun/i;
+const NEVER = /criminal|convict|disabilit|gender|ethnic|race\b|veteran|sexual|religio|date of birth|national insurance|passport number|bank (details|account)|sort code|account number|pronoun/i;
 const BLOCKED_HOSTS = /linkedin\.|indeed\.|totaljobs\.|cv-library\.|cwjobs\.|glassdoor\./i;
 
 function intentRegex(answer) {
@@ -204,7 +206,26 @@ async function fillForm(page, pkg_, spec_) {
       if (!label) continue;
       if (/^\(optional\)|\(optional\)/i.test(label)) blk.req = false;
       if (blk.value && !blk.kinds.some((k) => k === 'radio' || k === 'checkbox')) continue;
-      if (NEVER.test(label)) { if (blk.req) map.needs_you.push({ label, reason: 'personal/equal-opportunity question: not answered automatically' }); continue; }
+      if (NEVER.test(label)) {
+        // Equal-opportunity questions: only ever choose "Prefer not to say" / "Decline" (honest, and never a guess about you).
+        const PNS = /prefer not|decline|don'?t wish|do not wish|rather not|not (wish )?to (say|disclose|answer|self-identify)|choose not/i;
+        let done = false;
+        try {
+          if (!/criminal|convict/i.test(label)) {
+            if (blk.btns.length) { const o = blk.btns.find((x) => PNS.test(x)); if (o) { await B(blk).locator('button').filter({ hasText: o }).first().click({ timeout: 8000 }); done = true; } }
+            else if (blk.kinds.includes('radio') || (blk.kinds.includes('checkbox') && blk.optLabels.length)) { const o = blk.optLabels.find((x) => PNS.test(x)); if (o) { await B(blk).locator('label').filter({ hasText: o.slice(0, 60) }).first().click({ timeout: 8000 }); done = true; } }
+            else if (blk.kinds.includes('select')) { const o = (blk.selects[0] || []).find((x) => PNS.test(x)); if (o) { await B(blk).locator('select').first().selectOption({ label: o }); done = true; } }
+            else if (blk.kinds.includes('combobox')) {
+              const box = B(blk).locator('[role=combobox]').first(); await box.click({ timeout: 8000, force: true }); await page.waitForTimeout(500);
+              const opts = (await page.locator('[role=option]:visible').allInnerTexts().catch(() => [])).map((x) => x.trim());
+              const o = opts.find((x) => PNS.test(x));
+              if (o) { await page.locator('[role=option]:visible').filter({ hasText: o }).first().click({ timeout: 8000 }); done = true; } else await page.keyboard.press('Escape');
+            }
+          }
+        } catch (e) { done = false; }
+        if (done) { map.filled.push({ label, from: 'equal-opportunity', value: 'Prefer not to say' }); continue; }
+        if (blk.req) map.needs_you.push({ label, reason: 'personal/equal-opportunity question: not answered automatically' }); continue;
+      }
       let r = resolve({ label, tag: blk.kinds.includes('textarea') ? 'textarea' : 'input' });
       if (/which location are you applying|location (you will be|you'd be) based|preferred (office|location)/i.test(label)) r = { val: jobCity, from: 'job location' };
       if (/nature of your right to work|right to work status|citizenship|immigration status|visa status|current visa/i.test(label) && A.citizenship) r = { val: 'citizen', from: 'citizenship', intent: 'citizen' };
@@ -214,7 +235,10 @@ async function fillForm(page, pkg_, spec_) {
       }
       const short = r.val.length > 60 ? r.val.slice(0, 60) + '…' : r.val;
       const pickFrom = (opts) => r.intent === 'citizen' ? opts.find((o) => /^citizen of the country|british|uk citizen|i'?m a citizen|citizen/i.test(o))
-        : r.intent === 'commute' ? opts.find((o) => /commut|hybrid/i.test(o)) : pickOption(opts, r.val);
+        : r.intent === 'commute' ? opts.find((o) => /commut|hybrid/i.test(o))
+        // Long AI-usage answer but the form only offers short choices (consent to AI note-taking / "did you use AI"): you accepted AI policies and do use AI, so Yes.
+        : (r.from === 'ai_usage' && opts.length && opts.every((o) => o.length < 40)) ? pickOption(opts, 'Yes')
+        : (pickOption(opts, r.val) || (/hear|find out|learn(ed)? about|source/i.test(label) ? (opts.find((o) => /careers? (page|site|website)|company (web)?site|website/i.test(o)) || opts.find((o) => /^other\b/i.test(o))) : undefined));
       // Yes/No buttons (Ashby)
       if (blk.btns.length) {
         const pick = pickFrom(blk.btns);

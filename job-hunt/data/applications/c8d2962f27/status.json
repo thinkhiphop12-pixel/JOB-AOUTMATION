@@ -1,0 +1,38 @@
+{
+ "job_id": "c8d2962f27",
+ "title": "Lead AI & Value Transformation Consultant - CPG",
+ "company": "Celonis",
+ "url": "https://job-boards.greenhouse.io/celonis/jobs/8201989003?gh_jid=8201989003",
+ "tier": "A",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:32"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:49:34.460Z",
+   "note": ""
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:59:15.147Z",
+   "note": "form fully filled in the cloud: your laptop submits it"
+  }
+ ],
+ "location": "London, United Kingdom",
+ "priority": 128,
+ "needs_you": [
+  {
+   "label": "I confirm the information provided in this application, including but not limited to my resume and the above information, is true and correct. I understand that false statements or material omissions of any kind during t",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "note": "form fully filled in the cloud: your laptop submits it"
+}

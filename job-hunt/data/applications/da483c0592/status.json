@@ -1,0 +1,45 @@
+{
+ "job_id": "da483c0592",
+ "title": "Client Partner (Strategic Account Management Lead- National Accounts)",
+ "company": "Deliveroo",
+ "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206489",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:40"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:52:30.978Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:00:41.164Z",
+   "note": ""
+  }
+ ],
+ "location": "Deliveroo; London, United Kingdom",
+ "priority": 114,
+ "needs_you": [
+  {
+   "label": "Can you commit to 3 days in our London HQ ?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "How would you describe your gender?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "Race",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  }
+ ]
+}

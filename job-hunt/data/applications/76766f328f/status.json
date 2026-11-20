@@ -1,0 +1,37 @@
+{
+ "job_id": "76766f328f",
+ "title": "Strategic Account Director",
+ "company": "Decagon",
+ "url": "https://jobs.ashbyhq.com/decagon/12d4dcc2-0a5a-48ef-9c47-cc45eb9bc0dd/application",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:25"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:48:56.451Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:59:05.120Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 148,
+ "needs_you": [
+  {
+   "label": "What college/university did you attend?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "job_id": "6de350c90c",
+ "title": "Customer Success Manager",
+ "company": "Carta",
+ "url": "https://job-boards.greenhouse.io/carta/jobs/8080421003",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:30"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:49:11.055Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:02:32.355Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 130,
+ "needs_you": [
+  {
+   "label": "Have you worked for Carta at any other time previously?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "We work on a hybrid schedule where we come into office 3x/week and work remotely the remaining 2 days. In office schedules are set by location and team. Please confirm you can work in person at the location(s) of the job",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "job_id": "65b9a5069f",
+ "title": "Commercial Account Executive",
+ "company": "Brex",
+ "url": "https://www.brex.com/careers/8918261002?gh_jid=8918261002",
+ "tier": "B",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:31"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: Salt Lake City, Utah, United States"
+  }
+ ],
+ "note": "outside your area: Salt Lake City, Utah, United States",
+ "location": "Salt Lake City, Utah, United States",
+ "priority": 116
+}

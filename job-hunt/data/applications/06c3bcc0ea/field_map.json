@@ -1,0 +1,86 @@
+{
+ "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/5015526101",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location (City)",
+   "from": "city",
+   "value": "Southampton, England, United Kingdom"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Do you have a valid work permit in the UK?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Do you require relocation support to join us in UK?",
+   "from": "willing_to_work_in_london",
+   "value": "Yes"
+  },
+  {
+   "label": "Country / Place of Residence",
+   "from": "country",
+   "value": "United Kingdom"
+  },
+  {
+   "label": "What is your annual salary expectation? (Please provide a number or range)",
+   "from": "salary rule",
+   "value": "£65,000"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Do you have deep understanding of the Life Sciences, Pharmaceutical, or Biotech manufacturing industries, including the regulatory and quality context (e.g., GxP, validation requirements) that shapes how these customers",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have 5+ years of direct enterprise software/SaaS sales experience, consistently exceeding quotas in high-growth environments?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Are you experienced with using the MEDDIC Sales Methodology?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

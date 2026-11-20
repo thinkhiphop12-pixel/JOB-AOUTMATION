@@ -1,0 +1,27 @@
+{
+ "job_id": "7921dcde75",
+ "title": "Gift Cards Partnerships Manager",
+ "company": "Moonpig",
+ "url": "https://jobs.lever.co/moonpig/1b71a9dc-ecd9-4d9c-8283-4b4c4106f680/apply",
+ "tier": "B",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:21"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:51:37.721Z",
+   "note": "form fully filled in the cloud: your laptop submits it"
+  }
+ ],
+ "location": "London",
+ "priority": 120,
+ "note": "form fully filled in the cloud: your laptop submits it"
+}

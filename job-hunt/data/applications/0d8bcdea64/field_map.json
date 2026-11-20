@@ -1,0 +1,73 @@
+{
+ "url": "https://boards.greenhouse.io/figma/jobs/6236341004?gh_jid=6236341004",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location (City)",
+   "from": "city",
+   "value": "Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Why do you want to join Figma?",
+   "from": "package text",
+   "value": "I am applying for the Solutions Consultant, SMB (London, Uni…"
+  },
+  {
+   "label": "Are you authorized to work in the country for which you applied?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Have you ever worked for Figma before, as an employee or a contractor/consultant?",
+   "from": "previously_interviewed",
+   "value": "No"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "From where do you intend to work?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

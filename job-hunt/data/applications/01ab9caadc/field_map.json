@@ -1,0 +1,53 @@
+{
+ "url": "https://jobs.ashbyhq.com/accurx/da4dcb04-1c51-49b9-8629-bd6bfe6bad01/application",
+ "filled": [
+  {
+   "label": "Full Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "How did you hear about us/this job?",
+   "from": "job source",
+   "value": "Company careers page"
+  },
+  {
+   "label": "Are you happy to work from our office three days per week?",
+   "from": "willing_to_work_in_london",
+   "value": "Yes"
+  },
+  {
+   "label": "Will you require visa sponsorship from Accurx to work in the UK now or in the future?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "I agree",
+   "from": "consents",
+   "value": "ticked"
+  },
+  {
+   "label": "Interview Recording Consent",
+   "from": "consents",
+   "value": "Yes, I consent to be recorded"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

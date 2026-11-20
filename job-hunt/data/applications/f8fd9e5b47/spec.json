@@ -1,0 +1,51 @@
+{
+ "variant": "analyst",
+ "summary": "Data analyst and project manager with 5 years in a regulated, multi-country payments business (Global Blue, part of Shift4), promoted three times in four years. Automates reporting, keeps master data accurate across ~40 countries and turns messy data into clear decisions for senior leadership.",
+ "skills": [
+  "Project delivery",
+  "RAID and dependencies",
+  "Governance",
+  "Regulatory change",
+  "Stakeholders in ~40 countries",
+  "Adoption and change",
+  "Training and enablement",
+  "AgilePM",
+  "Salesforce",
+  "MicroStrategy",
+  "Excel (macros)",
+  "Power Automate",
+  "Claude and Claude Code"
+ ],
+ "bullets": {
+  "gb-dapm": [
+   "report-350k",
+   "pricing-50",
+   "master-600",
+   "mbr-exec",
+   "invoice-fix",
+   "claude-system",
+   "governance-25",
+   "subs-1000"
+  ],
+  "gb-ssm": [
+   "playbook",
+   "mass-updates",
+   "remapping",
+   "monitoring"
+  ],
+  "gb-ss": [
+   "ss-summary"
+  ]
+ },
+ "cover_letter": [
+  "I am applying for the Lead Data Scientist role at Faculty. This role needs someone who turns messy data into clear decisions. For 5 years at Global Blue, part of Shift4, a regulated, multi-country payments business, I have done exactly that, and I have been promoted three times in four years.",
+  "I cut a monthly 350,000-row report build from hours to minutes by automating it and documented the seven-source data chain. I built issue-ratio and eligibility monitoring reports in Salesforce that are now used in every monthly business review, and 50+ commercial pricing models across 40 brands.",
+  "I produce monthly business reviews and Town Hall packs for senior leadership, including the Shift4 executive team, and I keep a ~600-account international master list accurate for account managers in ~40 countries.",
+  "I hold the AgilePM\u00ae v3 Practitioner certificate and an MA from the University of Sheffield, and I live in Southampton. I would put early effort into learning your tools and ways of working, while bringing delivery discipline from a regulated environment.",
+  "I would welcome the chance to discuss the role."
+ ],
+ "answers": {
+  "Supporting information": "I am applying for the Lead Data Scientist role at Faculty. This role needs someone who turns messy data into clear decisions. For 5 years at Global Blue, part of Shift4, a regulated, multi-country payments business, I have done exactly that, and I have been promoted three times in four years. I cut a monthly 350,000-row report build from hours to minutes by automating it and documented the seven-source data chain. I built issue-ratio and eligibility monitoring reports in Salesforce that are now used in every monthly business review, and 50+ commercial pricing models across 40 brands. I produce monthly business reviews and Town Hall packs for senior leadership, including the Shift4 executive team, and I keep a ~600-account international master list accurate for account managers in ~40 countries. I hold the AgilePM\u00ae v3 Practitioner certificate and an MA from the University of Sheffield, and I live in Southampton. I would put early effort into learning your tools and ways of working, while bringing delivery discipline from a regulated environment.",
+  "Why Faculty?": "The role at Faculty builds directly on the delivery and adoption work I do now, in a place where I can grow."
+ }
+}

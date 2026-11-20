@@ -1,0 +1,51 @@
+{
+ "url": "https://jobs.ashbyhq.com/sardine/1a848261-5b5b-414b-9771-0dad2d45300c/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "E-mail",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "LinkedIn URL",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Please share two lines on your motivation to join Sardine",
+   "from": "package text",
+   "value": "I am applying for the Partnerships Manager role at Sardine. …"
+  },
+  {
+   "label": "Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Do you have professional experience in Fraud, Risk, Compliance, or Financial Services?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have experience with CRM tools (e.g., Salesforce, HubSpot) to track sales performance and reporting?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have experience owning and achieving a $1M+ annual revenue target through channel partnerships?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

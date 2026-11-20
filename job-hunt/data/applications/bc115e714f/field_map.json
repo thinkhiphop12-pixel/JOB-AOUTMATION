@@ -1,0 +1,78 @@
+{
+ "url": "https://jobs.ashbyhq.com/lovable/1340bc94-1c11-459b-9e0f-481d5f3a588d/application",
+ "filled": [
+  {
+   "label": "Full Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email ID",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn Profile URL",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "What is the earliest date you can join us?",
+   "from": "notice_period (6 weeks)",
+   "value": "2026-12-31"
+  },
+  {
+   "label": "What are your compensation expectations?",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "Why do you want to join Lovable specifically and what makes you a great fit?",
+   "from": "package text",
+   "value": "I am applying for the Global Payments Partner Lead role at L…"
+  },
+  {
+   "label": "Is there anything else you'd like us to know about you?",
+   "from": "package text",
+   "value": "I am applying for the Global Payments Partner Lead role at L…"
+  },
+  {
+   "label": "Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Do you currently have the legal right to work in the country where you are applying for this role?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Will you now or in the future require the company to sponsor a visa or work permit in order to work in this location?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "How did you hear about us?",
+   "from": "job source",
+   "value": "Website"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "What is the most impressive thing you’ve done in your career?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

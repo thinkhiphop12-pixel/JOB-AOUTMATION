@@ -1,0 +1,37 @@
+{
+ "job_id": "f8fd51cde1",
+ "title": "Senior Product Manager",
+ "company": "Faculty",
+ "url": "https://jobs.ashbyhq.com/faculty/e1df8d31-461f-43b4-81ed-dbf8cd9fbedf/application",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:40"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:55:14.942Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:02:45.481Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 106,
+ "needs_you": [
+  {
+   "label": "Where did you first hear about Faculty?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

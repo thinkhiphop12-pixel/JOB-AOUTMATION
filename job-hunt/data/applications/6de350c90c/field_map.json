@@ -1,0 +1,67 @@
+{
+ "url": "https://job-boards.greenhouse.io/carta/jobs/8080421003",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location (City)",
+   "from": "city",
+   "value": "Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Are you currently eligible to work in the country where this position is located for any employer?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Do you now or in the future require visa sponsorship to continue working in the country where this position is located?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Have you worked for Carta at any other time previously?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "We work on a hybrid schedule where we come into office 3x/week and work remotely the remaining 2 days. In office schedules are set by location and team. Please confirm you can work in person at the location(s) of the job",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

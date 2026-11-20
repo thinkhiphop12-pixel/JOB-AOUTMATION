@@ -1,0 +1,27 @@
+{
+ "job_id": "de0385ea56",
+ "title": "Account Executive - Enterprise - Healthcare",
+ "company": "Elevenlabs",
+ "url": "https://jobs.ashbyhq.com/ElevenLabs/c90159fa-8577-4213-b5b3-356051742c67/application",
+ "tier": "C",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:38"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: Remote, United States, New York, San Francisco"
+  }
+ ],
+ "note": "outside your area: Remote, United States, New York, San Francisco",
+ "location": "Remote, United States, New York, San Francisco",
+ "priority": 106
+}

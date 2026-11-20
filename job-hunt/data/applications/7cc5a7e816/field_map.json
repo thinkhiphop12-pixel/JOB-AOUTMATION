@@ -1,0 +1,62 @@
+{
+ "url": "https://jobs.ashbyhq.com/teya/026fe091-b172-4b48-b3ad-f9c383ada1a1/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Linkedin",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Salary Expectations",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "Current Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "I agree",
+   "from": "consents",
+   "value": "ticked"
+  },
+  {
+   "label": "Right to work",
+   "from": "right_to_work_uk",
+   "value": "I have the right to work in the country due to my nationality."
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Working Model",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Notice Period",
+   "reason": "no option matches \"6 weeks\" (options: Avaliable Immediately / 2 Weeks Notice / 1 Month Notice)"
+  }
+ ],
+ "skipped": []
+}

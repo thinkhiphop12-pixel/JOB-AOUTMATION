@@ -1,0 +1,27 @@
+{
+ "job_id": "3cb17bf804",
+ "title": "Principal Product Manager Agents and Context - Elasticsearch",
+ "company": "Elastic",
+ "url": "https://jobs.elastic.co/jobs?gh_jid=8306248&gh_jid=8306248",
+ "tier": "C",
+ "status": "you_apply",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:35"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:54:31.332Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
+  }
+ ],
+ "location": "United Kingdom",
+ "priority": 106,
+ "note": "CAPTCHA or login site: on your quick-apply list"
+}

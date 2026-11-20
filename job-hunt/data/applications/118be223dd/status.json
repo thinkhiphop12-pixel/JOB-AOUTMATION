@@ -1,0 +1,27 @@
+{
+ "job_id": "118be223dd",
+ "title": "Sales Leader, Commercial",
+ "company": "Databricks",
+ "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8936930002",
+ "tier": "B",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:28"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: United States"
+  }
+ ],
+ "note": "outside your area: United States",
+ "location": "United States",
+ "priority": 117
+}

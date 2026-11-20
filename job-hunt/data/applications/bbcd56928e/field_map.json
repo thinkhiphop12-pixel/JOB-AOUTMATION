@@ -1,0 +1,68 @@
+{
+ "url": "https://jobs.ashbyhq.com/harvey/0eeba998-e84a-4f37-a8f5-2ddd7399bd50/application",
+ "filled": [
+  {
+   "label": "Legal First and Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Preferred Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Current or Most Recent Employer",
+   "from": "current_company",
+   "value": "Global Blue (part of Shift4)"
+  },
+  {
+   "label": "LinkedIn",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Are you legally authorized to work in the country where this role is located, for any employer?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Will you now or will you in the future require employment visa sponsorship?",
+   "from": "requires_sponsorship",
+   "value": "No, I do not require sponsorship to work in the country where this role is located"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "This role is tied to the office location listed in the job posting. Team members are expected to work from the office 3 days per week as part of Harvey’s hybrid work model. Are you currently based in the listed location",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

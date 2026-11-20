@@ -1,0 +1,78 @@
+{
+ "url": "https://jobs.ashbyhq.com/quantexa/e7000663-bde2-49c8-a73d-5084d2e4180d/application",
+ "filled": [
+  {
+   "label": "Full Legal Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "What are you salary expectations?",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "If applicable, what is your current notice period?",
+   "from": "notice_period",
+   "value": "6 weeks"
+  },
+  {
+   "label": "Please explain in detail why you believe your skills, experience, and background make you the best fit for this role. Tip: Feel free to highlight specific achievements, projects, or unique strengths that align with the j",
+   "from": "package text",
+   "value": "I am applying for the AML & KYC Solutions Manager - EMEA rol…"
+  },
+  {
+   "label": "Are you legally authorized to work in the location of the role?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Location",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Are you able and willing to work from our London office for a minimum of 3 days per week?",
+   "from": "willing_to_work_in_london",
+   "value": "Yes"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Do you have experience presenting at industry conferences or professional roundtables? If so, we'd love to hear about it - please tell us which events you’ve spoken at and the topics you covered.",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Which AML/KYC platforms have you worked with professionally?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Will you now or in the future require sponsorship for employment visa status within the location of the role?",
+   "reason": "no button matches \"citizen\""
+  },
+  {
+   "label": "Do you currently hold any active directorships, board memberships, or significant ownership stakes in any external businesses or entities?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have direct experience implementing or managing AML/KYC solutions and/or operational compliance processes within a regulated financial institution?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Which of the most accurately describes your hands-on experience designing, delivering, or implementing AML (Anti-Money Laundering) or KYC (Know Your Customer) technology solutions?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

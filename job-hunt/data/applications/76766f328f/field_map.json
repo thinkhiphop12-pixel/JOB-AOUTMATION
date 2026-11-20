@@ -1,0 +1,53 @@
+{
+ "url": "https://jobs.ashbyhq.com/decagon/12d4dcc2-0a5a-48ef-9c47-cc45eb9bc0dd/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "How did you hear about Decagon?",
+   "from": "job source",
+   "value": "Company careers page"
+  },
+  {
+   "label": "Are you legally authorized to work in the country where this role is located?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Will you now or in the future require visa sponsorship to work in the country where this role is located?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "What college/university did you attend?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

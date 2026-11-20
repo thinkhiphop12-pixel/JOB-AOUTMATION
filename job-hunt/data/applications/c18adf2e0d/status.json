@@ -1,6 +1,6 @@
 {
  "job_id": "c18adf2e0d",
- "title": "Project Manager \u2013 Prevention & Transformation",
+ "title": "Project Manager – Prevention & Transformation",
  "company": "Barts Health NHS Trust",
  "url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9259-26-1931",
  "tier": "C",
@@ -24,7 +24,12 @@
    "status": "you_apply",
    "at": "2026-11-19T15:30:00Z",
    "note": "CAPTCHA or login site: on your quick-apply list"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:56:34.572Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
- "note": "ATS needs a candidate account"
+ "note": "CAPTCHA or login site: on your quick-apply list"
 }

@@ -1,0 +1,37 @@
+{
+ "job_id": "ac9ebd0ad4",
+ "title": "Technical CX Specialist, EMEA",
+ "company": "Harvey",
+ "url": "https://jobs.ashbyhq.com/harvey/cbb288f0-8eb6-44dd-a8d7-2b5de901e101/application",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:47:21"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:56:04.745Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:01:26.256Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 101,
+ "needs_you": [
+  {
+   "label": "This role is tied to the office location listed in the job posting. Team members are expected to work from the office 3 days per week as part of Harvey’s hybrid work model. Are you currently based in the listed location",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

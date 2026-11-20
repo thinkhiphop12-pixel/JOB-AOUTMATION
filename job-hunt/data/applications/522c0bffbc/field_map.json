@@ -1,0 +1,46 @@
+{
+ "url": "https://jobs.ashbyhq.com/ramp/f424733c-6dc9-4194-82a5-c658812a946e/application",
+ "filled": [
+  {
+   "label": "Legal Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Are you able to work from our London office 5 days per week?",
+   "from": "office_4_plus_days",
+   "value": "No"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Do you have experience working on IdP, HRIS, and/or ERP solutions?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have 3+ years of experience in Solutions Consulting, Sales Engineering, Solutions Architecture, or similar customer-facing roles, focusing on implementing business SaaS solutions and utilizing APIs within the fina",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Phone",
+   "reason": "no option matches \"+44 7460 304104\" (options: Yes - I consent to receiving SMS text messages / No - I do not consent to receiving SMS text messages / Yes - I consent to receiving WhatsApp messages)"
+  }
+ ],
+ "skipped": []
+}

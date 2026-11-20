@@ -1,0 +1,27 @@
+{
+ "job_id": "01ab9caadc",
+ "title": "Community Lead",
+ "company": "Accurx",
+ "url": "https://jobs.ashbyhq.com/accurx/da4dcb04-1c51-49b9-8629-bd6bfe6bad01/application",
+ "tier": "C",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:14"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:54:23.034Z",
+   "note": "form fully filled in the cloud: your laptop submits it"
+  }
+ ],
+ "location": "London (Shoreditch)",
+ "priority": 114,
+ "note": "form fully filled in the cloud: your laptop submits it"
+}

@@ -1,0 +1,21 @@
+{
+ "job_id": "c6de9bba4e",
+ "title": "Low-touch Customer Success Manager (Remote - EMEA)",
+ "company": "N8N",
+ "url": "https://jobs.ashbyhq.com/n8n/588577b5-f7c6-4b46-9f07-4250000a40ed/application",
+ "tier": "A",
+ "status": "draft",
+ "validation_errors": [
+  "number '8' in summary/letter is not in the CV facts"
+ ],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "draft",
+   "at": "2026-11-19T15:44:36"
+  }
+ ]
+}

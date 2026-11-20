@@ -1,0 +1,88 @@
+{
+ "url": "https://job-boards.greenhouse.io/alphasense/jobs/8923217002",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location (City)",
+   "from": "city",
+   "value": "Southampton, England, United Kingdom"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "What is your target compensation range?",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "Are you currently eligible to work in the UK?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Do you now or in the future require Visa sponsorship to continue working in the country where this role is based?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "Have you previously been employed by AlphaSense or any of its entities; or by an agency representing AlphaSense?",
+   "from": "previously_interviewed",
+   "value": "No"
+  },
+  {
+   "label": "Where are you currently located?",
+   "from": "city",
+   "value": "Southampton"
+  },
+  {
+   "label": "I confirm I have read, understood and accept the AlphaSense Candidate Privacy Notice and I consent to AlphaSense processing my personal data.",
+   "from": "consents",
+   "value": "Yes"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "This is *NOT* a technical or data analyst role. Associates are comparable to sales representatives at other firms and are responsible for creatively sourcing and prospecting industry experts (including C-level executives",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

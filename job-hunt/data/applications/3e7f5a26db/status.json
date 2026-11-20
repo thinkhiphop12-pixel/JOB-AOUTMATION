@@ -1,0 +1,37 @@
+{
+ "job_id": "3e7f5a26db",
+ "title": "Strategic Account Manager",
+ "company": "Legora",
+ "url": "https://jobs.ashbyhq.com/legora/c53825d5-a782-4f25-981d-f87d7b48820b/application",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:56"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:50:19.051Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:59:00.605Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 122,
+ "needs_you": [
+  {
+   "label": "In what cities are you available to work?*",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

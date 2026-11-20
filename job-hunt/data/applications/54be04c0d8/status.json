@@ -1,0 +1,27 @@
+{
+ "job_id": "54be04c0d8",
+ "title": "Director, Revenue Operations",
+ "company": "Sanity",
+ "url": "https://jobs.ashbyhq.com/sanity/15a2442a-76c5-44cf-b4c8-ba8ec102859a/application",
+ "tier": "C",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:21"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: Remote in the United States"
+  }
+ ],
+ "note": "outside your area: Remote in the United States",
+ "location": "Remote in the United States",
+ "priority": 110
+}

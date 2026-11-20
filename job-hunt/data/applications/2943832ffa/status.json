@@ -1,0 +1,27 @@
+{
+ "job_id": "2943832ffa",
+ "title": "Customer Success Manager (London)",
+ "company": "Airtable",
+ "url": "https://job-boards.greenhouse.io/airtable/jobs/8937075002",
+ "tier": "A",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:31"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:49:18.532Z",
+   "note": "form fully filled in the cloud: your laptop submits it"
+  }
+ ],
+ "location": "London-UK",
+ "priority": 128,
+ "note": "form fully filled in the cloud: your laptop submits it"
+}

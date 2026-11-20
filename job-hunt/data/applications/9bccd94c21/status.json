@@ -1,0 +1,27 @@
+{
+ "job_id": "9bccd94c21",
+ "title": "Account Executive ",
+ "company": "Flexport",
+ "url": "https://job-boards.greenhouse.io/flexport/jobs/8397662",
+ "tier": "C",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:55"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: Phoenix, Arizona, United States"
+  }
+ ],
+ "note": "outside your area: Phoenix, Arizona, United States",
+ "location": "Phoenix, Arizona, United States",
+ "priority": 104
+}

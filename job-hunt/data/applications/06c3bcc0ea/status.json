@@ -1,0 +1,45 @@
+{
+ "job_id": "06c3bcc0ea",
+ "title": "Strategic Account Manager",
+ "company": "Cognite",
+ "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/5015526101",
+ "tier": "A",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:52"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:49:59.591Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:59:28.786Z",
+   "note": ""
+  }
+ ],
+ "location": "England, United Kingdom",
+ "priority": 123,
+ "needs_you": [
+  {
+   "label": "Do you have deep understanding of the Life Sciences, Pharmaceutical, or Biotech manufacturing industries, including the regulatory and quality context (e.g., GxP, validation requirements) that shapes how these customers",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have 5+ years of direct enterprise software/SaaS sales experience, consistently exceeding quotas in high-growth environments?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Are you experienced with using the MEDDIC Sales Methodology?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

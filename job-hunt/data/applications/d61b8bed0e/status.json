@@ -1,0 +1,41 @@
+{
+ "job_id": "d61b8bed0e",
+ "title": " Product Manager, Discovery ",
+ "company": "Deliveroo",
+ "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8312495",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:32"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:55:06.380Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:58:13.282Z",
+   "note": ""
+  }
+ ],
+ "location": "London, United Kingdom",
+ "priority": 106,
+ "needs_you": [
+  {
+   "label": "Are you a national of the country where you are applying to work?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Which gender do you most closely identity with?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  }
+ ]
+}

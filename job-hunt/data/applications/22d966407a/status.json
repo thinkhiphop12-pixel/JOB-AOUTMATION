@@ -1,0 +1,27 @@
+{
+ "job_id": "22d966407a",
+ "title": "Customer Success Manager",
+ "company": "Elliptic",
+ "url": "https://jobs.ashbyhq.com/elliptic/0bb90ebe-31b7-4093-8d25-849e09203414/application",
+ "tier": "A",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:50"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:49:41.009Z",
+   "note": "form fully filled in the cloud: your laptop submits it"
+  }
+ ],
+ "location": "London, United Kingdom",
+ "priority": 124,
+ "note": "form fully filled in the cloud: your laptop submits it"
+}

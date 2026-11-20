@@ -1,0 +1,76 @@
+{
+ "job_id": "0d27f28d9d",
+ "title": "Director, Partner Retention",
+ "company": "Xero",
+ "url": "https://jobs.ashbyhq.com/xero/a8922a34-e6dd-439c-a723-88a337875309/application",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:39"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: CAN: Calgary (800 - 1333 8 St), CAN: Toronto (111 Richmond Street West), CAN: Vancouver (333 Seymour St)"
+  },
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:48:42.100306+00:00",
+   "note": "includes a London/UK location"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:51:57.712Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:58:53.565Z",
+   "note": ""
+  }
+ ],
+ "note": "includes a London/UK location",
+ "location": "CAN: Calgary (800 - 1333 8 St), CAN: Toronto (111 Richmond Street West), CAN: Vancouver (333 Seymour St)",
+ "priority": 116,
+ "needs_you": [
+  {
+   "label": "Pronouns",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "Declaration & Background Checking",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Flexible Working",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "What approach do you take when starting a piece of work?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Which statement best describes how you use AI in your work?",
+   "reason": "no option matches \"I use AI tools every day. I designed and built a work-manage…\" (options: I keep prompts, context, or instructions that I reuse across similar tasks, and have adapted my workflow around them. / I use AI for individual tasks as they come up (e.g. drafting, research, or troubleshooting). / I use AI as part of my regular work, adjusting my prompts for each task and working within the tools as they're set up.)"
+  },
+  {
+   "label": "Which statement best describes how you judge AI's output?",
+   "reason": "no option matches \"I use AI tools every day. I designed and built a work-manage…\" (options: I help set shared standards for where AI is used, how much to trust it, and when judgement leads. / When AI is used, I review the result for obvious errors before using it. / I weigh AI's value and limits against the task's need for human judgement, and set checks accordingly.)"
+  },
+  {
+   "label": "Which statement best describes your approach to AI accountability?",
+   "reason": "no option matches \"I use AI tools every day. I designed and built a work-manage…\" (options: I hold AI-assisted work to the same standard as any other, and flag risks through the right channels. / I build governance into workflows so accountability holds as others adopt them. / I build checks into the workflow from the start, and keep them current as it evolves.)"
+  },
+  {
+   "label": "Working Rights",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

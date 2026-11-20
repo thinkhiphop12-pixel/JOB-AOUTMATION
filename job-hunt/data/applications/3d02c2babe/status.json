@@ -1,0 +1,27 @@
+{
+ "job_id": "3d02c2babe",
+ "title": "Mid-Market Account Executive - UK&I",
+ "company": "Samsara",
+ "url": "https://www.samsara.com/company/careers/roles/8358996?gh_jid=8358996",
+ "tier": "C",
+ "status": "you_apply",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:06"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:53:57.462Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
+  }
+ ],
+ "location": "London, England, United Kingdom",
+ "priority": 127,
+ "note": "CAPTCHA or login site: on your quick-apply list"
+}

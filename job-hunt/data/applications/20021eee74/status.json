@@ -1,0 +1,27 @@
+{
+ "job_id": "20021eee74",
+ "title": "Senior Account Executive, Upmarket [French]",
+ "company": "Vanta",
+ "url": "https://jobs.ashbyhq.com/vanta/f4be1821-a392-47e3-8bfa-385712892f9c/application",
+ "tier": "C",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:26"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "not a fit (language, territory or specialism)"
+  }
+ ],
+ "note": "not a fit (language, territory or specialism)",
+ "location": "London, UK",
+ "priority": 109
+}

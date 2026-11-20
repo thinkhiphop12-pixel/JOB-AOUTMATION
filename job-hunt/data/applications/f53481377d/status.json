@@ -1,0 +1,37 @@
+{
+ "job_id": "f53481377d",
+ "title": "Associate, Channel and Customer Research",
+ "company": "Alphasense",
+ "url": "https://job-boards.greenhouse.io/alphasense/jobs/8923217002",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:23"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:51:51.018Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:00:28.746Z",
+   "note": ""
+  }
+ ],
+ "location": "London, Greater London, England, United Kingdom",
+ "priority": 118,
+ "needs_you": [
+  {
+   "label": "This is *NOT* a technical or data analyst role. Associates are comparable to sales representatives at other firms and are responsible for creatively sourcing and prospecting industry experts (including C-level executives",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

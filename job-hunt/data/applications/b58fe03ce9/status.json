@@ -1,0 +1,52 @@
+{
+ "job_id": "b58fe03ce9",
+ "title": "AI Account Executive, Glass",
+ "company": "Ramp",
+ "url": "https://jobs.ashbyhq.com/ramp/883fbb33-65a9-4ace-97ad-2a1f588020c2/application",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:47:07"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: New York, NY (HQ), London, UK, San Francisco, CA"
+  },
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:48:42.100306+00:00",
+   "note": "includes a London/UK location"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:55:41.565Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:58:32.060Z",
+   "note": ""
+  }
+ ],
+ "note": "includes a London/UK location",
+ "location": "New York, NY (HQ), London, UK, San Francisco, CA",
+ "priority": 104,
+ "needs_you": [
+  {
+   "label": "Where do you plan on working from (for payroll tax purposes)?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Phone",
+   "reason": "no option matches \"+44 7460 304104\" (options: Yes - I consent to receiving SMS text messages / No - I do not consent to receiving SMS text messages / Yes - I consent to receiving WhatsApp messages)"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "job_id": "b46158476d",
+ "title": "Senior Product Manager - Core Platform (Engine, Scale & Reliability)",
+ "company": "N8N",
+ "url": "https://jobs.ashbyhq.com/n8n/d418f8fb-b2f2-405e-8f22-db73dcf4e8b4/application",
+ "tier": "C",
+ "status": "draft",
+ "validation_errors": [
+  "number '8' in summary/letter is not in the CV facts"
+ ],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "draft",
+   "at": "2026-11-19T15:46:19"
+  }
+ ]
+}

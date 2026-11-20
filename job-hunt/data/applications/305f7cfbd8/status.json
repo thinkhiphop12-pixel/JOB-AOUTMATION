@@ -1,0 +1,27 @@
+{
+ "job_id": "305f7cfbd8",
+ "title": "Account Manager",
+ "company": "Sardine",
+ "url": "https://jobs.ashbyhq.com/sardine/c7c6097e-0ceb-4337-a846-29fd5ede3ed7/application",
+ "tier": "A",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:27"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: Dubai, United Arab Emirates"
+  }
+ ],
+ "note": "outside your area: Dubai, United Arab Emirates",
+ "location": "Dubai, United Arab Emirates",
+ "priority": 132
+}

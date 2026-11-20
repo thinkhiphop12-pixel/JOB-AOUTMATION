@@ -1,0 +1,41 @@
+{
+ "job_id": "3cac606c85",
+ "title": "New Business Account Executive",
+ "company": "Twilio",
+ "url": "https://job-boards.greenhouse.io/twilio/jobs/8327527",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:47:01"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:55:23.144Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:02:41.096Z",
+   "note": ""
+  }
+ ],
+ "location": "Remote - United Kingdom",
+ "priority": 104,
+ "needs_you": [
+  {
+   "label": "Voluntary Self-Identification of Gender",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "How did you hear about Twilio?",
+   "reason": "required tick box with no rule"
+  }
+ ]
+}

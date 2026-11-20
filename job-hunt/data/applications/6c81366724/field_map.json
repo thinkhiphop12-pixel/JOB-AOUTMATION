@@ -1,0 +1,69 @@
+{
+ "url": "https://jobs.ashbyhq.com/fundingcircle/3867c5fe-a844-4ac4-8954-2d1fe34a9464/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Salary Expectations",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "How did you hear about us?",
+   "from": "job source",
+   "value": "Company careers page"
+  },
+  {
+   "label": "Will you now or in the future require sponsorship to work within the UK?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "Do you consent to Funding Circle processing your application data?",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  },
+  {
+   "label": "Cover Letter (optional)",
+   "file": "cover_letter.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "How would you describe your ethnicity from the following options?*",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "Would you like any accommodations in your interview process? e.g. extra time, a different font / colour text, dictated text (such as from a screen reader), or a quieter zone with fewer distractions if the interview or ta",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "What is your eligibility to work in the UK?*",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Which pronoun do you use?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  }
+ ],
+ "skipped": []
+}

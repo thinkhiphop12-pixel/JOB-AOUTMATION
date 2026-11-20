@@ -42,6 +42,11 @@
    "value": "No"
   },
   {
+   "label": "I confirm that my application details, including work history, education, and former Ebury employment status, are accurate and truthful. I understand that providing false, misleading, or omitted information may result in",
+   "from": "consents",
+   "value": "Yes"
+  },
+  {
    "label": "By checking this box, I agree to allow Ebury to retain my data for future opportunities for employment for up to 365 days after the conclusion of consideration of my current application for employment.",
    "from": "consents",
    "value": "ticked"
@@ -56,10 +61,6 @@
  "needs_you": [
   {
    "label": "We're committed to ensuring an inclusive and accessible recruitment process. Do you require any adjustments or accommodations to support you during the interview?",
-   "reason": "required question with no approved answer"
-  },
-  {
-   "label": "I confirm that my application details, including work history, education, and former Ebury employment status, are accurate and truthful. I understand that providing false, misleading, or omitted information may result in",
    "reason": "required question with no approved answer"
   }
  ],

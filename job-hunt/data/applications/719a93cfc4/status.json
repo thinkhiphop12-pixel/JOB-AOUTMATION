@@ -1,0 +1,37 @@
+{
+ "job_id": "719a93cfc4",
+ "title": "Lead Product Manager",
+ "company": "Faculty",
+ "url": "https://jobs.ashbyhq.com/faculty/34a7ebbb-6f37-4ad1-a082-f10cd2a2d4fb/application",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:39"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:54:35.157Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:03:44.527Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 106,
+ "needs_you": [
+  {
+   "label": "Where did you first hear about Faculty?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "job_id": "2b0702e76a",
+ "title": "Company Operations Lead",
+ "company": "Elevenlabs",
+ "url": "https://jobs.ashbyhq.com/ElevenLabs/4aaebda4-53be-424c-8246-cde77ff853bb/application",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:19"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: London, United States, New York, United Kingdom"
+  },
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:48:42.100306+00:00",
+   "note": "includes a London/UK location"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:51:33.324Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:59:49.876Z",
+   "note": ""
+  }
+ ],
+ "note": "includes a London/UK location",
+ "location": "London, United States, New York, United Kingdom",
+ "priority": 120,
+ "needs_you": [
+  {
+   "label": "Location",
+   "reason": "dropdown has no option for \"Southampton\""
+  }
+ ]
+}

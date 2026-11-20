@@ -1,0 +1,27 @@
+{
+ "job_id": "5d468034c4",
+ "title": "Customer Success Account Manager, Mid-Market",
+ "company": "Samsara",
+ "url": "https://www.samsara.com/company/careers/roles/8353156?gh_jid=8353156",
+ "tier": "B",
+ "status": "you_apply",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:13"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:51:26.866Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
+  }
+ ],
+ "location": "Remote - UK",
+ "priority": 122,
+ "note": "CAPTCHA or login site: on your quick-apply list"
+}

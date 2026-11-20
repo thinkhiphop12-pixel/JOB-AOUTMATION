@@ -24,7 +24,12 @@
    "status": "you_apply",
    "at": "2026-11-19T15:30:00Z",
    "note": "CAPTCHA or login site: on your quick-apply list"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-19T15:56:42.242Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
   }
  ],
- "note": "ATS needs a candidate account"
+ "note": "CAPTCHA or login site: on your quick-apply list"
 }

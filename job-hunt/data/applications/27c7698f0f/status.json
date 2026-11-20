@@ -1,0 +1,21 @@
+{
+ "job_id": "27c7698f0f",
+ "title": "Head of Demand Generation",
+ "company": "N8N",
+ "url": "https://jobs.ashbyhq.com/n8n/d25034a8-b0be-4c2d-bffe-194b7caff736/application",
+ "tier": "C",
+ "status": "draft",
+ "validation_errors": [
+  "number '8' in summary/letter is not in the CV facts"
+ ],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "draft",
+   "at": "2026-11-19T15:46:43"
+  }
+ ]
+}

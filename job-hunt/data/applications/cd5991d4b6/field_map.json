@@ -1,0 +1,99 @@
+{
+ "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8352921",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location (City)",
+   "from": "city",
+   "value": "Southampton, England, United Kingdom"
+  },
+  {
+   "label": "What is your current location?",
+   "from": "city",
+   "value": "Southampton"
+  },
+  {
+   "label": "What is your right to work status in the job location?",
+   "from": "citizenship",
+   "value": "I am a citizen or have indefinite leave to remain."
+  },
+  {
+   "label": "What are your base salary expectations for this position?",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "What is your notice period?",
+   "from": "notice_period",
+   "value": "6 weeks"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "By checking this box, I consent to Deliveroo collecting, storing, and processing my responses to the demographic data surveys above.",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Have you heard of Deliveroo before you started your job search?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have a valid driving licence and your own vehicle?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Are you happy and comfortable being out in the field 3 days a week?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "How would you describe your gender?",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "Race",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  }
+ ],
+ "skipped": []
+}

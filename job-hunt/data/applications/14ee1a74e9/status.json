@@ -1,0 +1,27 @@
+{
+ "job_id": "14ee1a74e9",
+ "title": "Corporate Development Lead",
+ "company": "Mercury",
+ "url": "https://job-boards.greenhouse.io/mercury/jobs/6250477004",
+ "tier": "C",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:59"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States"
+  }
+ ],
+ "note": "outside your area: San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+ "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+ "priority": 104
+}

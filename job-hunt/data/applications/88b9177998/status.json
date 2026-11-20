@@ -1,0 +1,27 @@
+{
+ "job_id": "88b9177998",
+ "title": "Public Sector Field Enablement Manager",
+ "company": "Databricks",
+ "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8824166002",
+ "tier": "B",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:32"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: Northeast - United States; Southeast - United States; United States"
+  }
+ ],
+ "note": "outside your area: Northeast - United States; Southeast - United States; United States",
+ "location": "Northeast - United States; Southeast - United States; United States",
+ "priority": 116
+}

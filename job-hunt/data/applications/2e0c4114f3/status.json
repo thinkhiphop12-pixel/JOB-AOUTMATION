@@ -1,0 +1,21 @@
+{
+ "job_id": "2e0c4114f3",
+ "title": "Manager, Customer Success (Remote - EMEA)",
+ "company": "N8N",
+ "url": "https://jobs.ashbyhq.com/n8n/240f952d-fa35-4268-b84e-c5697024dab8/application",
+ "tier": "A",
+ "status": "draft",
+ "validation_errors": [
+  "number '8' in summary/letter is not in the CV facts"
+ ],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "draft",
+   "at": "2026-11-19T15:44:41"
+  }
+ ]
+}

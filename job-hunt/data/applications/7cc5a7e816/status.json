@@ -1,0 +1,41 @@
+{
+ "job_id": "7cc5a7e816",
+ "title": "Senior Data Analyst - Enterprise Risk ",
+ "company": "Teya",
+ "url": "https://jobs.ashbyhq.com/teya/026fe091-b172-4b48-b3ad-f9c383ada1a1/application",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:47:19"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:55:48.272Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:00:53.091Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 102,
+ "needs_you": [
+  {
+   "label": "Working Model",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Notice Period",
+   "reason": "no option matches \"6 weeks\" (options: Avaliable Immediately / 2 Weeks Notice / 1 Month Notice)"
+  }
+ ]
+}

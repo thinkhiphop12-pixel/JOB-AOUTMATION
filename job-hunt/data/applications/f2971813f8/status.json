@@ -1,0 +1,27 @@
+{
+ "job_id": "f2971813f8",
+ "title": "Data Annotation Specialist - German Writer/Translator",
+ "company": "Cohere",
+ "url": "https://jobs.ashbyhq.com/cohere/acec6038-117b-400b-92e3-0745fbb4cf53/application",
+ "tier": "C",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:27"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "not a fit (language, territory or specialism)"
+  }
+ ],
+ "note": "not a fit (language, territory or specialism)",
+ "location": "Canada, Calgary, Boston, Nashville, Richmond, Phoenix, Seattle, United States, Vancouver, North America | Utah, Ottawa, Toronto, Montreal",
+ "priority": 108
+}

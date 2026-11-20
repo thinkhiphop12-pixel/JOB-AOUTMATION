@@ -1,0 +1,37 @@
+{
+ "job_id": "6a567ae88c",
+ "title": "Strategic Account Executive - UK/I - Insurance",
+ "company": "Elevenlabs",
+ "url": "https://jobs.ashbyhq.com/ElevenLabs/e9075e24-5dc2-4ae5-b7ce-37ccae8c4270/application",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:47:04"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:55:29.550Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:01:14.267Z",
+   "note": ""
+  }
+ ],
+ "location": "United Kingdom",
+ "priority": 104,
+ "needs_you": [
+  {
+   "label": "Location",
+   "reason": "dropdown has no option for \"Southampton\""
+  }
+ ]
+}

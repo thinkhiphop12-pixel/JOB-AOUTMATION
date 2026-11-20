@@ -1,0 +1,60 @@
+{
+ "job_id": "73219d5296",
+ "title": "Marketplace Operations",
+ "company": "Elevenlabs",
+ "url": "https://jobs.ashbyhq.com/ElevenLabs/b3dd0a00-6223-405b-9064-8619e98fa6e6/application",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:45:50"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: United Kingdom, Ireland, Australia, United States, Japan, Italy, Poland, Netherlands"
+  },
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:48:42.100306+00:00",
+   "note": "includes a London/UK location"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:52:50.001Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:01:47.601Z",
+   "note": ""
+  }
+ ],
+ "note": "includes a London/UK location",
+ "location": "United Kingdom, Ireland, Australia, United States, Japan, Italy, Poland, Netherlands",
+ "priority": 111,
+ "needs_you": [
+  {
+   "label": "Link to your Github profile",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Please describe what makes you a great fit for the Marketplace Operations role",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "With the context you have, what would you say are our top 2 challenges to make Productions successful?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Location",
+   "reason": "dropdown has no option for \"Southampton\""
+  }
+ ]
+}

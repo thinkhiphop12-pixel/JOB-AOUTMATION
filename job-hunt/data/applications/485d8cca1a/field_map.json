@@ -55,6 +55,11 @@
    "label": "Location",
    "from": "city",
    "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "We encourage you to use AI tools to help research, prepare, or refine your application materials. However, we ask that you do not use AI tools during live, real-time interviews unless you've been explicitly told otherwis",
+   "from": "ai_usage",
+   "value": "Yes"
   }
  ],
  "uploaded": [
@@ -67,10 +72,6 @@
   {
    "label": "Do you have any relatives currently working for Airwallex?",
    "reason": "required question with no approved answer"
-  },
-  {
-   "label": "We encourage you to use AI tools to help research, prepare, or refine your application materials. However, we ask that you do not use AI tools during live, real-time interviews unless you've been explicitly told otherwis",
-   "reason": "no button matches \"I use AI tools every day. I designed and built a work-manage…\""
   }
  ],
  "skipped": []

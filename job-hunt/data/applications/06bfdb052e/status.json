@@ -1,0 +1,37 @@
+{
+ "job_id": "06bfdb052e",
+ "title": "Solutions Consultant, Mid-Market, UKI",
+ "company": "Notion",
+ "url": "https://jobs.ashbyhq.com/notion/3b519524-cc8d-495d-a708-c57e78aca792/application",
+ "tier": "B",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:02"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:53:10.208Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:58:46.458Z",
+   "note": ""
+  }
+ ],
+ "location": "Dublin, Ireland, London, United Kingdom",
+ "priority": 108,
+ "needs_you": [
+  {
+   "label": "We work from our offices on Mondays, Tuesdays, and Thursdays (Anchor Days). If you need an accommodation, we’ll partner with you and explore reasonable options consistent with applicable law. Are you able to commit to wo",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

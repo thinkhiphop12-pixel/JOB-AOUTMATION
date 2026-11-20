@@ -1,0 +1,27 @@
+{
+ "job_id": "b73079ef5c",
+ "title": "Customer Success LATAM",
+ "company": "Gitlab",
+ "url": "https://job-boards.greenhouse.io/gitlab/jobs/8931337002",
+ "tier": "A",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:58"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "not a fit (language, territory or specialism)"
+  }
+ ],
+ "note": "not a fit (language, territory or specialism)",
+ "location": "Remote, United States",
+ "priority": 120
+}

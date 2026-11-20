@@ -1,0 +1,87 @@
+{
+ "url": "https://job-boards.greenhouse.io/twilio/jobs/8327527",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location (City)",
+   "from": "city",
+   "value": "Southampton, England, United Kingdom"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Are you legally authorized to work in the country in which this role is located?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "What is the source of your right to work where this role is listed?",
+   "from": "right_to_work_uk",
+   "value": "Citizen or permanent resident where this role is listed"
+  },
+  {
+   "label": "By clicking the \"Acknowledge\" button, you acknowledge that Twilio processes data in accordance with the Twilio Applicant Privacy Policy.",
+   "from": "consents",
+   "value": "ticked"
+  },
+  {
+   "label": "By checking this box, I confirm I have read, reviewed and understood the guidelines outlined in the Candidate AI Responsible Use Policy. I affirm that all the information and materials I submit throughout my application",
+   "from": "ai_usage",
+   "value": "ticked"
+  },
+  {
+   "label": "By checking this box, I consent to Twilio collecting, storing, and processing my responses to the demographic data surveys above.",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Voluntary Self-Identification of Gender",
+   "reason": "personal/equal-opportunity question: not answered automatically"
+  },
+  {
+   "label": "How did you hear about Twilio?",
+   "reason": "required tick box with no rule"
+  }
+ ],
+ "skipped": []
+}

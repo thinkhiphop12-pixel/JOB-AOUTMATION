@@ -1,0 +1,37 @@
+{
+ "job_id": "08ce1f30e8",
+ "title": "Enterprise Account Executive",
+ "company": "Amplitude",
+ "url": "https://jobs.ashbyhq.com/amplitude/7e773392-9aaf-4c56-b289-8083c2ea96de/application",
+ "tier": "C",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:11"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: Boston, New York City, Remote - Massachusetts, Remote - New Hampshire, Remote - Connecticut"
+  },
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:48:42.100306+00:00",
+   "note": "includes a London/UK location"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:54:18.886Z",
+   "note": "form fully filled in the cloud: your laptop submits it"
+  }
+ ],
+ "note": "form fully filled in the cloud: your laptop submits it",
+ "location": "Boston, New York City, Remote - Massachusetts, Remote - New Hampshire, Remote - Connecticut",
+ "priority": 121
+}

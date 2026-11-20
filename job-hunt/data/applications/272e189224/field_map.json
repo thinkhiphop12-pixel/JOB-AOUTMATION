@@ -1,0 +1,70 @@
+{
+ "url": "https://jobs.ashbyhq.com/dust/bf549274-9930-49bf-9600-1472d01f682c/application",
+ "filled": [
+  {
+   "label": "Full Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Compensation Expectations",
+   "from": "salary rule",
+   "value": "£270,000"
+  },
+  {
+   "label": "Why do you want to join Dust?",
+   "from": "package text",
+   "value": "I am applying for the GTM Lead, UK - SMB/MM/Enterprise role …"
+  },
+  {
+   "label": "I agree",
+   "from": "consents",
+   "value": "ticked"
+  },
+  {
+   "label": "Where did you find out about this role?",
+   "from": "job source",
+   "value": "Other"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Do you have the appropriate work authorization for this role?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Dust is an office-first company. We value in-person collaboration while recognizing the importance of flexibility when needed. Does this align with your preferred working style?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "What knowledge or experience do you have working with AI and/or Dust? Select all that apply.",
+   "reason": "required tick box with no rule"
+  },
+  {
+   "label": "If we end up being a match, what kind of laptop would you prefer?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

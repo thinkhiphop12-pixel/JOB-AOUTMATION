@@ -1,0 +1,37 @@
+{
+ "job_id": "05ff3cf07e",
+ "title": "Revenue Operations",
+ "company": "Sierra",
+ "url": "https://jobs.ashbyhq.com/Sierra/6bed3d2f-5340-48d2-81dc-11f16d2cb1dc/application",
+ "tier": "C",
+ "status": "needs_you",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:09"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T15:54:02.302Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-19T16:03:23.332Z",
+   "note": ""
+  }
+ ],
+ "location": "London",
+ "priority": 124,
+ "needs_you": [
+  {
+   "label": "Are you able to work from a Sierra office listed for this role?",
+   "reason": "required question with no approved answer"
+  }
+ ]
+}

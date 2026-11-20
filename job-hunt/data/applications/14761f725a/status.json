@@ -1,0 +1,27 @@
+{
+ "job_id": "14761f725a",
+ "title": "Enterprise Implementation Consultant - Public Sector",
+ "company": "Samsara",
+ "url": "https://www.samsara.com/company/careers/roles/8372624?gh_jid=8372624",
+ "tier": "A",
+ "status": "skipped",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:44:48"
+  },
+  {
+   "status": "skipped",
+   "at": "2026-11-19T15:48:30.696888+00:00",
+   "note": "outside your area: Phoenix, Arizona, United States"
+  }
+ ],
+ "note": "outside your area: Phoenix, Arizona, United States",
+ "location": "Phoenix, Arizona, United States",
+ "priority": 124
+}

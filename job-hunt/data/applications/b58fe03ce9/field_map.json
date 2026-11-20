@@ -1,0 +1,37 @@
+{
+ "url": "https://jobs.ashbyhq.com/ramp/883fbb33-65a9-4ace-97ad-2a1f588020c2/application",
+ "filled": [
+  {
+   "label": "Legal Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Where do you plan on working from (for payroll tax purposes)?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Phone",
+   "reason": "no option matches \"+44 7460 304104\" (options: Yes - I consent to receiving SMS text messages / No - I do not consent to receiving SMS text messages / Yes - I consent to receiving WhatsApp messages)"
+  }
+ ],
+ "skipped": []
+}

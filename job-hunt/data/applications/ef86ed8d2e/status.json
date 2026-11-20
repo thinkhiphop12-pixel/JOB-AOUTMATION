@@ -1,0 +1,27 @@
+{
+ "job_id": "ef86ed8d2e",
+ "title": "Director, Commercial Sales EMEA",
+ "company": "Cultureamp",
+ "url": "https://job-boards.greenhouse.io/cultureamp/jobs/8332421",
+ "tier": "C",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-19T15:46:22"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-19T15:54:31.324Z",
+   "note": "form fully filled in the cloud: your laptop submits it"
+  }
+ ],
+ "location": "London",
+ "priority": 109,
+ "note": "form fully filled in the cloud: your laptop submits it"
+}

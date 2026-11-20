@@ -1,0 +1,78 @@
+{
+ "url": "https://job-boards.greenhouse.io/flexport/jobs/8383190",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "How did you first hear about Flexport?",
+   "from": "job source",
+   "value": "Company careers page (typed)"
+  },
+  {
+   "label": "Application consent for Flexport",
+   "from": "consents",
+   "value": "I Accept"
+  },
+  {
+   "label": "Have you previously been employed by Flexport or any of its entities; or by an agency representing Flexport?",
+   "from": "previously_interviewed",
+   "value": "No"
+  },
+  {
+   "label": "Do you require a visa sponsorship to work in the UK?",
+   "from": "requires_sponsorship",
+   "value": "No"
+  },
+  {
+   "label": "What is your English language level proficiency?",
+   "from": "english_proficient",
+   "value": "Yes (typed)"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

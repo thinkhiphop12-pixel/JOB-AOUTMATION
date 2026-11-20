@@ -1,0 +1,88 @@
+{
+ "url": "https://job-boards.greenhouse.io/celonis/jobs/8201989003?gh_jid=8201989003",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Most Recent Employer",
+   "from": "current_company",
+   "value": "Global Blue (part of Shift4)"
+  },
+  {
+   "label": "Most Recent Job Title",
+   "from": "current_title",
+   "value": "International Data Analyst & Project Manager"
+  },
+  {
+   "label": "Are you legally authorized to work in the country you are applying to?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Will you now or in the future require immigration sponsorship for employment visa status?",
+   "from": "citizenship",
+   "value": "citizen (typed)"
+  },
+  {
+   "label": "Salary Expectation",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "How did you hear about this job?",
+   "from": "job source",
+   "value": "Careers Site"
+  },
+  {
+   "label": "I confirm, that I have read the Celonis Privacy Notice for the handling of my personal data in the application process.",
+   "from": "consents",
+   "value": "I confirm"
+  },
+  {
+   "label": "I confirm the information provided in this application, including but not limited to my resume and the above information, is true and correct. I understand that false statements or material omissions of any kind during t",
+   "from": "consents",
+   "value": "I confirm"
+  },
+  {
+   "label": "By checking this box, I consent to Celonis collecting, storing, and processing my responses to the demographic data surveys above.",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}
