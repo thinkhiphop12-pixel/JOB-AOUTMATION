@@ -4,12 +4,16 @@ Runs on **your** computer, in a Chrome window logged into **your** LinkedIn and 
 
 **One page to look at: `data/dashboard.html`**. It shows what was sent today, the jobs to apply to by hand (rated 95%+), questions the bot couldn't answer, and anything that needs you (e.g. "please log in"). It opens by itself when there's something new.
 
-## Setup (once)
-1. Install Node.js LTS from https://nodejs.org
-2. In PowerShell: `cd $HOME\Autoline; git pull; cd easy-apply`
-3. Log in: `powershell -ExecutionPolicy Bypass -File run.ps1 --login`
-4. Practice (fills 3 forms, sends nothing): `powershell -ExecutionPolicy Bypass -File run.ps1 --dry-run --max 3`
-5. Switch on the 4 daily runs (09:00, 12:00, 15:00, 18:00): `powershell -ExecutionPolicy Bypass -File run.ps1 --schedule`
+## Setup (once, then it runs by itself)
+1. Get the latest files: in `$HOME\Autoline` run `git pull` (or ask Claude on your laptop to do it).
+2. Double-click **`easy-apply\SETUP.cmd`**. It installs everything, opens Chrome so you can log in to LinkedIn and Indeed, does a 2-form practice run, schedules itself and puts 3 icons on your desktop:
+   - **Job bot - dashboard**: what was sent, jobs to apply to by hand, questions to answer
+   - **Job bot - run now**: an extra run whenever you like
+   - **Job bot - my settings**: your answers and limits
+
+After that it runs by itself every weekday at 09:00, 12:00, 15:00 and 18:00, plus 5 minutes after you log in (so runs missed while the laptop was off catch up). It even wakes the laptop from sleep if Windows allows. Keep the laptop on and logged in; it's fine if the screen is locked.
+
+Stop it: `Unregister-ScheduledTask -TaskName 'Job bot' -Confirm:$false`. Running SETUP.cmd again is always safe.
 
 ## Your settings: `my_settings.json`
 Created on the first run. Change things **here**, not in `config.json` (that one updates itself; yours is never overwritten).
