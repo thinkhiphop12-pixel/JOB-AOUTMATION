@@ -52,6 +52,11 @@
    "value": "Citizen or permanent resident where this role is listed"
   },
   {
+   "label": "Voluntary Self-Identification of Gender",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
    "label": "By clicking the \"Acknowledge\" button, you acknowledge that Twilio processes data in accordance with the Twilio Applicant Privacy Policy.",
    "from": "consents",
    "value": "ticked"
@@ -74,10 +79,6 @@
   }
  ],
  "needs_you": [
-  {
-   "label": "Voluntary Self-Identification of Gender",
-   "reason": "personal/equal-opportunity question: not answered automatically"
-  },
   {
    "label": "How did you hear about Twilio?",
    "reason": "required tick box with no rule"

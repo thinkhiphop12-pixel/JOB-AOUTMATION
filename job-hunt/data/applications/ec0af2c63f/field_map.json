@@ -1,0 +1,88 @@
+{
+ "url": "https://boards.greenhouse.io/embed/job_app?for=klaviyo&token=8040122003",
+ "filled": [
+  {
+   "label": "First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Last Name",
+   "from": "last_name",
+   "value": "Evans"
+  },
+  {
+   "label": "Preferred First Name",
+   "from": "first_name",
+   "value": "Lloyd"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "Country",
+   "from": "country",
+   "value": "United Kingdom +44"
+  },
+  {
+   "label": "Phone",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Location (City)",
+   "from": "city",
+   "value": "Southampton, England, United Kingdom"
+  },
+  {
+   "label": "Start date month",
+   "from": "notice_period (6 weeks)",
+   "value": "2027-01-04 (typed)"
+  },
+  {
+   "label": "Start date year",
+   "from": "notice_period (6 weeks)",
+   "value": "2027-01-04"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "We operate a hybrid working culture here at Klaviyo in EMEA whereby people spend their time working from the office and remotely. For this role, the expectation is to be in our London office for 3 days a week. Is this se",
+   "from": "willing_to_work_in_london",
+   "value": "Yes"
+  },
+  {
+   "label": "Would you be willing to relocate if the role requires it?",
+   "from": "willing_to_work_in_london",
+   "value": "Yes"
+  },
+  {
+   "label": "Do you currently have legal work authorization in the country where this position is based?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Would you, now or in the future, require immigration sponsorship for work authorization?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "How did you hear about us?",
+   "from": "job source",
+   "value": "Company Website / Careers Page"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Attach",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [],
+ "skipped": []
+}

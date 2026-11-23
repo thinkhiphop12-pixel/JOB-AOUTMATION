@@ -37,9 +37,34 @@
    "value": "ticked"
   },
   {
+   "label": "Do you identify as transgender?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "Do you consider yourself to have a disability or long term condition?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
    "label": "Right to work",
    "from": "right_to_work_uk",
    "value": "I have the right to work in the country due to my nationality."
+  },
+  {
+   "label": "What is your gender identity?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "How do you identify your sexual orientation? Please select all that apply.",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "Which ethnicity(ies) do you identify with? Please select all that apply.",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
   }
  ],
  "uploaded": [
@@ -55,7 +80,7 @@
   },
   {
    "label": "Notice Period",
-   "reason": "no option matches \"6 weeks\" (options: Avaliable Immediately / 2 Weeks Notice / 1 Month Notice)"
+   "reason": "no option matches \"6 weeks\" (options: Available Immediately / 2 Weeks Notice / 1 Month Notice)"
   }
  ],
  "skipped": []

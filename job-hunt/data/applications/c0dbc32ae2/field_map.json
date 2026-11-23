@@ -1,0 +1,63 @@
+{
+ "url": "https://jobs.ashbyhq.com/openai/f68233de-f299-4732-ae4e-cee354159d4a/application",
+ "filled": [
+  {
+   "label": "Legal Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "LinkedIn Profile",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Phone Number",
+   "from": "phone",
+   "value": "+44 7460 304104"
+  },
+  {
+   "label": "Where are you currently located?",
+   "from": "city",
+   "value": "Southampton, City of Southampton, England, United Kingdom"
+  },
+  {
+   "label": "When can you start a new role?",
+   "from": "notice_period",
+   "value": "6 weeks"
+  },
+  {
+   "label": "Are you authorized to work in the country where the job is located?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
+   "label": "Are you able to work from our London office three days per week?",
+   "from": "willing_to_work_in_london",
+   "value": "Yes"
+  },
+  {
+   "label": "I hereby certify that I have not knowingly withheld any information that might adversely affect my chances for employment and that the answers given by me are true and correct to the best of my knowledge. I further certi",
+   "from": "consents",
+   "value": "ticked"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Will you now or in the future require sponsorship for employment visa status in this country?",
+   "reason": "no button matches \"citizen\""
+  }
+ ],
+ "skipped": []
+}

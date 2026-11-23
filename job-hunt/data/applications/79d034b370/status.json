@@ -24,6 +24,11 @@
    "status": "needs_you",
    "at": "2026-11-19T15:57:51.604Z",
    "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-23T08:15:12.016Z",
+   "note": ""
   }
  ],
  "location": "London",
@@ -35,7 +40,7 @@
   },
   {
    "label": "Notice Period",
-   "reason": "no option matches \"6 weeks\" (options: Avaliable Immediately / 2 Weeks Notice / 1 Month Notice)"
+   "reason": "no option matches \"6 weeks\" (options: Available Immediately / 2 Weeks Notice / 1 Month Notice)"
   }
  ]
 }

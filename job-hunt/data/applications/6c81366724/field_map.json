@@ -35,6 +35,11 @@
    "label": "Do you consent to Funding Circle processing your application data?",
    "from": "consents",
    "value": "ticked"
+  },
+  {
+   "label": "Which pronoun do you use?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
   }
  ],
  "uploaded": [
@@ -59,10 +64,6 @@
   {
    "label": "What is your eligibility to work in the UK?*",
    "reason": "required question with no approved answer"
-  },
-  {
-   "label": "Which pronoun do you use?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
   }
  ],
  "skipped": []

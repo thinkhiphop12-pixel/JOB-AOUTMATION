@@ -24,6 +24,11 @@
    "status": "needs_you",
    "at": "2026-11-19T16:00:41.164Z",
    "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-23T08:13:31.791Z",
+   "note": ""
   }
  ],
  "location": "Deliveroo; London, United Kingdom",
@@ -32,14 +37,6 @@
   {
    "label": "Can you commit to 3 days in our London HQ ?",
    "reason": "required question with no approved answer"
-  },
-  {
-   "label": "How would you describe your gender?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
-  },
-  {
-   "label": "Race",
-   "reason": "personal/equal-opportunity question: not answered automatically"
   }
  ]
 }

@@ -24,15 +24,21 @@
    "status": "needs_you",
    "at": "2026-11-19T16:04:03.320Z",
    "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-23T08:14:55.336Z",
+   "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-23T08:18:24.059Z",
+   "note": ""
   }
  ],
  "location": "London",
  "priority": 124,
  "needs_you": [
-  {
-   "label": "Do you have the appropriate work authorization for this role?",
-   "reason": "required question with no approved answer"
-  },
   {
    "label": "Dust is an office-first company. We value in-person collaboration while recognizing the importance of flexibility when needed. Does this align with your preferred working style?",
    "reason": "required question with no approved answer"

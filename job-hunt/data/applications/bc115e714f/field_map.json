@@ -24,7 +24,7 @@
   {
    "label": "What is the earliest date you can join us?",
    "from": "notice_period (6 weeks)",
-   "value": "2026-12-31"
+   "value": "2027-01-04"
   },
   {
    "label": "What are your compensation expectations?",
@@ -55,6 +55,11 @@
    "label": "Will you now or in the future require the company to sponsor a visa or work permit in order to work in this location?",
    "from": "right_to_work_uk",
    "value": "Yes"
+  },
+  {
+   "label": "What is your gender identity?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
   },
   {
    "label": "How did you hear about us?",

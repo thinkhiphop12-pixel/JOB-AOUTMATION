@@ -52,6 +52,26 @@
    "value": "I have read the Privacy Notice."
   },
   {
+   "label": "What is your gender identity?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "What is your ethnicity?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "How would you describe your sexual orientation?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "Do you consider yourself to have a long-term health condition, impairment or disability?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
    "label": "By checking this box, I consent to Landor collecting, storing, and processing my responses to the demographic data surveys above.",
    "from": "consents",
    "value": "ticked"
@@ -71,22 +91,6 @@
   {
    "label": "How old are you?",
    "reason": "required question with no approved answer"
-  },
-  {
-   "label": "What is your gender identity?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
-  },
-  {
-   "label": "What is your ethnicity?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
-  },
-  {
-   "label": "How would you describe your sexual orientation?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
-  },
-  {
-   "label": "Do you consider yourself to have a long-term health condition, impairment or disability?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
   }
  ],
  "skipped": []

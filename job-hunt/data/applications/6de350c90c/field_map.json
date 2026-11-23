@@ -45,6 +45,16 @@
    "label": "LinkedIn Profile",
    "from": "linkedin",
    "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "Gender",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "Veteran Status",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
   }
  ],
  "uploaded": [

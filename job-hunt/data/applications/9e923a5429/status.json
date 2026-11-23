@@ -1,0 +1,35 @@
+{
+ "job_id": "9e923a5429",
+ "title": "Customer Growth Account Executive - Commercial",
+ "company": "Klaviyo",
+ "url": "https://boards.greenhouse.io/embed/job_app?for=klaviyo&token=8210757003",
+ "tier": "B",
+ "status": "local_ready",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-23T07:57:17"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-23T08:14:46.750Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-23T08:17:30.638Z",
+   "note": "no upload field found"
+  },
+  {
+   "status": "local_ready",
+   "at": "2026-11-23T08:17:54.209Z",
+   "note": "form fully filled in the cloud: your laptop submits it"
+  }
+ ],
+ "note": "form fully filled in the cloud: your laptop submits it"
+}

@@ -40,6 +40,21 @@
    "label": "Delivering great work means collaborating in person as well as working remotely. Our minmum expectation is that you join us in the office 3-5 days per month office attendance depending on the seniority of the role. Pleas",
    "from": "office_4_plus_days",
    "value": "No I am not comfortable"
+  },
+  {
+   "label": "What is your gender identity?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "How do you identify your sexual orientation? Please select all that apply.",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "Which ethnicity(ies) do you identify with? Please select all that apply.",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
   }
  ],
  "uploaded": [

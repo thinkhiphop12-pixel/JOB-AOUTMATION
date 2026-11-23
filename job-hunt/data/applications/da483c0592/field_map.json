@@ -62,6 +62,16 @@
    "value": "6 weeks"
   },
   {
+   "label": "How would you describe your gender?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "Race",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
    "label": "By checking this box, I consent to Deliveroo collecting, storing, and processing my responses to the demographic data surveys above.",
    "from": "consents",
    "value": "ticked"
@@ -77,14 +87,6 @@
   {
    "label": "Can you commit to 3 days in our London HQ ?",
    "reason": "required question with no approved answer"
-  },
-  {
-   "label": "How would you describe your gender?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
-  },
-  {
-   "label": "Race",
-   "reason": "personal/equal-opportunity question: not answered automatically"
   }
  ],
  "skipped": []

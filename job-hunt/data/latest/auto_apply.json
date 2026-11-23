@@ -1,14 +1,14 @@
 {
- "at": "2026-11-19T16:04:03.373Z",
+ "at": "2026-11-23T08:18:37.051Z",
  "dry_run": false,
  "results": [
   {
-   "id": "272e189224",
-   "title": "GTM Lead, UK - SMB/MM/Enterprise ",
-   "company": "Dust",
-   "url": "https://jobs.ashbyhq.com/dust/bf549274-9930-49bf-9600-1472d01f682c/application",
-   "result": "needs_you",
-   "reason": "Do you have the appropriate work authorization for this role: required question with no approved answer; Dust is an office-first company. We value in-person collabor: required question with no approved answer; What knowledge or experience do you have working with AI and: required tick box with no rule; If we end up being a match, what kind of laptop would you pr: required question with no approved answer"
+   "id": "ec0af2c63f",
+   "title": "Customer Success Manager - Mid/ Large Enterprise",
+   "company": "Klaviyo",
+   "url": "https://boards.greenhouse.io/embed/job_app?for=klaviyo&token=8040122003",
+   "result": "local_ready",
+   "reason": "form fully filled; laptop submits (cloud is CAPTCHA-blocked)"
   }
  ]
 }

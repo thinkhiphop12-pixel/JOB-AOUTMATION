@@ -1,0 +1,21 @@
+{
+ "job_id": "d02f1d81f9",
+ "title": "Senior Data Analyst (12 Month FTC)",
+ "company": "Fundingcircle",
+ "url": "https://jobs.ashbyhq.com/fundingcircle/9f36a474-b2ac-43e2-9e5c-ea78fb0e0506/application",
+ "tier": "C",
+ "status": "draft",
+ "validation_errors": [
+  "number '12' in summary/letter is not in the CV facts"
+ ],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "draft",
+   "at": "2026-11-23T07:57:22"
+  }
+ ]
+}

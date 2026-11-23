@@ -62,6 +62,26 @@
    "value": "Yes"
   },
   {
+   "label": "What is your gender identity?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "Do you identify as transgender?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "Which ethnicity(ies) do you identify with? Please select all that apply.",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "How do you identify your sexual orientation? Please select all that apply.",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
    "label": "How did you hear about this opportunity?",
    "from": "job source",
    "value": "Company website"

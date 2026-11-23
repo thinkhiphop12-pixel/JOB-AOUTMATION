@@ -1,0 +1,25 @@
+{
+ "job_id": "412efe88a7",
+ "title": "AI & Business Automation Lead",
+ "company": "Natali Healthcare Solutions UK Ltd",
+ "url": "https://to.indeed.com/aa4t98f8xqs6",
+ "tier": "C",
+ "status": "you_apply",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-23T07:57:19"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-23T08:16:23.659Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
+  }
+ ],
+ "note": "CAPTCHA or login site: on your quick-apply list"
+}

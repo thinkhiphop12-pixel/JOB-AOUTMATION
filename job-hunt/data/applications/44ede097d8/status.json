@@ -1,0 +1,24 @@
+{
+ "job_id": "44ede097d8",
+ "title": "Product Manager (fixed-term contract)",
+ "company": "Ordnance Survey",
+ "url": "https://to.indeed.com/aa42fpzgdl7g",
+ "tier": "B",
+ "status": "you_apply",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "draft",
+   "at": "2026-11-23T07:57:15"
+  },
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-23T08:18:48"
+  }
+ ],
+ "note": "Indeed listing: apply on the Ordnance Survey careers site (package ready)"
+}

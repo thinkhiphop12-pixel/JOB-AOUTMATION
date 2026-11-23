@@ -1,21 +1,41 @@
 {
- "run_started": "2026-11-19T15:43:35Z",
- "run_finished": "2026-11-19T15:44:16Z",
- "since": "2026-10-20",
+ "run_started": "2026-11-23T07:47:14Z",
+ "run_finished": "2026-11-23T07:56:44Z",
+ "since": "2026-11-20",
  "sources": [
+  {
+   "name": "Reed",
+   "kind": "API",
+   "status": "disabled",
+   "requests": 0,
+   "jobs_found": 0,
+   "jobs_kept": 0,
+   "errors": [],
+   "note": "disabled in config.json"
+  },
+  {
+   "name": "NHS Jobs",
+   "kind": "API",
+   "status": "ok",
+   "requests": 68,
+   "jobs_found": 47,
+   "jobs_kept": 7,
+   "errors": [],
+   "note": ""
+  },
   {
    "name": "Greenhouse boards",
    "kind": "Company board",
    "status": "partial",
    "requests": 68,
-   "jobs_found": 3279,
-   "jobs_kept": 217,
+   "jobs_found": 237,
+   "jobs_kept": 7,
    "errors": [
     {
      "url": "https://boards-api.greenhouse.io/v1/boards/truelayer/jobs?content=true",
      "status": 404,
      "error": "Not Found",
-     "ts": "2026-11-19T15:43:51Z"
+     "ts": "2026-11-23T07:48:22Z"
     }
    ],
    "note": ""
@@ -25,8 +45,8 @@
    "kind": "Company board",
    "status": "ok",
    "requests": 82,
-   "jobs_found": 2588,
-   "jobs_kept": 174,
+   "jobs_found": 212,
+   "jobs_kept": 10,
    "errors": [],
    "note": ""
   },
@@ -35,13 +55,130 @@
    "kind": "Company board",
    "status": "ok",
    "requests": 11,
-   "jobs_found": 73,
-   "jobs_kept": 8,
+   "jobs_found": 5,
+   "jobs_kept": 1,
+   "errors": [],
+   "note": ""
+  },
+  {
+   "name": "Workday boards",
+   "kind": "Company board",
+   "status": "partial",
+   "requests": 27,
+   "jobs_found": 0,
+   "jobs_kept": 0,
+   "errors": [
+    {
+     "url": "https://fis.wd5.myworkdayjobs.com/wday/cxs/fis/SearchJobs/jobs",
+     "status": 429,
+     "error": "Too Many Requests",
+     "ts": "2026-11-23T07:49:34Z"
+    },
+    {
+     "url": "https://fis.wd5.myworkdayjobs.com/wday/cxs/fis/SearchJobs/jobs",
+     "status": 429,
+     "error": "Too Many Requests",
+     "ts": "2026-11-23T07:50:37Z"
+    },
+    {
+     "url": "fis",
+     "status": 429,
+     "error": "per-board time cap (rate-limited)",
+     "ts": "2026-11-23T07:50:37Z"
+    },
+    {
+     "url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+     "status": 429,
+     "error": "Too Many Requests",
+     "ts": "2026-11-23T07:51:23Z"
+    },
+    {
+     "url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+     "status": 429,
+     "error": "Too Many Requests",
+     "ts": "2026-11-23T07:52:09Z"
+    },
+    {
+     "url": "mastercard",
+     "status": 429,
+     "error": "per-board time cap (rate-limited)",
+     "ts": "2026-11-23T07:52:09Z"
+    },
+    {
+     "url": "https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs",
+     "status": 429,
+     "error": "Too Many Requests",
+     "ts": "2026-11-23T07:52:55Z"
+    },
+    {
+     "url": "https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs",
+     "status": 429,
+     "error": "Too Many Requests",
+     "ts": "2026-11-23T07:53:41Z"
+    },
+    {
+     "url": "db",
+     "status": 429,
+     "error": "per-board time cap (rate-limited)",
+     "ts": "2026-11-23T07:53:41Z"
+    },
+    {
+     "url": "https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs",
+     "status": 429,
+     "error": "Too Many Requests",
+     "ts": "2026-11-23T07:54:27Z"
+    },
+    {
+     "url": "https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs",
+     "status": 429,
+     "error": "Too Many Requests",
+     "ts": "2026-11-23T07:55:13Z"
+    },
+    {
+     "url": "nasdaq",
+     "status": 429,
+     "error": "per-board time cap (rate-limited)",
+     "ts": "2026-11-23T07:55:13Z"
+    },
+    {
+     "url": "https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/spgi_careers/jobs",
+     "status": 429,
+     "error": "Too Many Requests",
+     "ts": "2026-11-23T07:55:58Z"
+    },
+    {
+     "url": "https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/spgi_careers/jobs",
+     "status": 429,
+     "error": "Too Many Requests",
+     "ts": "2026-11-23T07:56:44Z"
+    },
+    {
+     "url": "spgi",
+     "status": 429,
+     "error": "per-board time cap (rate-limited)",
+     "ts": "2026-11-23T07:56:44Z"
+    },
+    {
+     "url": "salesforce",
+     "status": null,
+     "error": "time budget",
+     "ts": "2026-11-23T07:56:44Z"
+    }
+   ],
+   "note": "time budget hit before Salesforce (Workday rate-limits); partial results"
+  },
+  {
+   "name": "Indeed (manual)",
+   "kind": "Manual",
+   "status": "ok",
+   "requests": 0,
+   "jobs_found": 3,
+   "jobs_kept": 3,
    "errors": [],
    "note": ""
   }
  ],
  "all_live_sources_failed": false,
- "new_jobs": 309,
- "candidates_seen": 399
+ "new_jobs": 22,
+ "candidates_seen": 28
 }

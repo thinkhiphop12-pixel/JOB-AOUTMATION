@@ -1,0 +1,57 @@
+{
+ "url": "https://jobs.ashbyhq.com/lendable/b5766304-a525-450a-ae6f-10246e84b34b/application",
+ "filled": [
+  {
+   "label": "Name",
+   "from": "full_name",
+   "value": "Lloyd Evans"
+  },
+  {
+   "label": "Email",
+   "from": "email",
+   "value": "lloydevans14@gmail.com"
+  },
+  {
+   "label": "LinkedIn",
+   "from": "linkedin",
+   "value": "https://www.linkedin.com/in/lloyd-evans-"
+  },
+  {
+   "label": "What is your salary expectation?",
+   "from": "salary rule",
+   "value": "£70,000"
+  },
+  {
+   "label": "What is your notice period?",
+   "from": "notice_period",
+   "value": "6 weeks"
+  },
+  {
+   "label": "By applying for this position, you understand that your data will be processed as per Lendable's privacy policy (see below)",
+   "from": "consents",
+   "value": "Yes"
+  },
+  {
+   "label": "Please confirm your right to work status",
+   "from": "citizenship",
+   "value": "I am a British or Irish Citizen"
+  }
+ ],
+ "uploaded": [
+  {
+   "label": "Resume",
+   "file": "cv.pdf"
+  }
+ ],
+ "needs_you": [
+  {
+   "label": "Are you able to be in the office 3 days per week?",
+   "reason": "required question with no approved answer"
+  },
+  {
+   "label": "Do you have a loan/credit card/auto loan with us? If yes - which product?",
+   "reason": "required question with no approved answer"
+  }
+ ],
+ "skipped": []
+}

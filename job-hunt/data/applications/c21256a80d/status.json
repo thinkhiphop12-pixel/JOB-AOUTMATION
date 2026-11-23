@@ -1,0 +1,25 @@
+{
+ "job_id": "c21256a80d",
+ "title": "Digital and System Lead",
+ "company": "North London NHS Foundation Trust",
+ "url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9455-26-00007",
+ "tier": "B",
+ "status": "you_apply",
+ "validation_errors": [],
+ "pages": {
+  "cv.pdf": 1,
+  "cover_letter.pdf": 1
+ },
+ "history": [
+  {
+   "status": "ready_for_review",
+   "at": "2026-11-23T07:57:16"
+  },
+  {
+   "status": "you_apply",
+   "at": "2026-11-23T08:14:46.752Z",
+   "note": "CAPTCHA or login site: on your quick-apply list"
+  }
+ ],
+ "note": "CAPTCHA or login site: on your quick-apply list"
+}

@@ -37,6 +37,11 @@
    "value": "Yes (typed)"
   },
   {
+   "label": "Which gender do you most closely identity with?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
    "label": "By checking this box, I consent to Deliveroo collecting, storing, and processing my responses to the demographic data surveys above.",
    "from": "consents",
    "value": "ticked"
@@ -52,10 +57,6 @@
   {
    "label": "Are you a national of the country where you are applying to work?",
    "reason": "required question with no approved answer"
-  },
-  {
-   "label": "Which gender do you most closely identity with?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
   }
  ],
  "skipped": []

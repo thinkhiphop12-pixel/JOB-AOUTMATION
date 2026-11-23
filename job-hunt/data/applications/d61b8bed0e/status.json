@@ -24,6 +24,11 @@
    "status": "needs_you",
    "at": "2026-11-19T15:58:13.282Z",
    "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-23T08:15:37.079Z",
+   "note": ""
   }
  ],
  "location": "London, United Kingdom",
@@ -32,10 +37,6 @@
   {
    "label": "Are you a national of the country where you are applying to work?",
    "reason": "required question with no approved answer"
-  },
-  {
-   "label": "Which gender do you most closely identity with?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
   }
  ]
 }

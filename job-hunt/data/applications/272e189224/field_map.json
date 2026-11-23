@@ -32,6 +32,11 @@
    "value": "I am applying for the GTM Lead, UK - SMB/MM/Enterprise role …"
   },
   {
+   "label": "Do you have the appropriate work authorization for this role?",
+   "from": "right_to_work_uk",
+   "value": "Yes"
+  },
+  {
    "label": "I agree",
    "from": "consents",
    "value": "ticked"
@@ -49,10 +54,6 @@
   }
  ],
  "needs_you": [
-  {
-   "label": "Do you have the appropriate work authorization for this role?",
-   "reason": "required question with no approved answer"
-  },
   {
    "label": "Dust is an office-first company. We value in-person collaboration while recognizing the importance of flexibility when needed. Does this align with your preferred working style?",
    "reason": "required question with no approved answer"

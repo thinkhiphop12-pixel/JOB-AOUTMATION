@@ -59,7 +59,7 @@ const YESNO_MAP = [
   [/at least 18|over (the age of )?18|18 years (of age|or older)|aged 18/i, 'over_18'],
   [/i confirm (that )?(the |my |all )?(information|details|application)|(true|accurate),? (complete|and complete|and accurate)|information .{0,40}(is|are) (true|accurate)/i, 'consents'],
   [/time[- ]limited|will (it|your (visa|permission)) expire|expiry date/i, 'work_permission_time_limited'],
-  [/right to work|permission to work|authori[sz]ed to work|eligible to work|legally (able|entitled|permitted|allowed) to work|allowed to work|work permit/i, 'right_to_work_uk'],
+  [/right to work|permission to work|work authori[sz]ation|authori[sz]ation to work|authori[sz]ed to work|eligible to work|legally (able|entitled|permitted|allowed) to work|allowed to work|work permit/i, 'right_to_work_uk'],
   [/sponsor/i, 'requires_sponsorship'],
   [/us person|u\.s\. person|us citizen|green card/i, 'us_person'],
   [/travel/i, 'willing_to_travel'],

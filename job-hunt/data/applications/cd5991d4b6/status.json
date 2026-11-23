@@ -24,6 +24,11 @@
    "status": "needs_you",
    "at": "2026-11-19T16:03:58.799Z",
    "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-23T08:11:50.126Z",
+   "note": ""
   }
  ],
  "location": "London, United Kingdom - Deliveroo",
@@ -40,14 +45,6 @@
   {
    "label": "Are you happy and comfortable being out in the field 3 days a week?",
    "reason": "required question with no approved answer"
-  },
-  {
-   "label": "How would you describe your gender?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
-  },
-  {
-   "label": "Race",
-   "reason": "personal/equal-opportunity question: not answered automatically"
   }
  ]
 }

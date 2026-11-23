@@ -37,6 +37,16 @@
    "value": "https://www.linkedin.com/in/lloyd-evans-"
   },
   {
+   "label": "How would you describe your gender?",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
+   "label": "Race",
+   "from": "equal-opportunity",
+   "value": "Prefer not to say"
+  },
+  {
    "label": "By checking this box, I consent to Deliveroo collecting, storing, and processing my responses to the demographic data surveys above.",
    "from": "consents",
    "value": "ticked"
@@ -48,15 +58,6 @@
    "file": "cv.pdf"
   }
  ],
- "needs_you": [
-  {
-   "label": "How would you describe your gender?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
-  },
-  {
-   "label": "Race",
-   "reason": "personal/equal-opportunity question: not answered automatically"
-  }
- ],
+ "needs_you": [],
  "skipped": []
 }

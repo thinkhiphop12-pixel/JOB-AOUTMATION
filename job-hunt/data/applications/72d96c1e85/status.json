@@ -41,6 +41,11 @@
    "status": "needs_you",
    "at": "2026-11-19T16:03:10.991Z",
    "note": ""
+  },
+  {
+   "status": "needs_you",
+   "at": "2026-11-23T08:12:13.906Z",
+   "note": ""
   }
  ],
  "linkedin_url": "https://uk.linkedin.com/jobs/view/senior-client-manager-12-m-ftc-maternity-cover-at-landor-4492138927",
@@ -53,22 +58,6 @@
   {
    "label": "How old are you?",
    "reason": "required question with no approved answer"
-  },
-  {
-   "label": "What is your gender identity?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
-  },
-  {
-   "label": "What is your ethnicity?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
-  },
-  {
-   "label": "How would you describe your sexual orientation?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
-  },
-  {
-   "label": "Do you consider yourself to have a long-term health condition, impairment or disability?",
-   "reason": "personal/equal-opportunity question: not answered automatically"
   }
  ]
 }
