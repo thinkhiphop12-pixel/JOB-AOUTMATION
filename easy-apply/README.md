@@ -17,13 +17,14 @@ It searches (last 24 hours), filters out bad fits, fills each Easy Apply / Easil
 | Practice (fills forms, never submits) | `powershell -ExecutionPolicy Bypass -File run.ps1 --dry-run --max 3` |
 | Apply for real | `powershell -ExecutionPolicy Bypass -File run.ps1` |
 | Only LinkedIn / only Indeed | add `--linkedin` or `--indeed` |
-| Run itself every weekday 09:15 | `powershell -ExecutionPolicy Bypass -File run.ps1 --schedule` |
+| Run itself 4x every weekday (09:00, 12:00, 15:00, 18:00) | `powershell -ExecutionPolicy Bypass -File run.ps1 --schedule` |
 
 Leave the window alone while it runs. If a CAPTCHA or login check appears it beeps and waits: sort it out, press Enter.
 
 ## What it will and won't do
-- Daily caps: 30 LinkedIn + 30 Indeed (change in `config.json` → `daily_cap`). Higher caps raise the chance LinkedIn/Indeed restrict your account for automation.
-- Skips: titles outside your target roles, salary shown under £60k (£65k London), 4–5 office days, clearance or a second language required, your current employer.
+- Caps: up to 10 per site per run, 40 per site per day (`per_run_cap`, `daily_cap`). LinkedIn has its own daily Easy Apply limit (reported ~50, resets midnight UTC): if it shows its limit message the bot stops LinkedIn for the day. Higher caps raise the chance of an account restriction.
+- Max 2 applications per company per week (`max_per_company_per_week`).
+- Skips: titles outside your target roles; salary shown under £60k (£65k London); 4–5 office days or Mon–Fri on site; existing security clearance required; a second language required (not "nice to have"); contract day-rate roles; adverts asking for more than 8 years' experience; weak matches (fewer than 3 of your skills mentioned: `min_fit_score`); your current employer. Optional: skip recruitment agencies (`skip_recruitment_agencies`), skip jobs with too many applicants (`max_applicants`).
 - Never makes things up: a required question it can't answer → it abandons that job and writes the question to `data/questions_to_answer.txt`. Add the answer to `custom_answers` in `config.json` (part of the question in lower case → your answer) and it will use it next time.
 - Equality-monitoring questions: only ever "Prefer not to say".
 - Log of everything: `data/applied.csv` (open in Excel).

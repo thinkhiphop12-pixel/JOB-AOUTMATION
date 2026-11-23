@@ -74,18 +74,51 @@ export function money(text) {
     .filter((n) => n >= 15000 && n <= 400000);
   return nums.length ? Math.max(...nums) : null;
 }
+const esc = (w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+export function fitScore(job) {
+  const d = `${job.title} ${job.description || ''}`.toLowerCase();
+  const hits = (cfg.filters.fit_keywords || []).filter((w) => new RegExp(`\\b${esc(w.toLowerCase())}\\b`).test(d));
+  return { score: hits.length, hits };
+}
+function companyCountThisWeek(company) {
+  if (!company) return 0;
+  const since = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
+  return fs.readFileSync(LOG_F, 'utf8').split('\n').filter((l) => l.includes('"submitted"') && l.slice(1, 11) >= since && l.toLowerCase().includes(`"${company.toLowerCase().replace(/"/g, '""')}"`)).length;
+}
 export function whySkip(job) {
   const f = cfg.filters, t = job.title.toLowerCase(), d = (job.description || '').toLowerCase();
-  if (f.company_exclude.some((c) => job.company.toLowerCase().includes(c.toLowerCase()))) return 'excluded company';
+  const co = (job.company || '').toLowerCase();
+  if (f.company_exclude.some((c) => co.includes(c.toLowerCase()))) return 'excluded company';
+  if (f.skip_recruitment_agencies && (f.recruitment_agencies || []).some((a) => co.includes(a.toLowerCase()))) return 'recruitment agency';
   const bad = f.title_exclude.find((w) => t.includes(w));
   if (bad) return `title has "${bad.trim()}"`;
   if (!f.title_must_contain_one_of.some((w) => t.includes(w))) return 'title not in your target roles';
   const s = f.skip_if_description_says.find((p) => d.includes(p));
   if (s) return `advert says "${s}"`;
+  // office days: 4-5 days a week on site
+  if (/\b(4|5|four|five)\s*(days?|x)\b[^.]{0,40}\b(office|on-?site|in person|in-person)\b|\b(office|on-?site)[^.]{0,25}\b(4|5|four|five)\s*days\b|fully (office|on-?site)[- ]based|no (remote|hybrid)|monday (to|-|–) friday[^.]{0,30}(office|on-?site)/.test(d)) return 'needs 4-5 office days';
+  // security clearance that must already be held
+  if (/\b(active|current|existing|hold|holding|must have|must hold)\b[^.]{0,30}\b(sc|dv|security|ctc|nppv)\b[^.]{0,5}clearance|\b(sc|dv)\s+cleared\b/.test(d)) return 'needs existing security clearance';
+  // a second language that is required (not "nice to have")
+  const lang = d.match(/[^.]{0,60}\b(fluent|fluency|native|business[- ]level|professional working proficiency)\b[^.]{0,20}\b(german|french|spanish|italian|dutch|portuguese|arabic|mandarin|japanese|polish|nordic|swedish|danish|norwegian|hebrew|turkish)\b[^.]{0,60}/);
+  if (lang && !/desirable|nice to have|bonus|plus|advantage|preferred/.test(lang[0])) return `needs ${lang[2]}`;
+  // contract day-rate roles
+  if (f.skip_contract_day_rate && /(£\s?\d{3,4}\s*(-|to|–)?\s*(£\s?\d{3,4})?\s*(per day|a day|\/day|p\/d|pd\b)|day rate|inside ir35|outside ir35)/.test(`${job.salary || ''} ${d}`.toLowerCase())) return 'contract day-rate role';
+  // years required way above yours
+  const yrs = [...d.matchAll(/\b(\d{1,2})\s*\+?\s*(?:-|to|–)?\s*(?:\d{1,2}\s*)?\+?\s*years?(?:'|’)?\s*(?:of\s+)?(?:[a-z/&-]+\s+){0,4}experience/g)].map((m) => +m[1]).filter((n) => n > 0 && n < 30);
+  if (yrs.length && Math.min(...yrs) > (f.max_years_required ?? 99)) return `asks for ${Math.min(...yrs)}+ years`;
+  // too many applicants already (LinkedIn)
+  if (f.max_applicants && job.applicants && job.applicants > f.max_applicants) return `${job.applicants}+ applicants already`;
+  // salary floor (only when a salary is shown)
   const top = money(`${job.salary || ''} ${job.description || ''}`);
   const london = /london/i.test(job.location) && !/southampton|hampshire|remote/i.test(job.location);
   const floor = london ? f.min_salary_london : f.min_salary;
   if (top && top < floor) return `salary £${Math.round(top / 1000)}k is under £${floor / 1000}k`;
+  // skills match
+  const fit = fitScore(job);
+  if (job.description && fit.score < (f.min_fit_score ?? 0)) return `weak match (${fit.score} of your skills mentioned)`;
+  // don't spam one employer
+  if (cfg.max_per_company_per_week && companyCountThisWeek(job.company) >= cfg.max_per_company_per_week) return `already applied to ${job.company} ${cfg.max_per_company_per_week}x this week`;
   return null;
 }
 
@@ -291,6 +324,9 @@ async function waitForHuman(page, why) {
   return !(await challenge(page));
 }
 
+const LIMIT_RE = /reached (today'?s|the daily|your daily)? ?(easy apply )?(application )?limit|continue applying tomorrow|too many applications|applied to too many|try again tomorrow/i;
+async function hitLimit(scope) { return LIMIT_RE.test(await scope.innerText().catch(() => '')); }
+
 // Walk the multi-step apply form. kinds: next / submit buttons found by name.
 export async function walkForm(page, scopeFn, job, site, isDone) {
   let lastSig = '', same = 0;
@@ -298,6 +334,7 @@ export async function walkForm(page, scopeFn, job, site, isDone) {
   for (let step = 0; step < 14; step++) {
     await nap(page, 900, 1800);
     if (await isDone()) return { result: 'submitted' };
+    if (await hitLimit(await scopeFn())) return { result: 'stopped', note: 'site daily limit reached' };
     if (await challenge(page)) { if (!(await waitForHuman(page, 'CAPTCHA / login check'))) return { result: 'stopped', note: 'CAPTCHA' }; }
     const scope = await scopeFn();
     (await fillFields(page, scope, job)).forEach((q) => unanswered.add(q));
@@ -361,12 +398,14 @@ async function linkedin(page, budget) {
         job.location = clean(await top('.job-details-jobs-unified-top-card__primary-description-container, .job-details-jobs-unified-top-card__tertiary-description-container, .jobs-unified-top-card__bullet')) || s.location;
         job.salary = clean(await top('.job-details-jobs-unified-top-card__job-insight, .job-details-preferences-and-skills'));
         job.description = clean(await top('#job-details, .jobs-description__content, .jobs-box__html-content'));
+        const appl = (await page.locator('body').innerText().catch(() => '')).match(/(?:over\s+)?(\d[\d,]*)\s+(?:applicants|people clicked apply)/i);
+        job.applicants = appl ? +appl[1].replace(/,/g, '') : null;
         if (!job.title) { record('linkedin', job, 'skipped', 'could not read the job page'); continue; }
         const why = whySkip(job);
         if (why) { say(`  – skip: ${job.title} (${job.company}): ${why}`); record('linkedin', job, 'skipped', why); continue; }
         const ea = await firstVisible(page.locator('button.jobs-apply-button, button[aria-label*="Easy Apply" i]').filter({ hasText: /easy apply/i }));
         if (!ea) { record('linkedin', job, 'skipped', 'no Easy Apply button (already applied or external)'); continue; }
-        say(`  > applying: ${job.title} (${job.company})`);
+        say(`  > applying: ${job.title} (${job.company}) · match ${fitScore(job).score}`);
         await ea.click();
         await nap(page, 1500, 2500);
         const dialog = async () => (await firstVisible(page.locator('[role=dialog]'))) || page.locator('body');
@@ -384,7 +423,7 @@ async function linkedin(page, budget) {
           else say(`  ${r.result}${r.note ? ': ' + r.note : ''}`);
         }
         record('linkedin', job, r.result, r.questions ? r.questions.join(' | ') : r.note || '');
-        if (r.result === 'stopped') return sent;
+        if (r.result === 'stopped') { say(`  LinkedIn stopped: ${r.note}`); return sent; }
         await nap(page, 4000, 9000);
         if (sent >= MAX) return sent;
       }
@@ -424,7 +463,7 @@ async function indeed(page, ctx, budget) {
         if (why) { say(`  – skip: ${job.title} (${job.company}): ${why}`); record('indeed', job, 'skipped', why); continue; }
         const btn = await firstVisible(page.locator('#indeedApplyButton, button[aria-label*="Apply now" i], button:has-text("Apply now")'));
         if (!btn || /company site/i.test(await btn.innerText().catch(() => ''))) { record('indeed', job, 'skipped', 'not Easily apply'); continue; }
-        say(`  > applying: ${job.title} (${job.company})`);
+        say(`  > applying: ${job.title} (${job.company}) · match ${fitScore(job).score}`);
         const [pop] = await Promise.all([ctx.waitForEvent('page', { timeout: 8000 }).catch(() => null), btn.click()]);
         const ap = pop || page;
         await ap.waitForLoadState('domcontentloaded').catch(() => {});
@@ -437,7 +476,7 @@ async function indeed(page, ctx, budget) {
         else say(`  ${r.result}${r.note ? ': ' + r.note : ''}`);
         record('indeed', job, r.result, r.questions ? r.questions.join(' | ') : r.note || '');
         if (pop) await pop.close().catch(() => {});
-        if (r.result === 'stopped') return sent;
+        if (r.result === 'stopped') { say(`  Indeed stopped: ${r.note}`); return sent; }
         await nap(page, 4000, 9000);
         if (sent >= MAX) return sent;
       }
@@ -463,8 +502,8 @@ async function main() {
   const doLI = !flag('--indeed') || flag('--linkedin'), doIN = !flag('--linkedin') || flag('--indeed');
   say(DRY ? 'DRY RUN: filling forms but NOT submitting.' : 'Applying for real.');
   let total = 0;
-  if (doLI) { const left = Math.min(cfg.daily_cap.linkedin - sentToday('linkedin'), MAX); if (left > 0) total += await linkedin(page, left); else say('LinkedIn: daily cap already reached.'); }
-  if (doIN && total < MAX) { const left = Math.min(cfg.daily_cap.indeed - sentToday('indeed'), MAX - total); if (left > 0) total += await indeed(page, ctx, left); else say('Indeed: daily cap already reached.'); }
+  if (doLI) { const left = Math.min(cfg.daily_cap.linkedin - sentToday('linkedin'), cfg.per_run_cap?.linkedin ?? Infinity, MAX); if (left > 0) total += await linkedin(page, left); else say('LinkedIn: daily cap reached for today.'); }
+  if (doIN && total < MAX) { const left = Math.min(cfg.daily_cap.indeed - sentToday('indeed'), cfg.per_run_cap?.indeed ?? Infinity, MAX - total); if (left > 0) total += await indeed(page, ctx, left); else say('Indeed: daily cap already reached.'); }
   say(`Done. ${DRY ? 'Dry-run forms completed' : 'Applications sent'} this run: ${total}. Full log: ${LOG_F}`);
   if (fs.existsSync(Q_F)) say(`Questions it could not answer (add answers to config.json custom_answers): ${Q_F}`);
   await ctx.close();

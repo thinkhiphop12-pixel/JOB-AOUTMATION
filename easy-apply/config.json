@@ -1,7 +1,10 @@
 {
  "_read_me": "Edit this file to change what the bot searches for and how it answers. Anything it could not answer is listed in data/questions_to_answer.txt: add the answer under custom_answers and it will use it next time.",
 
- "daily_cap": { "linkedin": 30, "indeed": 30 },
+ "_caps_note": "LinkedIn has a daily Easy Apply limit (reported ~50/day, resets midnight UTC). Indeed publishes none. 4 runs a day x 10 = 40 per site keeps you under it.",
+ "daily_cap": { "linkedin": 40, "indeed": 40 },
+ "per_run_cap": { "linkedin": 10, "indeed": 10 },
+ "max_per_company_per_week": 2,
  "dry_run_by_default": false,
 
  "searches": [
@@ -25,7 +28,15 @@
   "title_must_contain_one_of": ["project", "programme", "program ", "delivery", "implementation", "onboarding", "customer success", "client success", "account manager", "account director", "client manager", "relationship manager", "change", "transformation", "pmo", "operations manager", "business analyst", "data analyst", "partner manager", "partnerships", "enablement", "solutions consultant", "revenue operations", "sales operations", "chief of staff", "engagement manager", "service manager"],
   "title_exclude": ["junior", "graduate", "intern", "apprentice", "trainee", "assistant", "coordinator", "co-ordinator", "administrator", "construction", "site manager", "engineer", "developer", "electrical", "mechanical", "civil", "nurse", "clinical", "teacher", "driver", "warehouse", "recruit", "marketing", "finance", "payroll", "legal", "surveyor", "estates", "facilities", "fit out", "m&e", "hvac", "rail", "nuclear", "pharma", "director of", "vice president", "vp ", "head of", "chief executive"],
   "company_exclude": ["Global Blue", "Shift4"],
-  "skip_if_description_says": ["5 days a week in the office", "five days a week in the office", "4 days a week in the office", "four days a week in the office", "fully office-based", "fully office based", "100% office", "sc clearance required", "dv clearance", "active sc clearance", "must hold sc", "fluent german", "fluent french", "fluent spanish", "fluent italian", "fluent dutch"]
+  "_fit_note": "A job must mention at least min_fit_score of these words in its advert (your skills). Raise it for fewer, better matches.",
+  "min_fit_score": 3,
+  "fit_keywords": ["stakeholder", "salesforce", "crm", "payments", "fintech", "onboarding", "implementation", "project", "programme", "delivery", "governance", "regulatory", "compliance", "change", "reporting", "excel", "client", "account", "customer success", "adoption", "training", "risk", "roadmap", "process improvement", "data", "agile", "migration", "rollout", "international", "cross-functional", "b2b", "saas", "automation", "ai"],
+  "max_years_required": 8,
+  "skip_contract_day_rate": true,
+  "skip_recruitment_agencies": false,
+  "recruitment_agencies": ["Hays", "Michael Page", "Page Executive", "Robert Half", "Reed", "Randstad", "Adecco", "Harvey Nash", "Hydrogen", "La Fosse", "Nigel Frank", "Oliver Bernard", "Spectrum IT", "Venesky", "Hamilton Barnes", "Lorien", "Gartner Recruitment", "Search Consultancy", "Morgan McKinley", "Robert Walters", "Tiro", "Pareto"],
+  "max_applicants": null,
+  "skip_if_description_says": ["5 days a week in the office", "five days a week in the office", "4 days a week in the office", "four days a week in the office", "fully office-based", "fully office based", "100% office", "sc clearance required", "dv clearance", "active sc clearance", "must hold sc"]
  },
 
  "me": {
