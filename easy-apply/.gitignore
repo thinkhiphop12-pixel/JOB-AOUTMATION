@@ -2,3 +2,5 @@ node_modules/
 .browser-profile/
 data/
 cv.pdf
+my_settings.json
+.chromium-ok

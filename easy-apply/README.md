@@ -1,33 +1,34 @@
-# Easy Apply bot (LinkedIn + Indeed)
+# Job bot: LinkedIn Easy Apply + Indeed Easily apply
 
-Runs on **your** computer, in a Chrome window logged into **your** LinkedIn and Indeed.
-It searches (last 24 hours), filters out bad fits, fills each Easy Apply / Easily apply form from `config.json`, and submits.
+Runs on **your** computer, in a Chrome window logged into **your** LinkedIn and Indeed. 4 times every weekday it reads new jobs, skips bad fits, sends Easy Apply applications (40 a day), and puts the best jobs without Easy Apply on a hand-apply list.
 
-## Setup (once, ~5 minutes)
+**One page to look at: `data/dashboard.html`**. It shows what was sent today, the jobs to apply to by hand (rated 95%+), questions the bot couldn't answer, and anything that needs you (e.g. "please log in"). It opens by itself when there's something new.
+
+## Setup (once)
 1. Install Node.js LTS from https://nodejs.org
-2. Get this folder: `git clone https://github.com/thinkhiphop12-pixel/JOB-AOUTMATION.git` (or `git pull` in your existing copy), then open PowerShell in `easy-apply`.
-3. Log in once: `powershell -ExecutionPolicy Bypass -File run.ps1 --login`
-   (a Chrome window opens: log in to LinkedIn, press Enter; log in to Indeed, press Enter.)
-4. **Check the numbers in `config.json` → `years`** (your years of experience per skill). Anything not listed is answered 0 / No.
-5. Optional: put your general CV in this folder as `cv.pdf` (used only if a form demands an upload and none is on file).
+2. In PowerShell: `cd $HOME\Autoline; git pull; cd easy-apply`
+3. Log in: `powershell -ExecutionPolicy Bypass -File run.ps1 --login`
+4. Practice (fills 3 forms, sends nothing): `powershell -ExecutionPolicy Bypass -File run.ps1 --dry-run --max 3`
+5. Switch on the 4 daily runs (09:00, 12:00, 15:00, 18:00): `powershell -ExecutionPolicy Bypass -File run.ps1 --schedule`
 
-## Use
-| What | Command |
-|---|---|
-| Practice (fills forms, never submits) | `powershell -ExecutionPolicy Bypass -File run.ps1 --dry-run --max 3` |
-| Apply for real | `powershell -ExecutionPolicy Bypass -File run.ps1` |
-| Only LinkedIn / only Indeed | add `--linkedin` or `--indeed` |
-| Run itself 4x every weekday (09:00, 12:00, 15:00, 18:00) | `powershell -ExecutionPolicy Bypass -File run.ps1 --schedule` |
+## Your settings: `my_settings.json`
+Created on the first run. Change things **here**, not in `config.json` (that one updates itself; yours is never overwritten).
+- `years`: your years of experience per skill (check these). Unlisted skills are answered 0 / No.
+- `custom_answers`: teach it answers. `"words from the question": "your answer"`, e.g. `"driving licence": "Yes"`.
+- `daily_cap`, `hand_apply.min_rating`: copy any other setting from `config.json` to override it.
 
-Leave the window alone while it runs. If a CAPTCHA or login check appears it beeps and waits: sort it out, press Enter.
+## How each run works
+1. Searches your 9 searches on each site (last 24 hours).
+2. Skips straight from the search results: titles outside your roles, junior/coordinator/etc., your current employer, jobs you already applied to.
+3. Opens the rest and skips: salary shown under £60k (£65k London), 4–5 office days, existing security clearance needed, a second language required, contract day rates, 9+ years asked, weak matches (under 3 of your skills mentioned), a company you already applied to twice this week.
+4. Rates what's left 0–100% (title 25, your skills 35, salary 15, location/office days 15, sector 10).
+5. Easy Apply → fills and submits (5 per site per run). No Easy Apply but 95%+ → hand-apply list.
+6. Any required question it can't answer honestly → it abandons that job and lists the question on the dashboard.
 
-## What it will and won't do
-- **40 applications a day**: 20 LinkedIn + 20 Indeed, 5 per site in each of the 4 daily runs (`per_run_cap`, `daily_cap`).
-- **Hand-apply list**: every job it reads gets a 0–100% rating (title 25, your skills in the advert 35, salary 15, location/office days 15, sector such as payments/NHS/university/AI 10). Jobs **without** Easy Apply rated **95%+** go on `data/hand_apply.html`, which opens in your browser after a run that found new ones (`hand_apply.min_rating`).
-- It updates itself from GitHub at the start of each run.
-- Older note on caps: LinkedIn has its own daily Easy Apply limit (reported ~50, resets midnight UTC): if it shows its limit message the bot stops LinkedIn for the day. Higher caps raise the chance of an account restriction.
-- Max 2 applications per company per week (`max_per_company_per_week`).
-- Skips: titles outside your target roles; salary shown under £60k (£65k London); 4–5 office days or Mon–Fri on site; existing security clearance required; a second language required (not "nice to have"); contract day-rate roles; adverts asking for more than 8 years' experience; weak matches (fewer than 3 of your skills mentioned: `min_fit_score`); your current employer. Optional: skip recruitment agencies (`skip_recruitment_agencies`), skip jobs with too many applicants (`max_applicants`).
-- Never makes things up: a required question it can't answer → it abandons that job and writes the question to `data/questions_to_answer.txt`. Add the answer to `custom_answers` in `config.json` (part of the question in lower case → your answer) and it will use it next time.
-- Equality-monitoring questions: only ever "Prefer not to say".
-- Log of everything: `data/applied.csv` (open in Excel).
+## Safety
+- Never invents answers; equality questions only ever get "Prefer not to say".
+- Never solves CAPTCHAs: if one appears during a scheduled run it stops that site and tells you on the dashboard.
+- Stops a site for the day if LinkedIn/Indeed shows its daily-limit message. LinkedIn's limit is reported at ~50/day; the bot does 20.
+- LinkedIn/Indeed don't allow automation: there's a risk of an account restriction. Human pace and low caps keep it small.
+
+Logs: `data/applied.csv` (every job and what happened), `data/hand_apply.csv`.
