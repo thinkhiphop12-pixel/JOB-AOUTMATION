@@ -1,0 +1,58 @@
+{
+ "_read_me": "Edit this file to change what the bot searches for and how it answers. Anything it could not answer is listed in data/questions_to_answer.txt: add the answer under custom_answers and it will use it next time.",
+
+ "daily_cap": { "linkedin": 30, "indeed": 30 },
+ "dry_run_by_default": false,
+
+ "searches": [
+  { "keywords": "project manager", "location": "Southampton" },
+  { "keywords": "programme manager", "location": "Hampshire" },
+  { "keywords": "delivery manager", "location": "Southampton" },
+  { "keywords": "implementation manager", "location": "London" },
+  { "keywords": "customer success manager", "location": "London" },
+  { "keywords": "account manager payments", "location": "London" },
+  { "keywords": "change manager", "location": "Southampton" },
+  { "keywords": "client onboarding manager", "location": "London" },
+  { "keywords": "project manager", "location": "Remote" }
+ ],
+
+ "linkedin": { "posted": "r86400", "workplace": "2,3", "max_pages": 2 },
+ "indeed":   { "days": 1, "radius": 25, "max_pages": 2 },
+
+ "filters": {
+  "min_salary": 60000,
+  "min_salary_london": 65000,
+  "title_must_contain_one_of": ["project", "programme", "program ", "delivery", "implementation", "onboarding", "customer success", "client success", "account manager", "account director", "client manager", "relationship manager", "change", "transformation", "pmo", "operations manager", "business analyst", "data analyst", "partner manager", "partnerships", "enablement", "solutions consultant", "revenue operations", "sales operations", "chief of staff", "engagement manager", "service manager"],
+  "title_exclude": ["junior", "graduate", "intern", "apprentice", "trainee", "assistant", "coordinator", "co-ordinator", "administrator", "construction", "site manager", "engineer", "developer", "electrical", "mechanical", "civil", "nurse", "clinical", "teacher", "driver", "warehouse", "recruit", "marketing", "finance", "payroll", "legal", "surveyor", "estates", "facilities", "fit out", "m&e", "hvac", "rail", "nuclear", "pharma", "director of", "vice president", "vp ", "head of", "chief executive"],
+  "company_exclude": ["Global Blue", "Shift4"],
+  "skip_if_description_says": ["5 days a week in the office", "five days a week in the office", "4 days a week in the office", "four days a week in the office", "fully office-based", "fully office based", "100% office", "sc clearance required", "dv clearance", "active sc clearance", "must hold sc", "fluent german", "fluent french", "fluent spanish", "fluent italian", "fluent dutch"]
+ },
+
+ "me": {
+  "first_name": "Lloyd", "last_name": "Evans", "email": "lloydevans14@gmail.com", "phone": "+44 7460 304104", "phone_national": "07460304104",
+  "city": "Southampton", "country": "United Kingdom", "postcode": "",
+  "linkedin": "https://www.linkedin.com/in/lloyd-evans-",
+  "current_company": "Global Blue (part of Shift4)", "current_title": "International Data Analyst & Project Manager",
+  "current_salary": 53000, "expected_salary": 65000, "expected_salary_london": 70000,
+  "notice_text": "6 weeks", "notice_days": 42, "notice_weeks": 6,
+  "highest_degree": "Master's degree (MA, University of Sheffield, 2020)"
+ },
+
+ "_years_note": "CHECK THESE NUMBERS before the first real run. They are your years of experience per skill, used for 'How many years of experience with X?' questions. A skill that is not listed is answered 0 / No (never overclaimed).",
+ "years": {
+  "total": 5, "work experience": 5, "professional experience": 5,
+  "salesforce": 5, "crm": 5, "excel": 5, "account management": 5, "client management": 5, "customer": 5, "client": 5,
+  "onboarding": 5, "payments": 5, "fintech": 5, "financial services": 5, "b2b": 5, "sales": 5, "stakeholder": 5,
+  "reporting": 5, "data analysis": 4, "analysis": 4, "microstrategy": 3, "sharepoint": 3,
+  "project management": 3, "project": 3, "programme": 3, "program management": 3, "delivery": 3, "change management": 3, "change": 3,
+  "regulatory": 3, "compliance": 2, "governance": 3, "customer success": 3, "implementation": 3, "training": 3,
+  "agile": 2, "power automate": 2, "process improvement": 3, "python": 1, "ai": 1, "saas": 0
+ },
+
+ "custom_answers": {
+  "_example: part of the question text (lower case)": "your answer",
+  "how did you hear": "Job board"
+ },
+
+ "cover_letter": "Dear Hiring Team,\n\nI am applying for the {title} role at {company}. For 5 years at Global Blue (part of Shift4), a regulated, multi-country payments business, I have delivered change to fixed deadlines and kept many teams working to one plan, and I have been promoted three times in four years.\n\nI prepared 38 international brands, managed from 10 countries, for Japan's 2026 VAT reform, with new contracts agreed before the legal deadline. For France's e-invoicing mandate I tracked the readiness of 100+ merchants and ran the risk log. I run a 25-country governance review cycle and produce monthly business reviews for senior leadership. I hold the AgilePM v3 Practitioner certificate and an MA from the University of Sheffield.\n\nI would welcome the chance to bring this to {company}.\n\nKind regards,\nLloyd Evans\n+44 7460 304104 | lloydevans14@gmail.com"
+}
