@@ -80,6 +80,40 @@ export function fitScore(job) {
   const hits = (cfg.filters.fit_keywords || []).filter((w) => new RegExp(`\\b${esc(w.toLowerCase())}\\b`).test(d));
   return { score: hits.length, hits };
 }
+// 0-100% rating of how well a job suits you (used for the hand-apply list)
+const CORE_TITLE = /project|programme|program manager|delivery|implementation|onboarding|customer success|client success|account manager|change|transformation|pmo/;
+const NEAR = /southampton|hampshire|winchester|eastleigh|portsmouth|fareham|basingstoke|romsey|chandler|totton|bournemouth|salisbury|poole|andover|remote/;
+export function rate(job) {
+  const t = job.title.toLowerCase(), d = (job.description || '').toLowerCase(), loc = (job.location || '').toLowerCase();
+  const fit = fitScore(job);
+  const top = money(`${job.salary || ''} ${job.description || ''}`);
+  const london = /london/.test(loc) && !NEAR.test(loc);
+  const floor = london ? cfg.filters.min_salary_london : cfg.filters.min_salary;
+  const parts = {
+    title: CORE_TITLE.test(t) ? 25 : 15,
+    skills: Math.round(Math.min(fit.score / 8, 1) * 35),
+    salary: !top ? 10 : top >= floor + 5000 ? 15 : 12,
+    place: NEAR.test(loc) || /fully remote|remote[- ]first/.test(d) ? 15 : /\b(1|2|one|two)\s*days?\b[^.]{0,40}\b(office|on-?site|in person)\b/.test(d) ? 13 : 8,
+    sector: /payment|fintech|\bnhs\b|universit|public sector|council|government|charity|\bai\b|saas/.test(`${job.company} ${d}`.toLowerCase()) ? 10 : 0,
+  };
+  return { pct: Object.values(parts).reduce((a, b) => a + b, 0), parts, hits: fit.hits, salary: top };
+}
+const HAND_F = path.join(DATA, 'hand_apply.csv');
+let newHand = 0;
+function addHandApply(job, r) {
+  if (!fs.existsSync(HAND_F)) fs.writeFileSync(HAND_F, 'date,rating,site,title,company,location,salary,url,why\n');
+  fs.appendFileSync(HAND_F, [today, `${r.pct}%`, job.site, job.title, job.company, job.location, r.salary ? `£${Math.round(r.salary / 1000)}k` : 'not shown', job.url, r.hits.slice(0, 8).join(', ')].map(csv).join(',') + '\n');
+  newHand += 1;
+  writeHandHtml();
+}
+function writeHandHtml() {
+  const rows = fs.readFileSync(HAND_F, 'utf8').trim().split('\n').slice(1).map((l) => l.slice(1, -1).split('","')).reverse();
+  const h = (x) => String(x).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const html = `<!doctype html><meta charset="utf-8"><title>Hand-apply list</title><style>body{font:15px system-ui;margin:24px;max-width:900px}li{margin:10px 0}b{font-size:16px}.m{color:#555}.r{background:#0a7;color:#fff;border-radius:6px;padding:1px 6px}</style>
+<h2>Jobs worth applying to by hand (rated ${cfg.hand_apply.min_rating}%+)</h2><p class="m">Newest first. These don't have Easy Apply, so open the link and apply on the employer's site.</p><ol>${rows.map((r) => `<li><span class="r">${h(r[1])}</span> <b><a href="${h(r[7])}">${h(r[3])}</a></b> · ${h(r[4])}<br><span class="m">${h(r[5])} · salary ${h(r[6])} · found ${h(r[0])} on ${h(r[2])} · matches: ${h(r[8])}</span></li>`).join('')}</ol>`;
+  fs.writeFileSync(path.join(DATA, 'hand_apply.html'), html);
+}
+
 function companyCountThisWeek(company) {
   if (!company) return 0;
   const since = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
@@ -369,26 +403,30 @@ export async function walkForm(page, scopeFn, job, site, isDone) {
 }
 
 // ---------- LinkedIn ----------
+const HAND = () => cfg.hand_apply && cfg.hand_apply.enabled;
+const VIEW_MAX = () => cfg.max_jobs_viewed_per_run || 60;
 async function linkedin(page, budget) {
-  let sent = 0;
+  let sent = 0, viewed = 0;
   await page.goto('https://www.linkedin.com/feed/', { waitUntil: 'domcontentloaded' });
   await nap(page, 2000, 3500);
   if (/login|authwall|checkpoint/.test(page.url())) { if (!(await waitForHuman(page, 'Log in to LinkedIn'))) return 0; }
   for (const s of cfg.searches) {
     for (let pg = 0; pg < cfg.linkedin.max_pages; pg++) {
-      if (sent >= budget) return sent;
-      const q = new URLSearchParams({ keywords: s.keywords, location: s.location === 'Remote' ? 'United Kingdom' : s.location, f_AL: 'true', f_TPR: cfg.linkedin.posted, sortBy: 'DD', start: String(pg * 25) });
+      if ((sent >= budget && !HAND()) || viewed >= VIEW_MAX()) return sent;
+      const q = new URLSearchParams({ keywords: s.keywords, location: s.location === 'Remote' ? 'United Kingdom' : s.location, f_TPR: cfg.linkedin.posted, sortBy: 'DD', start: String(pg * 25) });
+      if (cfg.linkedin.easy_apply_only) q.set('f_AL', 'true');
       if (s.location === 'Remote') q.set('f_WT', '2'); else if (cfg.linkedin.workplace) q.set('f_WT', cfg.linkedin.workplace);
       await page.goto(`https://www.linkedin.com/jobs/search/?${q}`, { waitUntil: 'domcontentloaded' });
       await nap(page, 2500, 4500);
       if (await challenge(page)) { if (!(await waitForHuman(page, 'LinkedIn check'))) return sent; }
       for (let i = 0; i < 10; i++) { await page.evaluate(() => { const l = document.querySelector('.jobs-search-results-list, .scaffold-layout__list > div, .scaffold-layout__list'); (l || document.scrollingElement).scrollBy(0, 700); }); await page.waitForTimeout(rand(300, 600)); }
       const ids = await page.$$eval('[data-occludable-job-id], [data-job-id]', (els) => [...new Set(els.map((e) => e.getAttribute('data-occludable-job-id') || e.getAttribute('data-job-id')).filter((x) => /^\d+$/.test(x || '')))]);
-      say(`LinkedIn "${s.keywords}" / ${s.location} page ${pg + 1}: ${ids.length} Easy Apply jobs`);
+      say(`LinkedIn "${s.keywords}" / ${s.location} page ${pg + 1}: ${ids.length} jobs`);
       if (!ids.length) break;
       for (const id of ids) {
-        if (sent >= budget) return sent;
+        if ((sent >= budget && !HAND()) || viewed >= VIEW_MAX()) return sent;
         if (seen.has(`linkedin:${id}`)) continue;
+        viewed += 1;
         const job = { id, site: 'linkedin', url: `https://www.linkedin.com/jobs/view/${id}/` };
         await page.goto(job.url, { waitUntil: 'domcontentloaded' });
         await nap(page, 2000, 3500);
@@ -403,9 +441,16 @@ async function linkedin(page, budget) {
         if (!job.title) { record('linkedin', job, 'skipped', 'could not read the job page'); continue; }
         const why = whySkip(job);
         if (why) { say(`  – skip: ${job.title} (${job.company}): ${why}`); record('linkedin', job, 'skipped', why); continue; }
+        const rt = rate(job);
         const ea = await firstVisible(page.locator('button.jobs-apply-button, button[aria-label*="Easy Apply" i]').filter({ hasText: /easy apply/i }));
-        if (!ea) { record('linkedin', job, 'skipped', 'no Easy Apply button (already applied or external)'); continue; }
-        say(`  > applying: ${job.title} (${job.company}) · match ${fitScore(job).score}`);
+        if (!ea) {
+          const applied = /\bapplied\b/i.test(await page.locator('.jobs-s-apply, .jobs-apply-button--top-card').first().innerText().catch(() => ''));
+          if (!applied && HAND() && rt.pct >= cfg.hand_apply.min_rating) { addHandApply(job, rt); say(`  ★ HAND-APPLY LIST (${rt.pct}%): ${job.title} (${job.company})`); record('linkedin', job, 'hand_apply', `rated ${rt.pct}%`); }
+          else record('linkedin', job, 'skipped', applied ? 'already applied' : `no Easy Apply; rated ${rt.pct}%`);
+          continue;
+        }
+        if (sent >= budget) continue; // Easy Apply job but this run's cap is used: leave it for the next run
+        say(`  > applying: ${job.title} (${job.company}) · rated ${rt.pct}%`);
         await ea.click();
         await nap(page, 1500, 2500);
         const dialog = async () => (await firstVisible(page.locator('[role=dialog]'))) || page.locator('body');
@@ -434,20 +479,21 @@ async function linkedin(page, budget) {
 
 // ---------- Indeed ----------
 async function indeed(page, ctx, budget) {
-  let sent = 0;
+  let sent = 0, viewed = 0;
   for (const s of cfg.searches) {
     for (let pg = 0; pg < cfg.indeed.max_pages; pg++) {
-      if (sent >= budget) return sent;
+      if ((sent >= budget && !HAND()) || viewed >= VIEW_MAX()) return sent;
       const q = new URLSearchParams({ q: s.keywords, l: s.location === 'Remote' ? 'Remote' : s.location, radius: String(cfg.indeed.radius), fromage: String(cfg.indeed.days), sort: 'date', start: String(pg * 10) });
-      await page.goto(`https://uk.indeed.com/jobs?${q}&sc=0kf%3Aattr%28DSQF7%29%3B`, { waitUntil: 'domcontentloaded' });
+      await page.goto(`https://uk.indeed.com/jobs?${q}${cfg.indeed.easy_apply_only ? '&sc=0kf%3Aattr%28DSQF7%29%3B' : ''}`, { waitUntil: 'domcontentloaded' });
       await nap(page, 2500, 4500);
       if (await challenge(page)) { if (!(await waitForHuman(page, 'Indeed check'))) return sent; }
       const jks = await page.$$eval('a[data-jk], [data-jk]', (els) => [...new Set(els.map((e) => e.getAttribute('data-jk')).filter(Boolean))]);
-      say(`Indeed "${s.keywords}" / ${s.location} page ${pg + 1}: ${jks.length} easily-apply jobs`);
+      say(`Indeed "${s.keywords}" / ${s.location} page ${pg + 1}: ${jks.length} jobs`);
       if (!jks.length) break;
       for (const jk of jks) {
-        if (sent >= budget) return sent;
+        if ((sent >= budget && !HAND()) || viewed >= VIEW_MAX()) return sent;
         if (seen.has(`indeed:${jk}`)) continue;
+        viewed += 1;
         const job = { id: jk, site: 'indeed', url: `https://uk.indeed.com/viewjob?jk=${jk}` };
         await page.goto(job.url, { waitUntil: 'domcontentloaded' });
         await nap(page, 2000, 3500);
@@ -462,8 +508,14 @@ async function indeed(page, ctx, budget) {
         const why = whySkip(job);
         if (why) { say(`  – skip: ${job.title} (${job.company}): ${why}`); record('indeed', job, 'skipped', why); continue; }
         const btn = await firstVisible(page.locator('#indeedApplyButton, button[aria-label*="Apply now" i], button:has-text("Apply now")'));
-        if (!btn || /company site/i.test(await btn.innerText().catch(() => ''))) { record('indeed', job, 'skipped', 'not Easily apply'); continue; }
-        say(`  > applying: ${job.title} (${job.company}) · match ${fitScore(job).score}`);
+        const rt = rate(job);
+        if (!btn || /company site/i.test(await btn.innerText().catch(() => ''))) {
+          if (HAND() && rt.pct >= cfg.hand_apply.min_rating) { addHandApply(job, rt); say(`  ★ HAND-APPLY LIST (${rt.pct}%): ${job.title} (${job.company})`); record('indeed', job, 'hand_apply', `rated ${rt.pct}%`); }
+          else record('indeed', job, 'skipped', `not Easily apply; rated ${rt.pct}%`);
+          continue;
+        }
+        if (sent >= budget) continue;
+        say(`  > applying: ${job.title} (${job.company}) · rated ${rt.pct}%`);
         const [pop] = await Promise.all([ctx.waitForEvent('page', { timeout: 8000 }).catch(() => null), btn.click()]);
         const ap = pop || page;
         await ap.waitForLoadState('domcontentloaded').catch(() => {});
@@ -502,9 +554,14 @@ async function main() {
   const doLI = !flag('--indeed') || flag('--linkedin'), doIN = !flag('--linkedin') || flag('--indeed');
   say(DRY ? 'DRY RUN: filling forms but NOT submitting.' : 'Applying for real.');
   let total = 0;
-  if (doLI) { const left = Math.min(cfg.daily_cap.linkedin - sentToday('linkedin'), cfg.per_run_cap?.linkedin ?? Infinity, MAX); if (left > 0) total += await linkedin(page, left); else say('LinkedIn: daily cap reached for today.'); }
-  if (doIN && total < MAX) { const left = Math.min(cfg.daily_cap.indeed - sentToday('indeed'), cfg.per_run_cap?.indeed ?? Infinity, MAX - total); if (left > 0) total += await indeed(page, ctx, left); else say('Indeed: daily cap already reached.'); }
+  if (doLI) { const left = Math.min(cfg.daily_cap.linkedin - sentToday('linkedin'), cfg.per_run_cap?.linkedin ?? Infinity, MAX); if (left <= 0) say('LinkedIn: application cap reached; only looking for hand-apply jobs.'); if (left > 0 || HAND()) total += await linkedin(page, Math.max(0, left)); }
+  if (doIN) { const left = Math.min(cfg.daily_cap.indeed - sentToday('indeed'), cfg.per_run_cap?.indeed ?? Infinity, MAX - total); if (left <= 0) say('Indeed: application cap reached; only looking for hand-apply jobs.'); if (left > 0 || HAND()) total += await indeed(page, ctx, Math.max(0, left)); }
   say(`Done. ${DRY ? 'Dry-run forms completed' : 'Applications sent'} this run: ${total}. Full log: ${LOG_F}`);
+  if (newHand) {
+    const hf = path.join(DATA, 'hand_apply.html');
+    say(`★ ${newHand} new job(s) on your hand-apply list: ${hf}`);
+    if (cfg.hand_apply.open_when_new && process.platform === 'win32') (await import('node:child_process')).spawn('cmd', ['/c', 'start', '', hf], { detached: true, stdio: 'ignore' });
+  }
   if (fs.existsSync(Q_F)) say(`Questions it could not answer (add answers to config.json custom_answers): ${Q_F}`);
   await ctx.close();
 }

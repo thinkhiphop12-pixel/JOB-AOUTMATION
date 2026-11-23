@@ -22,7 +22,10 @@ It searches (last 24 hours), filters out bad fits, fills each Easy Apply / Easil
 Leave the window alone while it runs. If a CAPTCHA or login check appears it beeps and waits: sort it out, press Enter.
 
 ## What it will and won't do
-- Caps: up to 10 per site per run, 40 per site per day (`per_run_cap`, `daily_cap`). LinkedIn has its own daily Easy Apply limit (reported ~50, resets midnight UTC): if it shows its limit message the bot stops LinkedIn for the day. Higher caps raise the chance of an account restriction.
+- **40 applications a day**: 20 LinkedIn + 20 Indeed, 5 per site in each of the 4 daily runs (`per_run_cap`, `daily_cap`).
+- **Hand-apply list**: every job it reads gets a 0–100% rating (title 25, your skills in the advert 35, salary 15, location/office days 15, sector such as payments/NHS/university/AI 10). Jobs **without** Easy Apply rated **95%+** go on `data/hand_apply.html`, which opens in your browser after a run that found new ones (`hand_apply.min_rating`).
+- It updates itself from GitHub at the start of each run.
+- Older note on caps: LinkedIn has its own daily Easy Apply limit (reported ~50, resets midnight UTC): if it shows its limit message the bot stops LinkedIn for the day. Higher caps raise the chance of an account restriction.
 - Max 2 applications per company per week (`max_per_company_per_week`).
 - Skips: titles outside your target roles; salary shown under £60k (£65k London); 4–5 office days or Mon–Fri on site; existing security clearance required; a second language required (not "nice to have"); contract day-rate roles; adverts asking for more than 8 years' experience; weak matches (fewer than 3 of your skills mentioned: `min_fit_score`); your current employer. Optional: skip recruitment agencies (`skip_recruitment_agencies`), skip jobs with too many applicants (`max_applicants`).
 - Never makes things up: a required question it can't answer → it abandons that job and writes the question to `data/questions_to_answer.txt`. Add the answer to `custom_answers` in `config.json` (part of the question in lower case → your answer) and it will use it next time.

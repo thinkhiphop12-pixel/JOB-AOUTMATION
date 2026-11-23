@@ -14,6 +14,8 @@ if ($args -contains "--schedule") {
   Write-Host "Scheduled: weekdays 09:00, 12:00, 15:00 and 18:00 (up to 10 per site each run). Remove with: Unregister-ScheduledTask -TaskName 'Easy Apply bot' -Confirm:`$false"
   exit 0
 }
+# pick up the latest version automatically (your config.json edits are kept: if they clash, the update is skipped)
+try { git -C $PSScriptRoot pull --ff-only --quiet 2>$null | Out-Null } catch {}
 if (-not (Get-Command node -ErrorAction SilentlyContinue)) { Write-Host "Install Node.js first: https://nodejs.org (LTS), then run this again."; exit 1 }
 if (-not (Test-Path "node_modules\playwright")) { npm install --no-fund --no-audit }
 npx --yes playwright@1.49.1 install chromium | Out-Null

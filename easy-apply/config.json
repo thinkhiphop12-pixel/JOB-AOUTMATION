@@ -2,8 +2,11 @@
  "_read_me": "Edit this file to change what the bot searches for and how it answers. Anything it could not answer is listed in data/questions_to_answer.txt: add the answer under custom_answers and it will use it next time.",
 
  "_caps_note": "LinkedIn has a daily Easy Apply limit (reported ~50/day, resets midnight UTC). Indeed publishes none. 4 runs a day x 10 = 40 per site keeps you under it.",
- "daily_cap": { "linkedin": 40, "indeed": 40 },
- "per_run_cap": { "linkedin": 10, "indeed": 10 },
+ "daily_cap": { "linkedin": 20, "indeed": 20 },
+ "per_run_cap": { "linkedin": 5, "indeed": 5 },
+ "_hand_apply_note": "Jobs without Easy Apply that rate at least min_rating % go on your hand-apply list (data/hand_apply.html), which opens in your browser when new ones are found.",
+ "hand_apply": { "enabled": true, "min_rating": 95, "open_when_new": true },
+ "max_jobs_viewed_per_run": 60,
  "max_per_company_per_week": 2,
  "dry_run_by_default": false,
 
@@ -19,8 +22,8 @@
   { "keywords": "project manager", "location": "Remote" }
  ],
 
- "linkedin": { "posted": "r86400", "workplace": "2,3", "max_pages": 2 },
- "indeed":   { "days": 1, "radius": 25, "max_pages": 2 },
+ "linkedin": { "posted": "r86400", "workplace": "2,3", "max_pages": 2, "easy_apply_only": false },
+ "indeed":   { "days": 1, "radius": 25, "max_pages": 2, "easy_apply_only": false },
 
  "filters": {
   "min_salary": 60000,
