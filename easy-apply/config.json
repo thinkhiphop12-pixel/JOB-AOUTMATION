@@ -1,14 +1,16 @@
 {
  "_read_me": "Defaults (updated automatically). Put YOUR changes in my_settings.json, which overrides this file and is never overwritten. Questions the bot couldn't answer are listed on data/dashboard.html.",
- "_caps_note": "LinkedIn has a daily Easy Apply limit (reported ~50/day, resets midnight UTC). Indeed publishes none. 4 runs a day x 10 = 40 per site keeps you under it.",
+ "_caps_note": "50 applications a day: 25 LinkedIn + 25 Indeed, up to 7 per site per run (4 runs a day). LinkedIn's own Easy Apply limit is reported at ~50/day; Indeed publishes none.",
  "daily_cap": {
-  "linkedin": 20,
-  "indeed": 20
+  "linkedin": 25,
+  "indeed": 25
  },
  "per_run_cap": {
-  "linkedin": 5,
-  "indeed": 5
+  "linkedin": 7,
+  "indeed": 7
  },
+ "_target_note": "Jobs paying at least target_salary are applied to first (best fit first), then jobs with no salary shown, then the rest.",
+ "target_salary": 74000,
  "_hand_apply_note": "Jobs without Easy Apply that rate at least min_rating % go on your hand-apply list (data/hand_apply.html), which opens in your browser when new ones are found.",
  "hand_apply": {
   "enabled": true,
@@ -19,6 +21,34 @@
  "max_per_company_per_week": 2,
  "dry_run_by_default": false,
  "searches": [
+  {
+   "keywords": "senior project manager",
+   "location": "London"
+  },
+  {
+   "keywords": "senior programme manager",
+   "location": "London"
+  },
+  {
+   "keywords": "senior project manager",
+   "location": "Hampshire"
+  },
+  {
+   "keywords": "senior implementation manager",
+   "location": "London"
+  },
+  {
+   "keywords": "senior customer success manager",
+   "location": "London"
+  },
+  {
+   "keywords": "strategic account manager",
+   "location": "London"
+  },
+  {
+   "keywords": "transformation manager",
+   "location": "London"
+  },
   {
    "keywords": "project manager",
    "location": "Southampton"
@@ -302,5 +332,6 @@
   "_example: part of the question text (lower case)": "your answer",
   "how did you hear": "Job board"
  },
- "cover_letter": "Dear Hiring Team,\n\nI am applying for the {title} role at {company}. For 5 years at Global Blue (part of Shift4), a regulated, multi-country payments business, I have delivered change to fixed deadlines and kept many teams working to one plan, and I have been promoted three times in four years.\n\nI prepared 38 international brands, managed from 10 countries, for Japan's 2026 VAT reform, with new contracts agreed before the legal deadline. For France's e-invoicing mandate I tracked the readiness of 100+ merchants and ran the risk log. I run a 25-country governance review cycle and produce monthly business reviews for senior leadership. I hold the AgilePM v3 Practitioner certificate and an MA from the University of Sheffield.\n\nI would welcome the chance to bring this to {company}.\n\nKind regards,\nLloyd Evans\n+44 7460 304104 | lloydevans14@gmail.com"
+ "cover_letter": "Dear Hiring Manager,\n\nI'm applying for the {title} role at {company}.{skills_line}\n\nFor 5 years at Global Blue (part of Shift4), a regulated, multi-country payments business, I have delivered change to fixed deadlines and kept many teams working to one plan, and I have been promoted three times in four years. I prepared 38 international brands, managed from 10 countries, for Japan's 2026 VAT reform, with new contracts agreed before the legal deadline; tracked the readiness of 100+ merchants for France's e-invoicing mandate and ran the risk log; and run a 25-country governance review cycle with monthly business reviews for senior leadership. I hold the AgilePM v3 Practitioner certificate and an MA from the University of Sheffield.\n\nI'd welcome a short call to talk about how I could help {company}.\n\nKind regards,\nLloyd Evans\n+44 7460 304104 | lloydevans14@gmail.com | https://www.linkedin.com/in/lloyd-evans-",
+ "_cover_note": "Sent in any cover letter / 'message to the employer' box on Indeed and LinkedIn. {skills_line} names the skills from the advert that you have."
 }

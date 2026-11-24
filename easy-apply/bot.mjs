@@ -28,10 +28,15 @@ const base = readJson(path.join(HERE, 'config.json'));
 if (!fs.existsSync(MY_F)) {
   fs.writeFileSync(MY_F, JSON.stringify({
     _read_me: 'YOUR settings. Anything here overrides config.json and is never overwritten by updates. Copy any setting from config.json here to change it.',
-    years: base.years, custom_answers: base.custom_answers, daily_cap: base.daily_cap, hand_apply: base.hand_apply,
+    years: base.years, custom_answers: base.custom_answers,
   }, null, 1));
 }
-export const cfg = merge(base, readJson(MY_F));
+const mine = readJson(MY_F);
+// older versions copied these defaults into my_settings.json; drop them if unchanged so new defaults apply
+const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+if (same(mine.daily_cap, { linkedin: 30, indeed: 30 }) || same(mine.daily_cap, { linkedin: 20, indeed: 20 }) || same(mine.daily_cap, { linkedin: 40, indeed: 40 })) delete mine.daily_cap;
+if (same(mine.hand_apply, { enabled: true, min_rating: 95, open_when_new: true })) delete mine.hand_apply;
+export const cfg = merge(base, mine);
 
 const argv = process.argv.slice(2);
 const flag = (f) => argv.includes(f);
@@ -154,12 +159,30 @@ export function rate(job) {
   const parts = {
     title: CORE_TITLE.test(t) ? 25 : 15,
     skills: Math.round(Math.min(fit.score / 8, 1) * 35),
-    salary: !top ? 10 : top >= floor + 5000 ? 15 : 12,
+    salary: !top ? 10 : top >= (cfg.target_salary || floor + 5000) ? 15 : 12,
     place: NEAR.test(loc) || /fully remote|remote[- ]first/.test(d) ? 15 : /\b(1|2|one|two)\s*days?\b[^.]{0,40}\b(office|on-?site|in person)\b/.test(d) ? 13 : 8,
     sector: /payment|fintech|\bnhs\b|universit|public sector|council|government|charity|\bai\b|saas/.test(`${job.company} ${d}`.toLowerCase()) ? 10 : 0,
   };
   return { pct: Object.values(parts).reduce((a, b) => a + b, 0), parts, hits: fit.hits, salary: top };
 }
+
+// short tailored note for cover letter / "message to the employer" boxes
+const SKILL_WORDS = { stakeholder: 'stakeholder management', salesforce: 'Salesforce', crm: 'CRM', payments: 'payments', fintech: 'fintech', onboarding: 'client onboarding', implementation: 'implementation', project: 'project delivery', programme: 'programme delivery', delivery: 'delivery', governance: 'governance', regulatory: 'regulatory change', compliance: 'compliance', change: 'change management', reporting: 'reporting', excel: 'Excel', 'customer success': 'customer success', adoption: 'adoption', training: 'training', risk: 'risk management', roadmap: 'roadmaps', 'process improvement': 'process improvement', agile: 'Agile delivery', migration: 'migrations', rollout: 'rollouts', international: 'international work', 'cross-functional': 'cross-functional teams', automation: 'automation', ai: 'AI tools' };
+export function coverNote(job) {
+  const hits = [...new Set(fitScore(job).hits.map((h) => SKILL_WORDS[h]).filter(Boolean))].filter((x, i, a) => !(x === 'delivery' && a.some((y) => /delivery/.test(y) && y !== x))).slice(0, 4);
+  const skills_line = hits.length >= 2 ? ` The role's focus on ${hits.slice(0, -1).join(', ')} and ${hits[hits.length - 1]} is exactly the work I do now.` : '';
+  return cfg.cover_letter.replaceAll('{title}', job.title || 'this').replaceAll('{company}', job.company || 'your company').replaceAll('{skills_line}', skills_line);
+}
+
+// apply order: £target+ first, then salary not shown, then the rest; best fit first within each
+export function priority(rt) {
+  const group = rt.salary && rt.salary >= (cfg.target_salary || 0) ? 2 : !rt.salary ? 1 : 0;
+  return group * 1000 + rt.pct;
+}
+const PENDING_F = path.join(DATA, 'pending.json');
+const loadPending = () => (fs.existsSync(PENDING_F) ? readJson(PENDING_F) : {});
+const savePending = (p) => fs.writeFileSync(PENDING_F, JSON.stringify(p));
+const k74 = (sal) => (sal && sal >= (cfg.target_salary || Infinity) ? ` £${Math.round(sal / 1000)}k` : '');
 
 // ---------- answering questions ----------
 const YES = 'Yes', NO = 'No';
@@ -236,8 +259,8 @@ export function answerFor(label, kind, job = {}) {
   // misc
   if (/how did you (hear|find|learn)|where did you (hear|find|see)|^source\b|referral source|application source/.test(L)) return job.site === 'indeed' ? 'Indeed' : 'LinkedIn';
   if (/previously (worked|been employed|applied)|worked (for|at) .{0,30} before|former employee|current employee/.test(L)) return NO;
-  if (/cover letter|why (are you|do you want|this role|us)|tell us (about|why)|additional information|message to the hiring/.test(L) && kind === 'textarea')
-    return cfg.cover_letter.replaceAll('{title}', job.title || 'this').replaceAll('{company}', job.company || 'your company');
+  if (kind === 'textarea' && /cover letter|covering letter|why (are you|do you want|this role|us)|tell us (about|why)|additional information|message (to|for) (the )?(hiring|employer|recruiter|team)|note (to|for) (the )?(employer|hiring)|anything else|introduce yourself/.test(L))
+    return coverNote(job);
   const exp = L.match(/(?:do you have|have you (?:got|had)?|are you (?:experienced|familiar|proficient)|experience (?:with|in|of|using)|worked with|knowledge of|familiar with|proficient (?:in|with))\s+(.{2,80})/);
   if (exp) return yearsFor(exp[1]) > 0 ? YES : NO;
   return null;
@@ -376,6 +399,8 @@ export async function walkForm(page, scopeFn, job, site, isDone) {
     const scope = await scopeFn();
     if (LIMIT_RE.test(await scope.innerText().catch(() => ''))) return { result: 'stopped', note: 'site daily limit reached' };
     if (await challenge(page) && !(await waitForHuman(page, `${site === 'linkedin' ? 'LinkedIn' : 'Indeed'} CAPTCHA / login check`))) return { result: 'stopped', note: 'CAPTCHA' };
+    const write = await firstVisible(scope.locator('button, label, [role=radio], a').filter({ hasText: /^\s*(write|type|add) (a |your )?(cover letter|message|note)/i }));
+    if (write && !(await scope.locator('textarea').count())) { await write.click().catch(() => {}); await page.waitForTimeout(800); }
     (await fillFields(page, scope, job)).forEach((q) => unanswered.add(q));
     if (unanswered.size) return { result: 'needs_you', questions: [...unanswered] };
     const fileIn = scope.locator('input[type=file]');
@@ -514,26 +539,29 @@ export async function runSite(key, page, ctx, budget) {
   const site = SITES[key];
   let sent = 0, viewed = 0;
   const viewMax = cfg.max_jobs_viewed_per_run || 40;
-  const enough = () => (sent >= budget && !KEEP_SCANNING()) || viewed >= viewMax || sent >= MAX;
+  const pending = loadPending();
+  for (const [k, p] of Object.entries(pending)) if (seen.has(k) || Date.now() - p.at > 4 * 864e5) delete pending[k];
+  const queued = () => Object.values(pending).filter((p) => p.site === key).length;
+  const scanDone = () => viewed >= viewMax || (Number.isFinite(MAX) && queued() >= MAX) || (!KEEP_SCANNING() && budget <= 0);
   if (!(await site.start(page))) return 0;
-  for (const s of cfg.searches) {
+
+  // PHASE 1: read new jobs. Skip bad fits, put 95%+ non-Easy-Apply jobs on the hand-apply list, queue Easy Apply jobs.
+  scan: for (const s of cfg.searches) {
     for (let pg = 0; pg < (cfg[key].max_pages || 1); pg++) {
-      if (enough()) return sent;
+      if (scanDone()) break scan;
       await page.goto(site.searchUrl(s, pg), { waitUntil: 'domcontentloaded' }).catch(() => {});
       await nap(page, 2500, 4500);
       if (await challenge(page) && !(await waitForHuman(page, `${site.name}: CAPTCHA or login check`))) return sent;
-      const cards = (await site.cards(page).catch(() => [])).filter((c) => !seen.has(`${key}:${c.id}`));
+      const cards = (await site.cards(page).catch(() => [])).filter((c) => !seen.has(`${key}:${c.id}`) && !pending[`${key}:${c.id}`]);
       say(`${site.name} "${s.keywords}" / ${s.location} p${pg + 1}: ${cards.length} new`);
       if (!cards.length) break;
       for (const c of cards) {
-        if (enough()) return sent;
+        if (scanDone()) break scan;
         const job = { id: c.id, site: key, url: site.jobUrl(c.id), title: c.title, company: c.company, location: s.location };
-        // 1. cheap check from the search card: no page visit for obvious no's
         if (c.applied) { record(key, job, 'skipped', 'already applied'); continue; }
         const quick = titleSkip(c.title, `${c.company} ${c.text || ''}`);
         if (quick) { record(key, job, 'skipped', quick); continue; }
         try {
-          // 2. open the job and judge it properly
           viewed += 1;
           await page.goto(job.url, { waitUntil: 'domcontentloaded' });
           await nap(page, 2000, 3500);
@@ -545,25 +573,46 @@ export async function runSite(key, page, ctx, budget) {
           const rt = rate(job);
           const b = await site.applyButton(page);
           if (!b.easy) {
-            if (!b.applied && HAND() && rt.pct >= cfg.hand_apply.min_rating) { addHandApply(job, rt); say(`  * HAND-APPLY LIST (${rt.pct}%): ${job.title} (${job.company})`); record(key, job, 'hand_apply', '', `${rt.pct}%`); }
+            if (!b.applied && HAND() && rt.pct >= cfg.hand_apply.min_rating) { addHandApply(job, rt); say(`  * HAND-APPLY LIST (${rt.pct}%${k74(rt.salary)}): ${job.title} (${job.company})`); record(key, job, 'hand_apply', '', `${rt.pct}%`); }
             else record(key, job, 'skipped', b.applied ? 'already applied' : 'no Easy Apply', `${rt.pct}%`);
             continue;
           }
-          if (sent >= budget) continue; // Easy Apply, but this run's cap is used: leave it for the next run
-          // 3. apply
-          say(`  > applying (${rt.pct}%): ${job.title} (${job.company})`);
-          const r = await site.apply(page, ctx, job, b.easy);
-          if (r.result === 'submitted' || r.result === 'dry_run_ok') { sent += 1; say(`  ${DRY ? 'FILLED (dry run)' : 'SENT'} ${sent}/${budget}`); }
-          else if (r.questions) { noteQuestions(r.questions, job); say(`  ? needs an answer: ${r.questions.slice(0, 2).join(' | ').slice(0, 160)}`); }
-          else say(`  ${r.result}${r.note ? ': ' + r.note : ''}`);
-          record(key, job, r.result, r.questions ? r.questions.join(' | ') : r.note || '', `${rt.pct}%`);
-          if (r.result === 'stopped') { problems.push(`${site.name} stopped: ${r.note}`); return sent; }
-          await nap(page, 4000, 9000);
+          pending[`${key}:${job.id}`] = { site: key, at: Date.now(), pct: rt.pct, salary: rt.salary, prio: priority(rt), job: { ...job, description: (job.description || '').slice(0, 4000) } };
+          savePending(pending);
+          say(`  + queued (${rt.pct}%${k74(rt.salary)}): ${job.title} (${job.company})`);
         } catch (e) {
           say(`  ! error on ${job.title || job.id}: ${String(e.message).split('\n')[0].slice(0, 120)}`);
           record(key, job, 'error', String(e.message).split('\n')[0].slice(0, 150));
         }
       }
+    }
+  }
+
+  // PHASE 2: apply, best first (£target+ and best fit at the top). Leftovers wait for the next run.
+  const order = Object.entries(pending).filter(([, p]) => p.site === key).sort((a, b) => b[1].prio - a[1].prio);
+  if (order.length) say(`${site.name}: ${order.length} Easy Apply jobs queued; applying to the best ${Math.min(budget, order.length)}.`);
+  for (const [k, p] of order) {
+    if (sent >= budget || sent >= MAX) break;
+    const job = p.job;
+    try {
+      await page.goto(job.url, { waitUntil: 'domcontentloaded' });
+      await nap(page, 2000, 3500);
+      if (await challenge(page) && !(await waitForHuman(page, `${site.name}: CAPTCHA or login check`))) break;
+      const b = await site.applyButton(page);
+      if (!b.easy) { record(key, job, 'skipped', b.applied ? 'already applied' : 'Easy Apply no longer available', `${p.pct}%`); delete pending[k]; savePending(pending); continue; }
+      say(`  > applying (${p.pct}%${k74(p.salary)}): ${job.title} (${job.company})`);
+      const r = await site.apply(page, ctx, job, b.easy);
+      if (r.result === 'submitted' || r.result === 'dry_run_ok') { sent += 1; say(`  ${DRY ? 'FILLED (dry run)' : 'SENT'} ${sent}/${budget}`); }
+      else if (r.questions) { noteQuestions(r.questions, job); say(`  ? needs an answer: ${r.questions.slice(0, 2).join(' | ').slice(0, 160)}`); }
+      else say(`  ${r.result}${r.note ? ': ' + r.note : ''}`);
+      record(key, job, r.result, r.questions ? r.questions.join(' | ') : r.note || '', `${p.pct}%`);
+      delete pending[k]; savePending(pending);
+      if (r.result === 'stopped') { problems.push(`${site.name} stopped: ${r.note}`); break; }
+      await nap(page, 4000, 9000);
+    } catch (e) {
+      say(`  ! error on ${job.title}: ${String(e.message).split('\n')[0].slice(0, 120)}`);
+      record(key, job, 'error', String(e.message).split('\n')[0].slice(0, 150), `${p.pct}%`);
+      delete pending[k]; savePending(pending);
     }
   }
   return sent;
@@ -583,6 +632,7 @@ function writeDashboard() {
 <p><b>${sent.length}</b> sent today · <b>${week}</b> in the last 7 days · last run ${h(new Date().toLocaleTimeString('en-GB'))}</p>
 ${problems.length ? `<div class="p"><b>Needs you:</b><ul>${[...new Set(problems)].map((p) => `<li>${h(p)}</li>`).join('')}</ul>If it says log in, run <code>run.ps1 --login</code>.</div>` : ''}
 <h2>Apply by hand (rated ${h(cfg.hand_apply.min_rating)}%+, last 14 days)</h2>${hand.length ? `<ol>${hand.map((r) => `<li><span class="r">${h(r[1])}</span> <b><a href="${h(r[7])}">${h(r[3])}</a></b> · ${h(r[4])}<br><span class="m">${h(r[5])} · salary ${h(r[6])} · ${h(r[0])} on ${h(r[2])} · matches: ${h(r[8])}</span></li>`).join('')}</ol>` : '<p class="m">None yet.</p>'}
+<h2>Next up (applied in this order)</h2>${(() => { const q = Object.values(fs.existsSync(PENDING_F) ? readJson(PENDING_F) : {}).sort((a, b) => b.prio - a.prio).slice(0, 15); return q.length ? `<ol>${q.map((p) => `<li><span class="r">${h(p.pct)}%</span> <a href="${h(p.job.url)}">${h(p.job.title)}</a> · ${h(p.job.company)} <span class="m">${h(p.job.location)} · ${p.salary ? '£' + Math.round(p.salary / 1000) + 'k' : 'salary not shown'} · ${h(p.site)}</span></li>`).join('')}</ol>` : '<p class="m">Queue empty.</p>'; })()}
 <h2>Sent today</h2>${sent.length ? `<ol>${sent.map((r) => `<li><a href="${h(r[8])}">${h(r[5])}</a> · ${h(r[6])} <span class="m">${h(r[2])} ${h(r[1])} ${h(r[4])}</span></li>`).join('')}</ol>` : '<p class="m">None yet today.</p>'}
 <h2>Questions the bot couldn't answer</h2><p class="m">Answer the common ones once in <code>my_settings.json</code> → <code>custom_answers</code> (a few words from the question, in lower case → your answer) and the bot can apply to those jobs next time.</p>${qs.length ? `<ol>${qs.map(([q, v]) => `<li>${h(q)} <span class="m">(${v.count}x, e.g. ${h(v.last)})</span></li>`).join('')}</ol>` : '<p class="m">None.</p>'}`;
   const f = path.join(DATA, 'dashboard.html');
